@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2021-02-18T14:10:19.208Z</updated>
+  <updated>2021-02-20T17:18:56.015Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -17,58 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://jokerdig.com/2021/02/18/test/"/>
-    <id>https://jokerdig.com/2021/02/18/test/</id>
-    <published>2021-02-18T13:49:25.027Z</published>
-    <updated>2021-02-18T14:10:19.208Z</updated>
+    <title>主题使用教程</title>
+    <link href="https://jokerdig.com/2021/02/21/Hexo-Theme-Sakura/"/>
+    <id>https://jokerdig.com/2021/02/21/Hexo-Theme-Sakura/</id>
+    <published>2021-02-20T17:08:01.000Z</published>
+    <updated>2021-02-20T17:18:56.015Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;这是一个测试文档&quot;&gt;&lt;a href=&quot;#这是一个测试文档&quot; class=&quot;headerlink&quot; title=&quot;这是一个测试文档&quot;&gt;&lt;/a&gt;这是一个测试文档&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://jokerdig.com/2021/02/18/hello/"/>
-    <id>https://jokerdig.com/2021/02/18/hello/</id>
-    <published>2021-02-18T13:43:12.864Z</published>
-    <updated>2021-02-18T13:43:12.864Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://jokerdig.com/2018/12/12/Hexo-Theme-Sakura/"/>
-    <id>https://jokerdig.com/2018/12/12/Hexo-Theme-Sakura/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2021-02-20T13:21:43.541Z</updated>
-    
-    
-    <summary type="html">hexo-sakura主题使用教程</summary>
+    <summary type="html">文档</summary>
     
     
     
     <category term="技术" scheme="https://jokerdig.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="web" scheme="https://jokerdig.com/tags/web/"/>
+    <category term="主题" scheme="https://jokerdig.com/tags/%E4%B8%BB%E9%A2%98/"/>
     
-    <category term="悦读" scheme="https://jokerdig.com/tags/%E6%82%A6%E8%AF%BB/"/>
+  </entry>
+  
+  <entry>
+    <title>测试文档</title>
+    <link href="https://jokerdig.com/2021/02/21/test/"/>
+    <id>https://jokerdig.com/2021/02/21/test/</id>
+    <published>2021-02-20T17:07:01.000Z</published>
+    <updated>2021-02-20T17:19:12.730Z</updated>
+    
+    
+    <summary type="html">测试文档</summary>
+    
+    
+    
+    <category term="技术" scheme="https://jokerdig.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="测试" scheme="https://jokerdig.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
