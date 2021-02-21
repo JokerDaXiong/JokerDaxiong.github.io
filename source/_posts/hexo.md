@@ -5,7 +5,7 @@ avatar: https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/ima
 authorLink: jokerdig.com
 authorAbout: 一个代码小白
 authorDesc: 
-categories: 干货
+categories: 技术
 date: 2021-2-21 1:07:01
 comments: true
 tags: 

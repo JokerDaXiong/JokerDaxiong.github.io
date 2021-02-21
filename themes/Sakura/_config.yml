@@ -21,7 +21,10 @@ seo:
   keywords: hey,Joker,Java,番剧,JokerDaxiong,Joker大雄,pixelart,Java,SSM,Spring
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
-  归档: { path: /archives/, fa: fa-archive faa-shake}
+  归档: { path: /archives/, fa: fa-archive faa-shake, submenus: {
+    技术: {path: /categories/技术/, fa: fa-code }, 
+    生活: {path: /categories/生活/, fa: fa-file-text-o }
+  }}
   清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: {
     #书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce },
     番组: {path: /bangumi/, fa: fa-film faa-vertical },
@@ -40,7 +43,7 @@ menus:
   Mastodon: {path: https://hello.2heng.xin/about/more, fa: fa-tree faa-shake}
 
 #页脚信息
-pagefooter: Hey,Joker  2021-2077
+pagefooter: 
 
 # Home page sort type: -1: newer first，1: older first.
 homePageSortType: -1

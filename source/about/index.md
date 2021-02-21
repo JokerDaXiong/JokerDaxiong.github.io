@@ -32,6 +32,8 @@ photos: https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/ima
   </div>
 </div>
 <script src="/js/botui.js"></script>
-<script>bot_ui_ini()</script>
+<script>
+bot_ui_in()
+</script>
 
 {% endraw %}
