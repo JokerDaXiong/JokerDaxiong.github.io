@@ -91,7 +91,7 @@ function bot_ui_ini() {
                                         delay: 1100,
                                         action: [{
                                             text: "然后呢？ 😁",
-                                            value: "gkd"
+                                            value: "why-mashiro"
                                         }]
                                     }).then(function (a) {
                                         thirdpart()
@@ -112,7 +112,7 @@ function bot_ui_ini() {
                     delay: 1500,
                     action: [{
                         text: "很不错的想法呢？ 🤔",
-                        value: "😂"
+                        value: "why-cat"
                     }]
                 }).then(function (a) {
                     fourthpart()
@@ -132,7 +132,7 @@ function bot_ui_ini() {
                         delay: 1500,
                         action: [{
                             text: "😄 域名有什么意义呢",
-                            value: "🥶"
+                            value: "why-domain"
                         }]
                     }).then(function (a) {
                         fifthpart()
