@@ -1,0 +1,132 @@
+# site name
+prefixName: Hey,Joker
+siteName:
+# favicon and site master avatar
+favicon: /images/img32.png
+avatar: /images/avatar.png
+url: https://jokerdig.com
+description: The wiseman followed a star, the way I follow my heart!
+cdn: https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main
+pjax: 1
+# 1开启
+mathjax: 0
+
+notice: 一个神奇的网站！
+lazyloadImg: https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/donate/orange.progress-bar-stripe-loader.svg
+#seo优化设定
+seo:
+  #网站简介
+  description: wiseman star
+  #关键词
+  keywords: hey,Joker,Java,番剧,JokerDaxiong,Joker大雄,pixelart,Java,SSM,Spring
+menus:
+  首页: { path: /, fa: fa-fort-awesome faa-shake }
+  归档: { path: /archives/, fa: fa-archive faa-shake}
+  清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: {
+    #书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce },
+    番组: {path: /bangumi/, fa: fa-film faa-vertical },
+    歌单: {path: /music/, fa: fa-headphones }
+   # 图集: {path: /tags/图集/, fa: fa-photo }
+  } }
+  留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
+  赞赏: { path: /donate/, fa: fa-heart faa-tada }
+  关于: { path: /, fa: fa-leaf faa-wrench , submenus: {
+    我？: {path: /about/, fa: fa-meetup},
+    主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
+    RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
+  } }
+  #客户端: { path: /client/, fa: fa-android faa-vertical }
+  友人帐: { path: /links/, fa: fa-link faa-shake }
+  Mastodon: {path: https://hello.2heng.xin/about/more, fa: fa-tree faa-shake}
+
+#页脚信息
+pagefooter: Hey,Joker  2021-2077
+
+# Home page sort type: -1: newer first，1: older first.
+homePageSortType: -1
+# Home page article shown number)
+homeArticleShown: 10
+# 背景图片 更好的修改
+bg:
+  - https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/1.jpg.webp
+  - https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/2.jpg.webp
+  - https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/3.jpg.webp
+  - https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/4.jpg.webp
+  - https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/5.jpg.webp
+  - https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/6.jpg.webp
+
+# 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
+bgclass: filter-dot
+# startdash url, title, desc img
+startdash:
+  - {url: https://jokerdig.com, title: Hey Joker, desc: (●'◡'●), img: /images/img/one.jpg}
+  - {url: https://space.bilibili.com/246180442, title: Bilibili, desc: (づ￣ 3￣)づ, img: /images/img/two.jpg}
+  - {url: https://github.com/JokerDaXiong, title: GitHub, desc: 戳一戳, img: /images/img/three.jpg}
+
+
+# your site build time or founded date (建站日期）
+siteBuildingTime: 2021-1-13
+#页脚显示网站已运行时间
+runtime: true
+
+#social  url, img PC端配置
+social:
+  GitHub: {url: https://github.com/JokerDaxiong, img: /images/img/github.png}
+  MicroBlog: {url: https://weibo.com/u/5844350822?is_all=1, img: /images/img//sina.png}
+  Music163: {url: https://music.163.com/#/user/home?id=253271285, img: /images/img//wangyiyun.png}
+  Twitter: {url: https://twitter.com/Joker_Daxiong, img: /images/img//twitter.png}
+  Email: {url: mailto:jokerdaxiong@qq.com, img: /images/img//email.svg}
+
+#social  url, img 移动端配置
+msocial:
+  GitHub: {url: https://github.com/JokerDaxiong, fa: fa-github, color: 333}
+  MicroBlog: {url: https://weibo.com/u/5844350822?is_all=1, fa: fa-weibo, color: dd4b39}
+  Email: {url: mailto:jokerdaxiong@qq.com, img: images/img/email.svg}
+
+donate:
+  switch: true
+  paypal: https://www.paypal.me/jokerdig
+  alipay: /images/donate/Alipy.jpg
+  wechat: /images/donate/wechatpaydig.png
+  wechatSQ: /images/donate/wechatpaydig.png
+
+# 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
+movies:
+  switch: true
+  url: https://player.bilibili.com/player.html?
+  # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
+  name: aid=795783034&bvid=1HC4y1p7qH&high_quality=1&danmaku=0
+
+aplayer:
+  switch: true
+  id: 5296264000
+  server: netease
+  type: playlist
+  fixed: true
+  autoplay: false
+  loop: all
+  order: random
+  preload: auto
+  volume: 0.7
+  mutex: true
+
+# Valine
+valine: true
+v_appId: XYqaGDWBwkiE1UQ1Qe12Va4D-MdYXbMMI
+v_appKey: jnCtQYwotehXjntK6C6bM9j7
+
+#42cloud 计数器
+readcounts: true
+
+#不蒜子计数器
+busuanzi:
+  switch: true
+
+#每日一言
+hitokoto: true
+
+#全站灰白主题  默认关闭
+gray: false
+
+#剪贴板版权
+clipboards: false
