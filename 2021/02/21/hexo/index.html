@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title>Hey,Joker</title>
+  <title>hexo+Github搭建静态个人博客搭建 | Hey,Joker</title>
   <meta name="description" content="wiseman star" />
   <meta name="keywords" content="hey,Joker,Java,番剧,JokerDaxiong,Joker大雄,pixelart,Java,SSM,Spring" />
   
@@ -321,207 +321,218 @@
   </div>
 </header>
 
-      <div class="blank" style="padding-top: 0px;"></div>
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/xbclub/staticCDN@0.6/css/sharejs.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xbclub/staticCDN@0.6/css/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img">
+        <img src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/donate/orange.progress-bar-stripe-loader.svg" data-src="https://jokerdig.com" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
+      </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">
+      hexo+Github搭建静态个人博客搭建</h1>
+      <p class="entry-census">
+        <span>
+          <a href="jokerdig.com">
+            <img src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/avatar.png">
+          </a>
+        </span>
+        <span>
+          <a href="jokerdig.com">JokerDaxiong</a>
+        </span>
+        <span class="bull">
+        ·</span>
+        2021-2-21
+        
+          ·<span id="busuanzi_value_page_pv"></span>次阅读
+      
+      
+        ·<span id="readcount"></span>次阅读
+      
+      </p>
+    </header>
+  </div>
+
 <div id="content" class="site-content">
-  
-  <div class="notice" style="margin-top:60px">
-    <i class="iconfont icon-notification">
-    </i>
-    <div class="notice-content">一个神奇的网站！</div>
-  </div>
-  
-  <div class="top-feature-row">
-  <h1 class="fes-title" style="font-family: 'Ubuntu', sans-serif;">
-  <i class="fa fa-anchor" aria-hidden="true">
-  </i>
-  START:DASH!!</h1>
-  
-  <div class="top-feature-v2">
-    <div class="the-feature square from_left_and_right">
-      <a href="https://jokerdig.com" target="_blank">
-        <div class="img">
-          <img src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/img/one.jpg">
-        </div>
-        <div class="info">
-          <h3>Hey Joker</h3>
-          <p>(●&#39;◡&#39;●)</p>
-        </div>
-      </a>
-    </div>
-  </div>
-  
-  <div class="top-feature-v2">
-    <div class="the-feature square from_left_and_right">
-      <a href="https://space.bilibili.com/246180442" target="_blank">
-        <div class="img">
-          <img src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/img/two.jpg">
-        </div>
-        <div class="info">
-          <h3>Bilibili</h3>
-          <p>(づ￣ 3￣)づ</p>
-        </div>
-      </a>
-    </div>
-  </div>
-  
-  <div class="top-feature-v2">
-    <div class="the-feature square from_left_and_right">
-      <a href="https://github.com/JokerDaXiong" target="_blank">
-        <div class="img">
-          <img src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/img/three.jpg">
-        </div>
-        <div class="info">
-          <h3>GitHub</h3>
-          <p>戳一戳</p>
-        </div>
-      </a>
-    </div>
-  </div>
-  
-</div>
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
-      <h1 class="main-title" style="font-family: 'Ubuntu', sans-serif;">
-      <i class="fa fa-envira" aria-hidden="true"></i>
-      Discovery</h1>
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"> <!-- 套嵌目录使用（主要为了支援评论）-->
+        
+        <div class="entry-content">
+          <h2 id="hexo-Github搭建静态个人博客搭建"><a href="#hexo-Github搭建静态个人博客搭建" class="headerlink" title="hexo+Github搭建静态个人博客搭建"></a>hexo+Github搭建静态个人博客搭建</h2><ol>
+<li><p>下载nodeJS：<a target="_blank" rel="noopener" href="https://nodejs.org/en/">https://nodejs.org/en/</a></p>
+</li>
+<li><p>安装 一键式</p>
+</li>
+<li><p>cmd &gt;查询node和npm的版本，确认安装成功</p>
+<pre><code class="yml">node-v  //查询node版本
+npm-v  //查询npm版本
+</code></pre>
+</li>
+<li><p>使用npm安装cnpm（国内使用淘宝镜像加速下载）</p>
+<pre><code class="yml">npm install -g cnpm --registry=https://registry.npm.taobao.org
+cnpm -v    //确认版本号（安装结束后）
+</code></pre>
+</li>
+<li><p>全局安装hexo</p>
+<pre><code class="yml">cnpm install -g hexo-cli  //全局安装hexo
+hexo -v //确认hexo版本号（安装结束后）
+</code></pre>
+</li>
+<li><p>在c或d 盘建立一个空文件夹（下方以d:/blog为例）</p>
+</li>
+<li><p>cmd进入该文件夹后，用hexo生成博客</p>
+<pre><code class="yml">hexo init  //初始化hexo  （此建议处用git窗口）
+</code></pre>
+</li>
+<li><p>本地预览生成的默认博客</p>
+<pre><code class="yml">hexo s //本地预览
+localhost://4000 --本地地址复制到浏览器即可 （ctrl+c关闭）
+</code></pre>
+</li>
+</ol>
+<ol start="9">
+<li><p>发布到github</p>
+<ol>
+<li>创建github账号</li>
+<li>并创建一个仓库，命名为：<strong>你的github昵称.github.io</strong></li>
+</ol>
+</li>
+<li><p>在本地blog文件安装一个git部署插件</p>
+<pre><code class="yml">npm install hexo-deployer-git --save  //在git或cmd到blog目录下输入
+</code></pre>
+</li>
+<li><p>设置blog目录下_config.yml文件_最后的deploy如下</p>
+<pre><code class="yml">deploy:
+  type: git
+  repo: 你新建的仓库地址
+  branch: main  //注意，main是现在github的默认分支，**每个冒号后有一个空格** 
+</code></pre>
+</li>
+<li><p>将博客部署到GitHub仓库</p>
+<p>在blog下打开cmd或git 输入：</p>
+<pre><code class="yml"> hexo clean --清除
+ hexo g --生成
+ hexo d --部署
+</code></pre>
+</li>
+<li><p>最后，输入你的仓库名称到浏览器即可访问</p>
+</li>
+</ol>
+<p>  这只是搭建完成，还可以更改主题，美化博客！</p>
+<p>  网上有相当多美化博客教程可以参考</p>
+<p>  暂时挖个坑，有时间在填 。<del>绝对不是因为我懒</del></p>
+<hr>
+<blockquote>
+<p>作者：JokerDaxiong </p>
+<p>博客：<a href="%22Hey,Joker%22">Jokerdig.com</a></p>
+<p>时间：2021-2-18</p>
+</blockquote>
+
+        </div>
+        <!-- .entry-content -->
+        
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/donate/Alipy.jpg"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/donate/wechatpaydig.png"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+          
+            <div class="post-nepre half previous">
+          
+            <a href="/2021/02/21/Hexo-Theme-Sakura/" rel="prev">
+              <div class="background">
+<!--                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/donate/orange.progress-bar-stripe-loader.svg" data-src="https://jokerdig.com" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://jokerdig.com">-->
+                
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/donate/orange.progress-bar-stripe-loader.svg" data-src="https://jokerdig.com" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" >
+              </div>
+              <span class="label">
+              Previous Post</span>
+              <div class="info">
+                <h3>
+                主题使用教程</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+        
+          
+            <div class="post-nepre half next">
+          
+            <a href="/2021/02/21/test/" rel="next">
+              <div class="background">
+                
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/donate/orange.progress-bar-stripe-loader.svg" data-src="https://jokerdig.com" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" >
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                测试文档</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
       
-  <!-- 首页默认取最最新文章集 -->
-  
-    
-<article  class="post post-list-thumb post-list-thumb-left"  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "XYqaGDWBwkiE1UQ1Qe12Va4D-MdYXbMMI",
+        appKey: "jnCtQYwotehXjntK6C6bM9j7",
+        path: window.location.pathname,
+        placeholder: "人一生总会遇见惊喜 ..."
+      })
+  }
+</script>
 
-  <div class="post-thumb">
-    <a href="/2021/02/21/Hexo-Theme-Sakura/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/donate/orange.progress-bar-stripe-loader.svg" data-src="https://jokerdig.com">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2021-2-21 01:02</div>
-      <a href="/2021/02/21/Hexo-Theme-Sakura/" class="post-title">
-        <h3>主题使用教程</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/%E4%B8%BB%E9%A2%98/">主题<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-            <a href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p>文档</p>
-        <div class="post-bottom">
-          <a href="/2021/02/21/Hexo-Theme-Sakura/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="jokerdig.com" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/avatar.png" itemprop="image" alt="JokerDaxiong" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="jokerdig.com" itemprop="url" rel="author">JokerDaxiong</a>
+            </h3>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2021/02/21/hexo/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/donate/orange.progress-bar-stripe-loader.svg" data-src="https://jokerdig.com">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2021-2-21 01:02</div>
-      <a href="/2021/02/21/hexo/" class="post-title">
-        <h3>hexo+Github搭建静态个人博客搭建</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/hexo/">hexo<em>·</em></a>
-          
-            <a href="/tags/github/">github<em>·</em></a>
-          
-            <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-            <a href="/categories/%E5%B9%B2%E8%B4%A7/">干货</a>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p>hexo博客搭建</p>
-        <div class="post-bottom">
-          <a href="/2021/02/21/hexo/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb post-list-thumb-left"  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2021/02/21/test/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/donate/orange.progress-bar-stripe-loader.svg" data-src="https://jokerdig.com">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2021-2-21 01:02</div>
-      <a href="/2021/02/21/test/" class="post-title">
-        <h3>测试文档</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/%E6%B5%8B%E8%AF%95/">测试<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-            <a href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p>测试文档</p>
-        <div class="post-bottom">
-          <a href="/2021/02/21/test/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-
-
-    </main>
-      <!-- 首页默认取最最新文章集 -->
-    <!--  -->
-  </div>
-  
+        <hr>
+        <p><i class="iconfont icon-write"></i>一个代码小白</p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
 </div>
+
 
     </div>    
     <div class="ins-search">

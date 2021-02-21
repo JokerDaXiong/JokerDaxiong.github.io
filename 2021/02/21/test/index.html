@@ -50,7 +50,7 @@
   /*End of Initial Variables*/
   </script>
   <script type="text/javascript">
-  var bg = "https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/1.jpg.webp,https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/2.jpg.webp,https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/3.jpg.webp,https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/4.jpg.webp,https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/5.jpg.webp,https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/7.jpg.webp".split(",");
+  var bg = "https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/1.jpg.webp,https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/2.jpg.webp,https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/3.jpg.webp,https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/4.jpg.webp,https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/5.jpg.webp,https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/cover/6.jpg.webp".split(",");
   var bgindex = Math.floor(Math.random()*bg.length);
   if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
     alert('朋友，IE浏览器未适配哦~');
@@ -61,9 +61,14 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
+  <script src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/js/hititle.js"></script>
 <meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="Hey,Joker" type="application/atom+xml">
 </head>
 
+<!--鼠标点击特效-->
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/love.js"></script>
+<!--预加载-->
+<!--<script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>-->
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
   <div class="scrollbar" id="bar">
   </div>
@@ -197,6 +202,16 @@
               </li>
             
               <li>
+                <a href="/archives/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+                    归档
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
                 <a href="javascript:;">
                   <span class="faa-parent animated-hover">
                     <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
@@ -237,7 +252,7 @@
               <li>
                 <a href="/donate/">
                   <span class="faa-parent animated-hover">
-                    <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+                    <i class="fa  fa-heart faa-tada" aria-hidden="true"></i>
                     赞赏
                   </span>
                 </a>
@@ -268,6 +283,13 @@
                         </a>
                       </li>
                     
+                      <li>
+                        <a href="/atom.xml">
+                          <i class="fa fa-rss faa-pulse" aria-hidden="true"></i>
+                          RSS
+                        </a>
+                      </li>
+                    
                   </ul>
                 
               </li>
@@ -283,10 +305,10 @@
               </li>
             
               <li>
-                <a href="/atom.xml">
+                <a target="_blank" rel="noopener" href="https://hello.2heng.xin/about/more">
                   <span class="faa-parent animated-hover">
-                    <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
-                    RSS
+                    <i class="fa  fa-tree faa-shake" aria-hidden="true"></i>
+                    Mastodon
                   </span>
                 </a>
                 
@@ -361,8 +383,8 @@
           <div class="reward-open">赏
             <div class="reward-main">
               <ul class="reward-row">
-                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/custom/donate/Alipy.jpg"></li>
-                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/custom/donate/wechatpydig.jpg"></li>
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/donate/Alipy.jpg"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/donate/wechatpaydig.png"></li>
               </ul>
             </div>
           </div>
@@ -386,7 +408,7 @@
           
             <div class="post-nepre full previous">
           
-            <a href="/2021/02/21/Hexo-Theme-Sakura/" rel="prev">
+            <a href="/2021/02/21/hexo/" rel="prev">
               <div class="background">
 <!--                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/JokerDaxiong/JokerDaxiong.github.io@main/images/donate/orange.progress-bar-stripe-loader.svg" data-src="https://jokerdig.com" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://jokerdig.com">-->
                 
@@ -396,7 +418,7 @@
               Previous Post</span>
               <div class="info">
                 <h3>
-                主题使用教程</h3>
+                hexo+Github搭建静态个人博客搭建</h3>
                 <hr>
               </div>
             </a>
@@ -547,7 +569,7 @@
     if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
         var Poi = {
             "pjax": "1",
-            "movies": {"url": "https://upos-sz-mirrorkodo.bilivideo.com/upgcxcode/91/44/194434491/194434491-1-208.mp4?e=ig8euxZM2rNcNbKV7wdVhwdl7wdMhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1613669206&gen=playurl&os=kodobv&oi=978800370&trid=502a4c6b498a42c3888a3d5b17e1af58T&platform=html5&upsig=c8e325af55757097f24bf7bf9f327c66&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=524602686&orderid=0,1&logo=80000000", "name": "", "live": "close"},
+            "movies": {"url": "https://player.bilibili.com/player.html?", "name": "aid=795783034&bvid=1HC4y1p7qH&high_quality=1&danmaku=0", "live": "close"},
             "windowheight": "fixed",
             "codelamp": "close",
             "ajaxurl": "",
@@ -557,7 +579,7 @@
     } else {
         var Poi = {
             "pjax": "1",
-            "movies": {"url": "https://upos-sz-mirrorkodo.bilivideo.com/upgcxcode/91/44/194434491/194434491-1-208.mp4?e=ig8euxZM2rNcNbKV7wdVhwdl7wdMhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1613669206&gen=playurl&os=kodobv&oi=978800370&trid=502a4c6b498a42c3888a3d5b17e1af58T&platform=html5&upsig=c8e325af55757097f24bf7bf9f327c66&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=524602686&orderid=0,1&logo=80000000", "name": "", "live": "open"},
+            "movies": {"url": "https://player.bilibili.com/player.html?", "name": "aid=795783034&bvid=1HC4y1p7qH&high_quality=1&danmaku=0", "live": "open"},
             "windowheight": "auto",
             "codelamp": "close",
             "ajaxurl": "",
@@ -740,6 +762,30 @@
         }
     </script>
 
+ <!--壁纸切换-->
+ <div class="skin-menu no-select" id="mainskin"  style="position: fixed">
+    <div class="theme-controls row-container">
+        <ul class="menu-list">
+            <li id="white-bg"> <i class="fa fa-television" aria-hidden="true"></i></li>
+            <li id="sakura-bg"> <i class="iconfont icon-sakura"></i></li>
+            <li id="gribs-bg"> <i class="fa fa-slack" aria-hidden="true"></i></li>
+            <li id="KAdots-bg"> <i class="iconfont icon-dots"></i></li>
+            <li id="totem-bg"> <i class="fa fa-optin-monster" aria-hidden="true"></i></li>
+            <li id="pixiv-bg"> <i class="iconfont icon-pixiv"></i></li>
+            <li id="bing-bg"> <i class="iconfont icon-bing"></i></li>
+            <li id="dark-bg"> <i class="fa fa-moon-o" aria-hidden="true"></i></li>
+        </ul>
+    </div>
+    <div class="font-family-controls row-container">
+        <button type="button" class="control-btn-serif selected" data-mode="serif" onclick="mashiro_global.font_control.change_font()">Serif</button>
+        <button type="button" class="control-btn-sans-serif" data-mode="sans-serif" onclick="mashiro_global.font_control.change_font()">Sans Serif</button>
+    </div>
+</div>   
+<canvas id="night-mode-cover"></canvas> 
+  <div class="changeSkin-gear no-select">
+    <div class="keys" id="setbtn"> <span id="open-skinMenu"> 切换壁纸 | SCHEME TOOL 
+      &nbsp;<i class="iconfont icon-gear inline-block rotating"></i> </span></div>
+</div><!--skin.end-->
     <div class="openNav no-select" style="height: 50px;">
       <div class="iconflat no-select" style="width: 50px; height: 50px;">
         <div class="icon"></div>
@@ -772,6 +818,16 @@
           <span class="faa-parent animated-hover">
             <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
             首页
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/archives/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+            归档
           </span>
         </a>
         
@@ -818,7 +874,7 @@
       <li>
         <a href="/donate/">
           <span class="faa-parent animated-hover">
-            <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+            <i class="fa  fa-heart faa-tada" aria-hidden="true"></i>
             赞赏
           </span>
         </a>
@@ -849,6 +905,13 @@
                 </a>
               </li>
             
+              <li>
+                <a href="/atom.xml">
+                  <i class="fa fa-rss faa-pulse" aria-hidden="true"></i>
+                  RSS
+                </a>
+              </li>
+            
           </ul>
         
       </li>
@@ -864,17 +927,17 @@
       </li>
     
       <li>
-        <a href="/atom.xml">
+        <a target="_blank" rel="noopener" href="https://hello.2heng.xin/about/more">
           <span class="faa-parent animated-hover">
-            <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
-            RSS
+            <i class="fa  fa-tree faa-shake" aria-hidden="true"></i>
+            Mastodon
           </span>
         </a>
         
       </li>
     
   </ul>
-  <p style="text-align: center; font-size: 13px; color: #b9b9b9;">&copy 2019 hexo-sakura</p>
+  <p style="text-align: center; font-size: 13px; color: #b9b9b9;">&copy 2021 Hey,Joker</p>
 </div>
 <button onclick="topFunction()" class="mobile-cd-top" id="moblieGoTop" title="Go to top" style="display: none;"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
   

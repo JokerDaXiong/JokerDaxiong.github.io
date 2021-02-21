@@ -147,7 +147,7 @@ function bot_ui_ini() {
             }).then(function () {
                 botui.message.add({
                     delay: 1600,
-                    content: "那么，仔细看看我的博客吧？🍌"
+                    content: "那么，随便看看我的博客吧？🍌"
                 })
             })
         } 
