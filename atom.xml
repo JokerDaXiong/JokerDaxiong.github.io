@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2021-03-12T07:23:56.850Z</updated>
+  <updated>2021-03-12T07:26:02.452Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -15,25 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>测试文档</title>
-    <link href="https://jokerdig.com/2021/02/21/test/"/>
-    <id>https://jokerdig.com/2021/02/21/test/</id>
-    <published>2021-02-20T17:07:01.000Z</published>
-    <updated>2021-03-12T07:23:56.850Z</updated>
-    
-    
-    <summary type="html">测试文档</summary>
-    
-    
-    
-    <category term="生活" scheme="https://jokerdig.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="测试" scheme="https://jokerdig.com/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
   
   <entry>
     <title>hexo+Github搭建静态个人博客</title>
@@ -55,6 +36,25 @@
     <category term="github" scheme="https://jokerdig.com/tags/github/"/>
     
     <category term="博客搭建" scheme="https://jokerdig.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试文档</title>
+    <link href="https://jokerdig.com/2021/02/21/test/"/>
+    <id>https://jokerdig.com/2021/02/21/test/</id>
+    <published>2021-02-20T17:07:01.000Z</published>
+    <updated>2021-03-12T07:23:56.850Z</updated>
+    
+    
+    <summary type="html">测试文档</summary>
+    
+    
+    
+    <category term="生活" scheme="https://jokerdig.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="测试" scheme="https://jokerdig.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
