@@ -1,0 +1,20 @@
+User-agent: msnbot-media
+Disallow: /
+Allow: /th?
+
+User-agent: *
+Disallow: /archives/
+Disallow: /music/
+Disallow: /about/
+Disallow: /link/
+Disallow: /photos/
+Disallow: /photos/wallpaper
+Disallow: /movies/
+Disallow: /books/
+Disallow: /games/
+Disallow: /artitalk/
+Disallow: /tags/
+Disallow: /categories/
+Disallow: /categories/geek/
+Disallow: /categories/life/
+Disallow: /categories/java/
