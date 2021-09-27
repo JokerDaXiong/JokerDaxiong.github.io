@@ -1,49 +1,37 @@
-/*鼠标样式*/
+/* 全局默认鼠标指针 */
 body,
-html {
-  cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/Arrow.cur),
-	auto !important;
+html{
+  cursor: url('https://cdn.jsdelivr.net/gh/JokerDaxiong/Jokerblog@main/source/images/white/Comix_White_Pointer.cur'),auto !important;
 }
-
-a,
-img {
-  cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
-	auto !important;
+/* 悬停图片时的鼠标指针 */
+img{
+  cursor: url('https://cdn.jsdelivr.net/gh/JokerDaxiong/Jokerblog@main/source/images/white/Comix_White_Link.cur'),auto !important;
 }
-
-/*a标签*/
-a:hover {
-  cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
-	auto !important;
+/* 选择链接标签时的鼠标指针 */
+a:hover{
+    cursor: url('https://cdn.jsdelivr.net/gh/JokerDaxiong/Jokerblog@main/source/images/white/Comix_White_Link.cur'),auto;
 }
-
-/*按钮*/
-button:hover {
-  cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
-	auto !important;
+/* 选中输入框时的鼠标指针 */
+input:hover{
+    cursor: url('https://cdn.jsdelivr.net/gh/JokerDaxiong/Jokerblog@main/source/images/white/Comix_White_Text.cur'),auto;
 }
-
-/*i标签*/
-i:hover {
-  cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
-	auto !important;
+/* 悬停按钮时的鼠标指针 */
+button:hover{
+    cursor: url('https://cdn.jsdelivr.net/gh/JokerDaxiong/Jokerblog@main/source/images/white/Comix_White_Pointer.cur'),auto;
 }
-
-/*页脚a标签*/
-#footer-wrap a:hover {
-  cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
-	auto !important;
+/* 悬停列表标签时的鼠标指针 */
+i:hover{
+    cursor: url('https://cdn.jsdelivr.net/gh/JokerDaxiong/Jokerblog@main/source/images/white/Comix_White_Link.cur'),auto;
 }
-
-/*分页器*/
-#pagination .page-number:hover {
-  cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
-	auto !important;
+/* 悬停页脚链接标签（例如页脚徽标）时的鼠标指针 */
+#footer-wrap a:hover{
+      cursor: url('https://cdn.jsdelivr.net/gh/JokerDaxiong/Jokerblog@main/source/images/white/Comix_White_Link.cur'),auto;
 }
-
-/*头部的导航栏*/
-#nav .site-page:hover {
-  cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
-	auto !important;
+/* 悬停页码时的鼠标指针 */
+#pagination .page-number:hover{
+      cursor: url('https://cdn.jsdelivr.net/gh/JokerDaxiong/Jokerblog@main/source/images/white/Comix_White_Link.cur'),auto;
 }
-/*鼠标样式END*/
+/* 悬停菜单栏时的鼠标指针 */
+#nav .site-page:hover{
+      cursor: url('https://cdn.jsdelivr.net/gh/JokerDaxiong/Jokerblog@main/source/images/white/Comix_White_Link.cur'),auto;
+}
