@@ -3,12 +3,11 @@ Disallow: /
 Allow: /th?
 
 User-agent: *
-Disallow: /archives/
 Disallow: /music/
 Disallow: /about/
 Disallow: /link/
 Disallow: /photos/
-Disallow: /photos/wallpaper
+Disallow: /photos/pixelart
 Disallow: /movies/
 Disallow: /books/
 Disallow: /games/
