@@ -324,14 +324,14 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/2021/09/22/assembly1_7/</loc>
+    <loc>https://jokerdig.com/2021/09/22/assembly1_6/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jokerdig.com/2021/09/22/assembly1_6/</loc>
+    <loc>https://jokerdig.com/2021/09/22/assembly1_7/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -522,21 +522,7 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/%E5%BE%AE%E4%BF%A1%E8%A1%A8%E6%83%85%E5%8C%85/</loc>
-    <lastmod>2021-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/pixelart/</loc>
-    <lastmod>2021-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/wechat/</loc>
+    <loc>https://jokerdig.com/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -564,7 +550,21 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://jokerdig.com/tags/%E5%BE%AE%E4%BF%A1%E8%A1%A8%E6%83%85%E5%8C%85/</loc>
+    <lastmod>2021-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/pixelart/</loc>
+    <lastmod>2021-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/wechat/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
