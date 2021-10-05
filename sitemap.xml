@@ -403,20 +403,6 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/Java/</loc>
-    <lastmod>2021-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/Java%E6%B3%A8%E8%A7%A3%E5%92%8C%E5%8F%8D%E5%B0%84/</loc>
-    <lastmod>2021-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/tags/hexo/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
@@ -432,6 +418,20 @@
   
   <url>
     <loc>https://jokerdig.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2021-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/Java/</loc>
+    <lastmod>2021-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/Java%E6%B3%A8%E8%A7%A3%E5%92%8C%E5%8F%8D%E5%B0%84/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -466,35 +466,14 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/jdbcType/</loc>
-    <lastmod>2021-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/oracle/</loc>
-    <lastmod>2021-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/Python/</loc>
-    <lastmod>2021-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/Python%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</loc>
-    <lastmod>2021-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/tags/%E9%BB%91%E7%9B%92%E5%9C%A3%E7%BB%8F/</loc>
+    <lastmod>2021-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/jdbcType/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -516,6 +495,27 @@
   
   <url>
     <loc>https://jokerdig.com/tags/MySQL/</loc>
+    <lastmod>2021-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/oracle/</loc>
+    <lastmod>2021-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/Python/</loc>
+    <lastmod>2021-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/Python%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
