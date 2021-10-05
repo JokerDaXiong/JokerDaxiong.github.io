@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jokerdig.com/about/index.html</loc>
+    
+    <lastmod>2021-10-05</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/link/index.html</loc>
+    
+    <lastmod>2021-10-05</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jokerdig.com/photos/index.html</loc>
     
     <lastmod>2021-10-02</lastmod>
@@ -38,13 +52,6 @@
   
   <url>
     <loc>https://jokerdig.com/2021/08/16/javaSE1_x/</loc>
-    
-    <lastmod>2021-09-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/link/index.html</loc>
     
     <lastmod>2021-09-25</lastmod>
     
@@ -317,13 +324,6 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/about/index.html</loc>
-    
-    <lastmod>2021-09-24</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/2021/09/22/assembly1_6/</loc>
     
     <lastmod>2021-09-22</lastmod>
@@ -473,20 +473,6 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/%E9%BB%91%E7%9B%92%E5%9C%A3%E7%BB%8F/</loc>
-    <lastmod>2021-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/oracle/</loc>
-    <lastmod>2021-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/tags/Mybatis/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
@@ -502,6 +488,20 @@
   
   <url>
     <loc>https://jokerdig.com/tags/MySQL/</loc>
+    <lastmod>2021-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/%E9%BB%91%E7%9B%92%E5%9C%A3%E7%BB%8F/</loc>
+    <lastmod>2021-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/oracle/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
