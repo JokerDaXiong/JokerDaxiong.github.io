@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2021-09-25T13:00:00.000Z</updated>
+  <updated>2021-10-16T13:00:00.000Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【今日摸鱼】你的名字。</title>
+    <link href="https://jokerdig.com/2021/10/16/video2/"/>
+    <id>https://jokerdig.com/2021/10/16/video2/</id>
+    <published>2021-10-16T13:00:00.000Z</published>
+    <updated>2021-10-16T13:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;  最近一直在摸鱼，假装更新博客/(ㄒoㄒ)/~~，欢迎大家关注我的主页，偶尔发发像素画练习视频！&lt;/p&gt;
+&lt;div class=&quot;bili_video&quot;&gt;&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="life" scheme="https://jokerdig.com/categories/life/"/>
+    
+    
+    <category term="你的名字。" scheme="https://jokerdig.com/tags/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97%E3%80%82/"/>
+    
+  </entry>
   
   <entry>
     <title>【JavaSE】Java集合(上)</title>
@@ -542,35 +568,6 @@
     <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
     
     <category term="Java网路编程" scheme="https://jokerdig.com/tags/Java%E7%BD%91%E8%B7%AF%E7%BC%96%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Python】Python第三方模块安装</title>
-    <link href="https://jokerdig.com/2021/08/31/pythonPage/"/>
-    <id>https://jokerdig.com/2021/08/31/pythonPage/</id>
-    <published>2021-08-31T13:00:00.000Z</published>
-    <updated>2021-09-25T03:17:30.979Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Python第三方模块安装&quot;&gt;&lt;a href=&quot;#Python第三方模块安装&quot; class=&quot;headerlink&quot; title=&quot;Python第三方模块安装&quot;&gt;&lt;/a&gt;Python第三方模块安装&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;前言&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="geek" scheme="https://jokerdig.com/categories/geek/"/>
-    
-    
-    <category term="Python" scheme="https://jokerdig.com/tags/Python/"/>
-    
-    <category term="Python第三方模块" scheme="https://jokerdig.com/tags/Python%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/"/>
     
   </entry>
   
