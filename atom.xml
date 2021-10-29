@@ -17,7 +17,7 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>【日常】一段有趣的话(二)</title>
     <link href="https://jokerdig.com/2021/10/29/life2/"/>
     <id>https://jokerdig.com/2021/10/29/life2/</id>
     <published>2021-10-29T07:00:00.000Z</published>
@@ -28,7 +28,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;随缘更新（二）&quot;&gt;&lt;a href=&quot;#随缘更新（二）&quot; class=&quot;headerlink&quot; title=&quot;随缘更新（二）&quot;&gt;&lt;/a&gt;随缘更新（二）&lt;/h2&gt;&lt;p&gt;​   </summary>
+    <summary type="html">&lt;h2 id=&quot;随缘分享（二）&quot;&gt;&lt;a href=&quot;#随缘分享（二）&quot; class=&quot;headerlink&quot; title=&quot;随缘分享（二）&quot;&gt;&lt;/a&gt;随缘分享（二）&lt;/h2&gt;&lt;p&gt;​       </summary>
         
       
     
@@ -96,9 +96,9 @@
   </entry>
   
   <entry>
-    <title>【计算机底层】二进制到汇编(7)</title>
-    <link href="https://jokerdig.com/2021/09/22/assembly1_7/"/>
-    <id>https://jokerdig.com/2021/09/22/assembly1_7/</id>
+    <title>【计算机底层】二进制到汇编(6)</title>
+    <link href="https://jokerdig.com/2021/09/22/assembly1_6/"/>
+    <id>https://jokerdig.com/2021/09/22/assembly1_6/</id>
     <published>2021-09-22T13:00:00.000Z</published>
     <updated>2021-09-22T13:00:00.000Z</updated>
     
@@ -107,7 +107,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;二进制到汇编-7&quot;&gt;&lt;a href=&quot;#二进制到汇编-7&quot; class=&quot;headerlink&quot; title=&quot;二进制到汇编(7)&quot;&gt;&lt;/a&gt;二进制到汇编(7)&lt;/h2&gt;&lt;blockquote&gt;
+    <summary type="html">&lt;h2 id=&quot;二进制到汇编-6&quot;&gt;&lt;a href=&quot;#二进制到汇编-6&quot; class=&quot;headerlink&quot; title=&quot;二进制到汇编(6)&quot;&gt;&lt;/a&gt;二进制到汇编(6)&lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;推荐免费计算机底层入门讲解视频：&lt;a</summary>
         
@@ -125,9 +125,9 @@
   </entry>
   
   <entry>
-    <title>【计算机底层】二进制到汇编(6)</title>
-    <link href="https://jokerdig.com/2021/09/22/assembly1_6/"/>
-    <id>https://jokerdig.com/2021/09/22/assembly1_6/</id>
+    <title>【计算机底层】二进制到汇编(7)</title>
+    <link href="https://jokerdig.com/2021/09/22/assembly1_7/"/>
+    <id>https://jokerdig.com/2021/09/22/assembly1_7/</id>
     <published>2021-09-22T13:00:00.000Z</published>
     <updated>2021-09-22T13:00:00.000Z</updated>
     
@@ -136,7 +136,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;二进制到汇编-6&quot;&gt;&lt;a href=&quot;#二进制到汇编-6&quot; class=&quot;headerlink&quot; title=&quot;二进制到汇编(6)&quot;&gt;&lt;/a&gt;二进制到汇编(6)&lt;/h2&gt;&lt;blockquote&gt;
+    <summary type="html">&lt;h2 id=&quot;二进制到汇编-7&quot;&gt;&lt;a href=&quot;#二进制到汇编-7&quot; class=&quot;headerlink&quot; title=&quot;二进制到汇编(7)&quot;&gt;&lt;/a&gt;二进制到汇编(7)&lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;推荐免费计算机底层入门讲解视频：&lt;a</summary>
         
