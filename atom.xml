@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2021-10-29T07:00:00.000Z</updated>
+  <updated>2021-12-12T07:00:00.000Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【HTML5】HTML5基础教程(2)</title>
+    <link href="https://jokerdig.com/2021/12/12/html1_2/"/>
+    <id>https://jokerdig.com/2021/12/12/html1_2/</id>
+    <published>2021-12-12T07:00:00.000Z</published>
+    <updated>2021-12-12T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费HTML5基础讲解视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
+    
+    
+    <category term="html" scheme="https://jokerdig.com/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【HTML5】HTML5基础教程(1)</title>
+    <link href="https://jokerdig.com/2021/12/11/html1_1/"/>
+    <id>https://jokerdig.com/2021/12/11/html1_1/</id>
+    <published>2021-12-11T07:00:00.000Z</published>
+    <updated>2021-12-11T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费HTML5基础讲解视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
+    
+    
+    <category term="html" scheme="https://jokerdig.com/tags/html/"/>
+    
+  </entry>
   
   <entry>
     <title>【日常】一段有趣的话(二)</title>
@@ -28,7 +82,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;随缘分享（二）&quot;&gt;&lt;a href=&quot;#随缘分享（二）&quot; class=&quot;headerlink&quot; title=&quot;随缘分享（二）&quot;&gt;&lt;/a&gt;随缘分享（二）&lt;/h2&gt;&lt;p&gt;​       </summary>
+    <summary type="html">&lt;p&gt;​        不要在相爱时找不爱的细节，也别在分开时回忆相爱的点滴，两个人好的时候,就好比一起乘坐一辆火车,&lt;br&gt;​       </summary>
         
       
     
@@ -79,7 +133,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;二进制到汇编-6&quot;&gt;&lt;a href=&quot;#二进制到汇编-6&quot; class=&quot;headerlink&quot; title=&quot;二进制到汇编(6)&quot;&gt;&lt;/a&gt;二进制到汇编(6)&lt;/h2&gt;&lt;blockquote&gt;
+    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;推荐免费计算机底层入门讲解视频：&lt;a</summary>
         
@@ -108,7 +162,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;二进制到汇编-7&quot;&gt;&lt;a href=&quot;#二进制到汇编-7&quot; class=&quot;headerlink&quot; title=&quot;二进制到汇编(7)&quot;&gt;&lt;/a&gt;二进制到汇编(7)&lt;/h2&gt;&lt;blockquote&gt;
+    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;推荐免费计算机底层入门讲解视频：&lt;a</summary>
         
@@ -130,14 +184,14 @@
     <link href="https://jokerdig.com/2021/09/20/assembly1_5/"/>
     <id>https://jokerdig.com/2021/09/20/assembly1_5/</id>
     <published>2021-09-20T13:00:00.000Z</published>
-    <updated>2021-09-25T04:11:02.251Z</updated>
+    <updated>2021-12-11T08:08:17.442Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;二进制到汇编-5&quot;&gt;&lt;a href=&quot;#二进制到汇编-5&quot; class=&quot;headerlink&quot; title=&quot;二进制到汇编(5)&quot;&gt;&lt;/a&gt;二进制到汇编(5)&lt;/h2&gt;&lt;blockquote&gt;
+    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;推荐免费计算机底层入门讲解视频：&lt;a</summary>
         
@@ -187,14 +241,14 @@
     <link href="https://jokerdig.com/2021/09/17/assembly1_4/"/>
     <id>https://jokerdig.com/2021/09/17/assembly1_4/</id>
     <published>2021-09-17T13:00:00.000Z</published>
-    <updated>2021-09-25T04:10:43.546Z</updated>
+    <updated>2021-12-11T08:08:14.371Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;二进制到汇编-4&quot;&gt;&lt;a href=&quot;#二进制到汇编-4&quot; class=&quot;headerlink&quot; title=&quot;二进制到汇编(4)&quot;&gt;&lt;/a&gt;二进制到汇编(4)&lt;/h2&gt;&lt;blockquote&gt;
+    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;推荐免费计算机底层入门讲解视频：&lt;a</summary>
         
@@ -216,14 +270,14 @@
     <link href="https://jokerdig.com/2021/09/16/assembly1_3/"/>
     <id>https://jokerdig.com/2021/09/16/assembly1_3/</id>
     <published>2021-09-16T13:00:00.000Z</published>
-    <updated>2021-09-25T04:10:24.216Z</updated>
+    <updated>2021-12-11T08:08:11.271Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;二进制到汇编-3&quot;&gt;&lt;a href=&quot;#二进制到汇编-3&quot; class=&quot;headerlink&quot; title=&quot;二进制到汇编(3)&quot;&gt;&lt;/a&gt;二进制到汇编(3)&lt;/h2&gt;&lt;blockquote&gt;
+    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;推荐免费计算机底层入门讲解视频：&lt;a</summary>
         
@@ -245,14 +299,14 @@
     <link href="https://jokerdig.com/2021/09/15/assembly1_2/"/>
     <id>https://jokerdig.com/2021/09/15/assembly1_2/</id>
     <published>2021-09-15T13:00:00.000Z</published>
-    <updated>2021-09-25T04:10:03.192Z</updated>
+    <updated>2021-12-11T08:08:07.687Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;二进制到汇编-2&quot;&gt;&lt;a href=&quot;#二进制到汇编-2&quot; class=&quot;headerlink&quot; title=&quot;二进制到汇编(2)&quot;&gt;&lt;/a&gt;二进制到汇编(2)&lt;/h2&gt;&lt;blockquote&gt;
+    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;推荐免费计算机底层入门讲解视频：&lt;a</summary>
         
@@ -274,14 +328,14 @@
     <link href="https://jokerdig.com/2021/09/14/assembly1_1/"/>
     <id>https://jokerdig.com/2021/09/14/assembly1_1/</id>
     <published>2021-09-14T13:00:00.000Z</published>
-    <updated>2021-09-25T04:09:33.290Z</updated>
+    <updated>2021-12-11T08:07:57.439Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;二进制到汇编-1&quot;&gt;&lt;a href=&quot;#二进制到汇编-1&quot; class=&quot;headerlink&quot; title=&quot;二进制到汇编(1)&quot;&gt;&lt;/a&gt;二进制到汇编(1)&lt;/h2&gt;&lt;blockquote&gt;
+    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;推荐免费计算机底层入门讲解视频：&lt;a</summary>
         
@@ -303,14 +357,16 @@
     <link href="https://jokerdig.com/2021/09/11/javaAAR1_6/"/>
     <id>https://jokerdig.com/2021/09/11/javaAAR1_6/</id>
     <published>2021-09-11T13:00:00.000Z</published>
-    <updated>2021-09-25T04:09:14.875Z</updated>
+    <updated>2021-12-11T08:09:37.977Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Java注解和反射-6&quot;&gt;&lt;a href=&quot;#Java注解和反射-6&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费Java注解和反射讲解视频：&lt;a</summary>
         
       
     
@@ -330,14 +386,16 @@
     <link href="https://jokerdig.com/2021/09/10/javaAAR1_5/"/>
     <id>https://jokerdig.com/2021/09/10/javaAAR1_5/</id>
     <published>2021-09-10T13:00:00.000Z</published>
-    <updated>2021-09-25T04:08:57.721Z</updated>
+    <updated>2021-12-11T08:09:34.913Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Java注解和反射-5&quot;&gt;&lt;a href=&quot;#Java注解和反射-5&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费Java注解和反射讲解视频：&lt;a</summary>
         
       
     
@@ -357,14 +415,16 @@
     <link href="https://jokerdig.com/2021/09/09/javaAAR1_4/"/>
     <id>https://jokerdig.com/2021/09/09/javaAAR1_4/</id>
     <published>2021-09-09T13:00:00.000Z</published>
-    <updated>2021-09-25T04:08:36.426Z</updated>
+    <updated>2021-12-11T08:09:31.748Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Java注解和反射-4&quot;&gt;&lt;a href=&quot;#Java注解和反射-4&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费Java注解和反射讲解视频：&lt;a</summary>
         
       
     
@@ -384,14 +444,16 @@
     <link href="https://jokerdig.com/2021/09/08/javaAAR1_3/"/>
     <id>https://jokerdig.com/2021/09/08/javaAAR1_3/</id>
     <published>2021-09-08T13:00:00.000Z</published>
-    <updated>2021-09-25T04:08:08.019Z</updated>
+    <updated>2021-12-11T08:09:28.447Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Java注解和反射-3&quot;&gt;&lt;a href=&quot;#Java注解和反射-3&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费Java注解和反射讲解视频：&lt;a</summary>
         
       
     
@@ -411,14 +473,16 @@
     <link href="https://jokerdig.com/2021/09/07/javaAAR1_2/"/>
     <id>https://jokerdig.com/2021/09/07/javaAAR1_2/</id>
     <published>2021-09-07T13:00:00.000Z</published>
-    <updated>2021-09-25T04:07:46.806Z</updated>
+    <updated>2021-12-11T08:09:26.151Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Java注解和反射-2&quot;&gt;&lt;a href=&quot;#Java注解和反射-2&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费Java注解和反射讲解视频：&lt;a</summary>
         
       
     
@@ -438,14 +502,16 @@
     <link href="https://jokerdig.com/2021/09/06/javaAAR1_1/"/>
     <id>https://jokerdig.com/2021/09/06/javaAAR1_1/</id>
     <published>2021-09-06T13:00:00.000Z</published>
-    <updated>2021-09-25T04:07:30.211Z</updated>
+    <updated>2021-12-11T08:09:23.721Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Java注解和反射-1&quot;&gt;&lt;a href=&quot;#Java注解和反射-1&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费Java注解和反射讲解视频：&lt;a</summary>
         
       
     
@@ -465,14 +531,16 @@
     <link href="https://jokerdig.com/2021/09/04/javaNET1_4/"/>
     <id>https://jokerdig.com/2021/09/04/javaNET1_4/</id>
     <published>2021-09-04T13:00:00.000Z</published>
-    <updated>2021-09-25T04:06:55.627Z</updated>
+    <updated>2021-12-11T08:10:12.737Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Java网路编程-4&quot;&gt;&lt;a href=&quot;#Java网路编程-4&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费Java网络编程实战讲解视频：&lt;a</summary>
         
       
     
@@ -492,68 +560,16 @@
     <link href="https://jokerdig.com/2021/09/03/javaNET1_3/"/>
     <id>https://jokerdig.com/2021/09/03/javaNET1_3/</id>
     <published>2021-09-03T13:00:00.000Z</published>
-    <updated>2021-09-25T04:06:27.546Z</updated>
+    <updated>2021-12-11T08:10:10.418Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Java网路编程-3&quot;&gt;&lt;a href=&quot;#Java网路编程-3&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="Java网路编程" scheme="https://jokerdig.com/tags/Java%E7%BD%91%E8%B7%AF%E7%BC%96%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【JavaNET】Java网路编程(2)</title>
-    <link href="https://jokerdig.com/2021/09/02/javaNET1_2/"/>
-    <id>https://jokerdig.com/2021/09/02/javaNET1_2/</id>
-    <published>2021-09-02T13:00:00.000Z</published>
-    <updated>2021-09-25T04:06:04.594Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Java网路编程-2&quot;&gt;&lt;a href=&quot;#Java网路编程-2&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="Java网路编程" scheme="https://jokerdig.com/tags/Java%E7%BD%91%E8%B7%AF%E7%BC%96%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【JavaNET】Java网路编程(1)</title>
-    <link href="https://jokerdig.com/2021/09/01/javaNET1_1/"/>
-    <id>https://jokerdig.com/2021/09/01/javaNET1_1/</id>
-    <published>2021-09-01T13:00:00.000Z</published>
-    <updated>2021-09-25T04:05:37.471Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Java网路编程-1&quot;&gt;&lt;a href=&quot;#Java网路编程-1&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费Java网络编程实战讲解视频：&lt;a</summary>
         
       
     
