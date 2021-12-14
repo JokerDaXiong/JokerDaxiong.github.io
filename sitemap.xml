@@ -515,20 +515,6 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/%E6%83%85%E6%84%9F/</loc>
-    <lastmod>2021-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/oracle/</loc>
-    <lastmod>2021-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/tags/Mybatis/</loc>
     <lastmod>2021-12-14</lastmod>
     <changefreq>daily</changefreq>
@@ -544,6 +530,20 @@
   
   <url>
     <loc>https://jokerdig.com/tags/MySQL/</loc>
+    <lastmod>2021-12-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/oracle/</loc>
+    <lastmod>2021-12-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/%E6%83%85%E6%84%9F/</loc>
     <lastmod>2021-12-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -571,34 +571,6 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/%E5%BE%AE%E4%BF%A1%E8%A1%A8%E6%83%85%E5%8C%85/</loc>
-    <lastmod>2021-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/pixelart/</loc>
-    <lastmod>2021-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/wechat/</loc>
-    <lastmod>2021-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97%E3%80%82/</loc>
-    <lastmod>2021-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/tags/%E9%AC%BC%E7%95%9C%E8%A7%86%E9%A2%91/</loc>
     <lastmod>2021-12-14</lastmod>
     <changefreq>daily</changefreq>
@@ -614,6 +586,34 @@
   
   <url>
     <loc>https://jokerdig.com/tags/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9/</loc>
+    <lastmod>2021-12-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97%E3%80%82/</loc>
+    <lastmod>2021-12-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/%E5%BE%AE%E4%BF%A1%E8%A1%A8%E6%83%85%E5%8C%85/</loc>
+    <lastmod>2021-12-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/pixelart/</loc>
+    <lastmod>2021-12-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/wechat/</loc>
     <lastmod>2021-12-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
