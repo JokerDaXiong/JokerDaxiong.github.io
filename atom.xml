@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2021-12-13T07:00:00.000Z</updated>
+  <updated>2021-12-15T07:00:00.000Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -18,17 +18,45 @@
   
   <entry>
     <title>【HTML5】HTML5基础教程(3)</title>
-    <link href="https://jokerdig.com/2021/12/13/html1_3/"/>
-    <id>https://jokerdig.com/2021/12/13/html1_3/</id>
-    <published>2021-12-13T07:00:00.000Z</published>
-    <updated>2021-12-13T07:00:00.000Z</updated>
+    <link href="https://jokerdig.com/2021/12/15/html1_4/"/>
+    <id>https://jokerdig.com/2021/12/15/html1_4/</id>
+    <published>2021-12-15T07:00:00.000Z</published>
+    <updated>2021-12-15T07:00:00.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;前言：&lt;/p&gt;
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费HTML5基础讲解视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
+    
+    
+    <category term="html" scheme="https://jokerdig.com/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【HTML5】HTML5基础教程(3)</title>
+    <link href="https://jokerdig.com/2021/12/14/html1_3/"/>
+    <id>https://jokerdig.com/2021/12/14/html1_3/</id>
+    <published>2021-12-14T07:00:00.000Z</published>
+    <updated>2021-12-14T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;推荐免费HTML5基础讲解视频：&lt;a</summary>
         
       
@@ -549,35 +577,6 @@
     <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
     
     <category term="Java注解和反射" scheme="https://jokerdig.com/tags/Java%E6%B3%A8%E8%A7%A3%E5%92%8C%E5%8F%8D%E5%B0%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【JavaNET】Java网路编程(4)</title>
-    <link href="https://jokerdig.com/2021/09/04/javaNET1_4/"/>
-    <id>https://jokerdig.com/2021/09/04/javaNET1_4/</id>
-    <published>2021-09-04T13:00:00.000Z</published>
-    <updated>2021-12-11T08:10:12.737Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;推荐免费Java网络编程实战讲解视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="Java网路编程" scheme="https://jokerdig.com/tags/Java%E7%BD%91%E8%B7%AF%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
