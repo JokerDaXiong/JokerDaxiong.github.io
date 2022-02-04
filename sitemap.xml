@@ -508,13 +508,6 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/html/</loc>
-    <lastmod>2022-02-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/tags/hexo/</loc>
     <lastmod>2022-02-04</lastmod>
     <changefreq>daily</changefreq>
@@ -530,6 +523,13 @@
   
   <url>
     <loc>https://jokerdig.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2022-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/html/</loc>
     <lastmod>2022-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -578,14 +578,14 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/%E6%84%9F%E6%83%B3/</loc>
+    <loc>https://jokerdig.com/tags/jdbcType/</loc>
     <lastmod>2022-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/jdbcType/</loc>
+    <loc>https://jokerdig.com/tags/%E6%84%9F%E6%83%B3/</loc>
     <lastmod>2022-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -613,13 +613,6 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/oracle/</loc>
-    <lastmod>2022-02-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/tags/Python/</loc>
     <lastmod>2022-02-04</lastmod>
     <changefreq>daily</changefreq>
@@ -628,6 +621,13 @@
   
   <url>
     <loc>https://jokerdig.com/tags/Python%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</loc>
+    <lastmod>2022-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/oracle/</loc>
     <lastmod>2022-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -662,13 +662,6 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97%E3%80%82/</loc>
-    <lastmod>2022-02-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/tags/%E5%BE%AE%E4%BF%A1%E8%A1%A8%E6%83%85%E5%8C%85/</loc>
     <lastmod>2022-02-04</lastmod>
     <changefreq>daily</changefreq>
@@ -684,6 +677,13 @@
   
   <url>
     <loc>https://jokerdig.com/tags/wechat/</loc>
+    <lastmod>2022-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97%E3%80%82/</loc>
     <lastmod>2022-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
