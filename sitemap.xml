@@ -648,6 +648,13 @@
   </url>
   
   <url>
+    <loc>https://jokerdig.com/tags/html/</loc>
+    <lastmod>2022-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jokerdig.com/tags/hexo/</loc>
     <lastmod>2022-03-07</lastmod>
     <changefreq>daily</changefreq>
@@ -663,13 +670,6 @@
   
   <url>
     <loc>https://jokerdig.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2022-03-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/html/</loc>
     <lastmod>2022-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -746,6 +746,20 @@
   </url>
   
   <url>
+    <loc>https://jokerdig.com/tags/oracle/</loc>
+    <lastmod>2022-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/mysql/</loc>
+    <lastmod>2022-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jokerdig.com/tags/Mybatis/</loc>
     <lastmod>2022-03-07</lastmod>
     <changefreq>daily</changefreq>
@@ -761,20 +775,6 @@
   
   <url>
     <loc>https://jokerdig.com/tags/MySQL/</loc>
-    <lastmod>2022-03-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/mysql/</loc>
-    <lastmod>2022-03-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/oracle/</loc>
     <lastmod>2022-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
