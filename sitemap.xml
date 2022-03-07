@@ -732,14 +732,14 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/%E6%84%9F%E6%83%B3/</loc>
+    <loc>https://jokerdig.com/tags/jdbcType/</loc>
     <lastmod>2022-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/jdbcType/</loc>
+    <loc>https://jokerdig.com/tags/%E6%84%9F%E6%83%B3/</loc>
     <lastmod>2022-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -767,14 +767,7 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/Python/</loc>
-    <lastmod>2022-03-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/Python%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</loc>
+    <loc>https://jokerdig.com/tags/mysql/</loc>
     <lastmod>2022-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -788,7 +781,14 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/mysql/</loc>
+    <loc>https://jokerdig.com/tags/Python/</loc>
+    <lastmod>2022-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/Python%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</loc>
     <lastmod>2022-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
