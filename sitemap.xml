@@ -618,14 +618,14 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/2021/09/22/assembly1_7/</loc>
+    <loc>https://jokerdig.com/2021/09/22/assembly1_6/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jokerdig.com/2021/09/22/assembly1_6/</loc>
+    <loc>https://jokerdig.com/2021/09/22/assembly1_7/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -669,20 +669,6 @@
 
   
   <url>
-    <loc>https://jokerdig.com/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/</loc>
-    <lastmod>2022-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/%E6%B1%87%E7%BC%96/</loc>
-    <lastmod>2022-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/tags/2021/</loc>
     <lastmod>2022-03-18</lastmod>
     <changefreq>daily</changefreq>
@@ -691,6 +677,20 @@
   
   <url>
     <loc>https://jokerdig.com/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2022-03-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/</loc>
+    <lastmod>2022-03-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/%E6%B1%87%E7%BC%96/</loc>
     <lastmod>2022-03-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -937,14 +937,14 @@
 
   
   <url>
-    <loc>https://jokerdig.com/categories/java/</loc>
+    <loc>https://jokerdig.com/categories/life/</loc>
     <lastmod>2022-03-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jokerdig.com/categories/life/</loc>
+    <loc>https://jokerdig.com/categories/java/</loc>
     <lastmod>2022-03-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
