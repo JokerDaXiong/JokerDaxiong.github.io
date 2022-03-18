@@ -865,13 +865,6 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2022-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/tags/%E9%AC%BC%E7%95%9C%E8%A7%86%E9%A2%91/</loc>
     <lastmod>2022-03-18</lastmod>
     <changefreq>daily</changefreq>
@@ -887,6 +880,13 @@
   
   <url>
     <loc>https://jokerdig.com/tags/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9/</loc>
+    <lastmod>2022-03-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2022-03-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
