@@ -907,13 +907,6 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/oracle/</loc>
-    <lastmod>2022-03-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/tags/Python/</loc>
     <lastmod>2022-03-24</lastmod>
     <changefreq>daily</changefreq>
@@ -928,7 +921,7 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/%E6%B4%BE%E5%A4%A7%E6%98%9F/</loc>
+    <loc>https://jokerdig.com/tags/oracle/</loc>
     <lastmod>2022-03-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -936,6 +929,13 @@
   
   <url>
     <loc>https://jokerdig.com/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2022-03-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/%E6%B4%BE%E5%A4%A7%E6%98%9F/</loc>
     <lastmod>2022-03-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
