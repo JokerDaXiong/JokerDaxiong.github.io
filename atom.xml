@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2022-04-21T07:00:00.000Z</updated>
+  <updated>2022-04-22T07:00:00.000Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【JavaWeb】JavaWeb从入门到实战(16)</title>
+    <link href="https://jokerdig.com/2022/04/22/javaWeb2_8/"/>
+    <id>https://jokerdig.com/2022/04/22/javaWeb2_8/</id>
+    <published>2022-04-22T07:00:00.000Z</published>
+    <updated>2022-04-22T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费JavaWeb入门到实战视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
+    
+    
+    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
+    
+    <category term="JavaWeb" scheme="https://jokerdig.com/tags/JavaWeb/"/>
+    
+  </entry>
   
   <entry>
     <title>【JavaWeb】JavaWeb从入门到实战(15)</title>
@@ -525,34 +554,6 @@
 &lt;li&gt;字符串相关：String、 StringBuffer、 StringBuilder&lt;/li&gt;
 &lt;li&gt;包装类：Integer等&lt;/li&gt;
 &lt;li&gt;日期相关： Date、 Calendar、</summary>
-        
-      
-    
-    
-    
-    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="JavaSE" scheme="https://jokerdig.com/tags/JavaSE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【JavaSE】Java集合</title>
-    <link href="https://jokerdig.com/2022/03/22/javaSE2_2/"/>
-    <id>https://jokerdig.com/2022/03/22/javaSE2_2/</id>
-    <published>2022-03-22T07:00:00.000Z</published>
-    <updated>2022-03-22T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;本文参考：&lt;a href=&quot;https://www.cnblogs.com/CoLo/p/15029845.html&quot;&gt;JavaSE-集合 - Zh1z3ven - 博客园</summary>
         
       
     
