@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2022-04-28T07:00:00.000Z</updated>
+  <updated>2022-04-29T07:00:00.000Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【MyBatis】MyBatis基础教程(5)</title>
+    <link href="https://jokerdig.com/2022/04/29/mybatis1_5/"/>
+    <id>https://jokerdig.com/2022/04/29/mybatis1_5/</id>
+    <published>2022-04-29T07:00:00.000Z</published>
+    <updated>2022-04-29T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费MyBatis基础教程视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
+    
+    
+    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
+    
+    <category term="MyBatis" scheme="https://jokerdig.com/tags/MyBatis/"/>
+    
+  </entry>
   
   <entry>
     <title>【MyBatis】MyBatis基础教程(4)</title>
@@ -544,35 +573,6 @@
     <id>https://jokerdig.com/2022/03/26/javaWeb1_3/</id>
     <published>2022-03-26T07:00:00.000Z</published>
     <updated>2022-03-26T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;推荐免费JavaWeb入门到实战视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="JavaWeb" scheme="https://jokerdig.com/tags/JavaWeb/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【JavaWeb】JavaWeb从入门到实战(2)</title>
-    <link href="https://jokerdig.com/2022/03/25/javaWeb1_2/"/>
-    <id>https://jokerdig.com/2022/03/25/javaWeb1_2/</id>
-    <published>2022-03-25T07:00:00.000Z</published>
-    <updated>2022-03-25T07:00:00.000Z</updated>
     
     
       
