@@ -12,9 +12,9 @@ a:hover{
     cursor: url('https://fastly.jsdelivr.net/gh/JokerDaxiong/Jokerblog@main/source/images/white/Hand2.cur'),auto;
 }
 /* 选中输入框时的鼠标指针 */
-input:hover{
+/* input:hover{
     cursor: url('https://fastly.jsdelivr.net/gh/JokerDaxiong/Jokerblog@main/source/images/simply/06_text_select'),auto;
-}
+} */
 /* 悬停按钮时的鼠标指针 */
 button:hover{
     cursor: url('https://fastly.jsdelivr.net/gh/JokerDaxiong/Jokerblog@main/source/images/white/Hand2.cur'),auto;
