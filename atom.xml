@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2022-05-25T07:00:00.000Z</updated>
+  <updated>2022-05-31T07:00:00.000Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【SpringMVC】SpringMVC基础教程(2)</title>
+    <link href="https://jokerdig.com/2022/05/31/springMVC1_2/"/>
+    <id>https://jokerdig.com/2022/05/31/springMVC1_2/</id>
+    <published>2022-05-31T07:00:00.000Z</published>
+    <updated>2022-05-31T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
+    
+    
+    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
+    
+    <category term="Spring" scheme="https://jokerdig.com/tags/Spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【SpringMVC】SpringMVC基础教程(1)</title>
+    <link href="https://jokerdig.com/2022/05/30/springMVC1_1/"/>
+    <id>https://jokerdig.com/2022/05/30/springMVC1_1/</id>
+    <published>2022-05-30T07:00:00.000Z</published>
+    <updated>2022-05-30T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
+    
+    
+    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
+    
+    <category term="Spring" scheme="https://jokerdig.com/tags/Spring/"/>
+    
+  </entry>
   
   <entry>
     <title>【Spring5】Spring5基础教程(9)</title>
@@ -535,64 +593,6 @@
     <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
     
     <category term="MyBatis" scheme="https://jokerdig.com/tags/MyBatis/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【MyBatis】MyBatis基础教程(1)</title>
-    <link href="https://jokerdig.com/2022/04/23/mybatis1_1/"/>
-    <id>https://jokerdig.com/2022/04/23/mybatis1_1/</id>
-    <published>2022-04-23T07:00:00.000Z</published>
-    <updated>2022-04-23T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;推荐免费MyBatis基础教程视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="MyBatis" scheme="https://jokerdig.com/tags/MyBatis/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【JavaWeb】JavaWeb从入门到实战(16)</title>
-    <link href="https://jokerdig.com/2022/04/22/javaWeb2_8/"/>
-    <id>https://jokerdig.com/2022/04/22/javaWeb2_8/</id>
-    <published>2022-04-22T07:00:00.000Z</published>
-    <updated>2022-04-22T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;推荐免费JavaWeb入门到实战视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="JavaWeb" scheme="https://jokerdig.com/tags/JavaWeb/"/>
     
   </entry>
   
