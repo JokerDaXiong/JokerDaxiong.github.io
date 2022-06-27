@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2022-06-25T07:00:00.000Z</updated>
+  <updated>2022-06-27T07:00:00.000Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Vue】Vue基础教程(2)</title>
+    <link href="https://jokerdig.com/2022/06/27/vue1_2/"/>
+    <id>https://jokerdig.com/2022/06/27/vue1_2/</id>
+    <published>2022-06-27T07:00:00.000Z</published>
+    <updated>2022-06-27T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：Vue基本语法、Vue绑定事件、Vue双向绑定&lt;/p&gt;
+&lt;p&gt;推荐免费Vue基础教程视频：[&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
+    
+    
+    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
+    
+    <category term="Vue" scheme="https://jokerdig.com/tags/Vue/"/>
+    
+  </entry>
   
   <entry>
     <title>【Vue】Vue基础教程(1)</title>
@@ -60,6 +90,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：登录判断验证、文件上传下载、总结&lt;/p&gt;
 &lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
         
       
@@ -89,6 +120,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：Ajax异步加载数据、Ajax验证用户名体验、拦截器是什么&lt;/p&gt;
 &lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
         
       
@@ -118,6 +150,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：ssm整合修改删除书籍、ssm整合新增搜索功能、Ajax体验&lt;/p&gt;
 &lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
         
       
@@ -147,6 +180,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：ssm整合SpringMVC层、ssm整合查询书籍功能、ssm整合添加书籍功能&lt;/p&gt;
 &lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
         
       
@@ -176,6 +210,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：Fastjson使用、ssm整合Mybatis层、ssm整合Spring层&lt;/p&gt;
 &lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
         
       
@@ -205,6 +240,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：乱码问题解决、什么是JSON、Jackson使用&lt;/p&gt;
 &lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
         
       
@@ -234,6 +270,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：RestFul风格讲解、重定向和转发、接收请求参数及数据回显&lt;/p&gt;
 &lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
         
       
@@ -263,6 +300,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：使用注解开发SpringMVC、Controller配置总结、RequestMapping说明&lt;/p&gt;
 &lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
         
       
@@ -292,6 +330,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：初识SpringMVC、SpringMVC执行原理、深入SpringMVC学习&lt;/p&gt;
 &lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
         
       
@@ -321,6 +360,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：学习方法说明、回顾MVC架构、回顾Servlet&lt;/p&gt;
 &lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
         
       
@@ -350,6 +390,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：事务回顾、Spring声明式事务&lt;/p&gt;
 &lt;p&gt;推荐免费Spring5基础教程视频：&lt;a</summary>
         
       
@@ -379,6 +420,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：回顾MyBatis、整合Mybatis方式一、整合MyBatis方式二&lt;/p&gt;
 &lt;p&gt;推荐免费Spring5基础教程视频：&lt;a</summary>
         
       
@@ -408,6 +450,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：AOP实现方式一、AOP实现方式二、注解实现AOP&lt;/p&gt;
 &lt;p&gt;推荐免费Spring5基础教程视频：&lt;a</summary>
         
       
@@ -437,6 +480,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：静态代理模式、静态回顾理解、动态代理详解&lt;/p&gt;
 &lt;p&gt;推荐免费Spring5基础教程视频：&lt;a</summary>
         
       
@@ -466,6 +510,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：注解实现自动装配、Spring注解开发、使用JavaConfig实现配置&lt;/p&gt;
 &lt;p&gt;推荐免费Spring5基础教程视频：&lt;a</summary>
         
       
@@ -495,6 +540,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：C命名和命名空间注入、Bean的作用域、自动装配Bean&lt;/p&gt;
 &lt;p&gt;推荐免费Spring5基础教程视频：&lt;a</summary>
         
       
@@ -524,6 +570,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：Spring配置说明、DI依赖注入环境、依赖注入的Set注入&lt;/p&gt;
 &lt;p&gt;推荐免费Spring5基础教程视频：&lt;a</summary>
         
       
@@ -553,35 +600,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;推荐免费Spring5基础教程视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="Spring" scheme="https://jokerdig.com/tags/Spring/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Spring5】Spring5基础教程(1)</title>
-    <link href="https://jokerdig.com/2022/05/11/spring1_1/"/>
-    <id>https://jokerdig.com/2022/05/11/spring1_1/</id>
-    <published>2022-05-11T07:00:00.000Z</published>
-    <updated>2022-05-11T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：IOC本质，HelloSpring、IOC创建对象方式&lt;/p&gt;
 &lt;p&gt;推荐免费Spring5基础教程视频：&lt;a</summary>
         
       
