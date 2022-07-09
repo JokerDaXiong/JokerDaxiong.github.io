@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>【SpringBoot】SpringBoot基础教程(1)</title>
+      <link href="/2022/07/09/springBoot1_1/"/>
+      <url>/2022/07/09/springBoot1_1/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>前言：</p><p>本文内容：阶段学习总览、什么是微服务架构、第一个springboot程序</p><p>推荐免费SpringBoot基础教程视频：[<a href="https://www.bilibili.com/video/BV1PE411i7CV?p=1">【狂神说Java】SpringBoot最新教程通俗易懂_哔哩哔哩_bilibili</a></p></blockquote><h3 id="阶段学习总览"><a href="#阶段学习总览" class="headerlink" title="阶段学习总览"></a>阶段学习总览</h3><blockquote><p>JavaSE： OOP</p><p>MySQL：持久化</p><p>html+css+js+jQuery+框架</p><p>JavaWeb：MVC三层架构网站</p><p>SSM框架  -war包 Tomcat中运行</p><p>SpringBoot -jar包 内嵌Tomcat 微服务架构</p><p>SpringCloud 整理服务</p></blockquote><p><img src="https://s2.loli.net/2022/07/09/HY4fpqNLZosB3At.png" alt="Spring"></p><h3 id="什么是SpringBoot"><a href="#什么是SpringBoot" class="headerlink" title="什么是SpringBoot"></a>什么是SpringBoot</h3><p><strong>什么是Spring</strong></p><p>Spring是一个开源框架，2003年兴起的轻量级Java开发框架，作者：Rod Johnson</p><p>Spring是为了解决企业级应用开发的复杂性而创建的，简化开发。</p><p><strong>Spring是如何简化Java开发的</strong></p><p>为了降低Java开发的复杂性，Spring采用了以下4种关键策略：</p><ul><li>基于Pojo的轻量级和最小入侵性编程</li><li>通过IOC，依赖注入(DI)和面向接口实现松耦合</li><li>基于切面(AOP)和惯例进行声明式编程</li><li>通过切面和模板减少样式代码</li></ul><p><strong>什么是SpringBoot</strong></p><p>Spring Boot是由Pivotal团队提供的全新框架；</p><ol><li>设计目的是用来简化新Spring应用的初始搭建以及开发过程。</li><li>该框架使用了特定的方式来进行配置，从而使开发人员不再需要定义样板化的配置。</li><li>通过这种方式，Spring Boot致力于在蓬勃发展的快速应用开发领域(rapid application development)成为领导者。</li></ol><p><strong>SpringBoot四个主要特性</strong></p><ul><li><p>SpringBoot Starter：他将常用的依赖分组进行了整合，将其合并到一个依赖中，这样就可以一次性添加到项目的Maven或Gradle构建中；</p></li><li><p>自动配置：SpringBoot的自动配置特性利用了Spring4对条件化配置的支持，合理地推测应用所需的bean并自动化配置他们；</p></li><li><p>命令行接口：（Command-line-interface, CLI）：SpringBoot的CLI发挥了Groovy编程语言的优势，并结合自动配置进一步简化Spring应用的开发；</p></li><li><p>Actuatir：它为SpringBoot应用的所有特性构建一个小型的应用程序。但首先，我们快速了解每项特性，更好的体验他们如何简化Spring编程模型。</p></li></ul><h3 id="什么是微服务架构"><a href="#什么是微服务架构" class="headerlink" title="什么是微服务架构"></a>什么是微服务架构</h3><p><strong>什么是微服务</strong></p><p>微服务是一种架构风格，它要求我们在开发一个应用的时候，这个应用必须构建一系列小服务的组合；可以通过http的方式进行互动。要了解微服务前，先了解单体应用架构。</p><p><strong>单体应用架构</strong></p><p>所谓单体应用架构(all in one)是指，我们将一个应用中的所有应用服务都封装在一个应用中。</p><p>无论是ERP、CRM或是其他什么系统，都把数据库访问，web访问等各个功能放到一个war包内。</p><ul><li>这样做的好处是易于开发和测试；也十分方便部署，当需要扩展时，只需要将war复制多份，然后放到多个服务器上，再做个负载均衡就可以了。</li><li>单体应用架构的缺点，就是哪怕要修改一个非常小的地方，都需要停掉整个服务，重新打包、部署这个应用war包。特别是对于一个大型应用，我们不可能把所有内容都放在一个应用里，维护和分工都是问题。</li></ul><p><strong>微服务架构</strong></p><p>all in one的架构方式，我们把所有的功能单元放在一个应用里面。然后把整个应用部署到服务器。如果负载能力不行，就将整个应用进行水平复制，进行扩展，然后在负载均衡。</p><p>所谓微服务架构，就是打破之前all in one的架构方式，把每个功能元素独立出来，在需要的时候进行动态的组合，也可以整合多个功能元素。所以微服务架构是对功能元素进行复制，而没有对整个应用进行复制。</p><p>这样做的好处：</p><ol><li>节省了资源的调用</li><li>每个功能元素的服务都是一个可替换，可独立升级的软件代码</li></ol><p>Martin Flower 于2014年3月25日写《Microservices》，详细阐述什么是微服务。</p><p>原文地址：<a href="https://martinfowler.com/articles/microservices.html#CharacteristicsOfAMicroserviceArchitecture">Microservices (martinfowler.com)</a></p><p><strong>如何构建微服务</strong></p><p>Spring为我们带来了构建大型分布式微服务的全套产品：</p><ul><li>构建一个个功能独立的微服务应用单元，可以使用SpringBoot快速构建</li><li>大型分布式网络服务的调用，由SpringCloud来实现(分布式)</li><li>在分布式中间，进行流式数据计算、批处理，由Spring Cloud Data Flow</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【Vue】Vue基础教程(6)</title>
       <link href="/2022/07/08/vue1_6/"/>
       <url>/2022/07/08/vue1_6/</url>
