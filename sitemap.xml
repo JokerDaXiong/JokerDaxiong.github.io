@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jokerdig.com/photos/pixelart.html</loc>
+    
+    <lastmod>2022-07-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jokerdig.com/2022/07/15/springboot1_5/</loc>
     
     <lastmod>2022-07-15</lastmod>
@@ -136,13 +143,6 @@
   
   <url>
     <loc>https://jokerdig.com/2022/06/01/springMVC1_3/</loc>
-    
-    <lastmod>2022-06-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/photos/pixelart.html</loc>
     
     <lastmod>2022-06-01</lastmod>
     
@@ -1278,14 +1278,14 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/Mybatis%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/</loc>
+    <loc>https://jokerdig.com/tags/MySQL/</loc>
     <lastmod>2022-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/MySQL/</loc>
+    <loc>https://jokerdig.com/tags/Mybatis%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/</loc>
     <lastmod>2022-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
