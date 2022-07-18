@@ -1313,14 +1313,14 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/Python%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</loc>
+    <loc>https://jokerdig.com/tags/Spring/</loc>
     <lastmod>2022-07-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/Spring/</loc>
+    <loc>https://jokerdig.com/tags/Python%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</loc>
     <lastmod>2022-07-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1334,13 +1334,6 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2022-07-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/tags/%E6%B4%BE%E5%A4%A7%E6%98%9F/</loc>
     <lastmod>2022-07-18</lastmod>
     <changefreq>daily</changefreq>
@@ -1348,7 +1341,7 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97%E3%80%82/</loc>
+    <loc>https://jokerdig.com/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2022-07-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1356,6 +1349,13 @@
   
   <url>
     <loc>https://jokerdig.com/tags/Vue/</loc>
+    <lastmod>2022-07-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97%E3%80%82/</loc>
     <lastmod>2022-07-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
