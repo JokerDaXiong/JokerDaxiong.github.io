@@ -287,6 +287,96 @@
   </entry>
   
   <entry>
+    <title>【SpringBoot】SpringBoot基础教程(3)</title>
+    <link href="https://jokerdig.com/2022/07/13/springboot1_3/"/>
+    <id>https://jokerdig.com/2022/07/13/springboot1_3/</id>
+    <published>2022-07-13T07:00:00.000Z</published>
+    <updated>2022-07-13T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：了解主启动类怎么运行、yaml语法讲解、给属性赋值的几种方式&lt;/p&gt;
+&lt;p&gt;推荐免费SpringBoot基础教程视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
+    
+    
+    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
+    
+    <category term="SpringBoot" scheme="https://jokerdig.com/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【SpringBoot】SpringBoot基础教程(2)</title>
+    <link href="https://jokerdig.com/2022/07/11/springboot1_2/"/>
+    <id>https://jokerdig.com/2022/07/11/springboot1_2/</id>
+    <published>2022-07-11T07:00:00.000Z</published>
+    <updated>2022-07-11T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：第一个SpringBoot程序、IDEA快速创建、SpringBoot自动装配原理&lt;/p&gt;
+&lt;p&gt;推荐免费SpringBoot基础教程视频：[&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
+    
+    
+    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
+    
+    <category term="SpringBoot" scheme="https://jokerdig.com/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【SpringBoot】SpringBoot基础教程(1)</title>
+    <link href="https://jokerdig.com/2022/07/09/springboot1_1/"/>
+    <id>https://jokerdig.com/2022/07/09/springboot1_1/</id>
+    <published>2022-07-09T07:00:00.000Z</published>
+    <updated>2022-07-09T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：阶段学习总览、什么是微服务架构、第一个springboot程序&lt;/p&gt;
+&lt;p&gt;推荐免费SpringBoot基础教程视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
+    
+    
+    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
+    
+    <category term="SpringBoot" scheme="https://jokerdig.com/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【Vue】Vue基础教程(6)</title>
     <link href="https://jokerdig.com/2022/07/08/vue1_6/"/>
     <id>https://jokerdig.com/2022/07/08/vue1_6/</id>
@@ -511,96 +601,6 @@
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;本文内容：Ajax异步加载数据、Ajax验证用户名体验、拦截器是什么&lt;/p&gt;
-&lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="Spring" scheme="https://jokerdig.com/tags/Spring/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【SpringMVC】SpringMVC基础教程(8)</title>
-    <link href="https://jokerdig.com/2022/06/15/springMVC1_8/"/>
-    <id>https://jokerdig.com/2022/06/15/springMVC1_8/</id>
-    <published>2022-06-15T07:00:00.000Z</published>
-    <updated>2022-06-16T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;本文内容：ssm整合修改删除书籍、ssm整合新增搜索功能、Ajax体验&lt;/p&gt;
-&lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="Spring" scheme="https://jokerdig.com/tags/Spring/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【SpringMVC】SpringMVC基础教程(7)</title>
-    <link href="https://jokerdig.com/2022/06/14/springMVC1_7/"/>
-    <id>https://jokerdig.com/2022/06/14/springMVC1_7/</id>
-    <published>2022-06-14T07:00:00.000Z</published>
-    <updated>2022-06-14T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;本文内容：ssm整合SpringMVC层、ssm整合查询书籍功能、ssm整合添加书籍功能&lt;/p&gt;
-&lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="Spring" scheme="https://jokerdig.com/tags/Spring/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【SpringMVC】SpringMVC基础教程(6)</title>
-    <link href="https://jokerdig.com/2022/06/06/springMVC1_6/"/>
-    <id>https://jokerdig.com/2022/06/06/springMVC1_6/</id>
-    <published>2022-06-06T07:00:00.000Z</published>
-    <updated>2022-06-11T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;本文内容：Fastjson使用、ssm整合Mybatis层、ssm整合Spring层&lt;/p&gt;
 &lt;p&gt;推荐免费SpringMVC基础教程视频：&lt;a</summary>
         
       
