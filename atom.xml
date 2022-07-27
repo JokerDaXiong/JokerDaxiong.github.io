@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2022-07-26T07:00:00.000Z</updated>
+  <updated>2022-07-27T07:00:00.000Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【SpringBoot】SpringBoot基础教程(15)</title>
+    <link href="https://jokerdig.com/2022/07/27/springboot2_6/"/>
+    <id>https://jokerdig.com/2022/07/27/springboot2_6/</id>
+    <published>2022-07-27T07:00:00.000Z</published>
+    <updated>2022-07-27T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：Shiro整合Mybatis、SShiro请求授权实现、Shiro整合Thymeleaf&lt;/p&gt;
+&lt;p&gt;推荐免费SpringBoot基础教程视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
+    
+    
+    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
+    
+    <category term="SpringBoot" scheme="https://jokerdig.com/tags/SpringBoot/"/>
+    
+  </entry>
   
   <entry>
     <title>【SpringBoot】SpringBoot基础教程(14)</title>
@@ -571,36 +601,6 @@
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;本文内容：Vue基本语法、Vue绑定事件、Vue双向绑定&lt;/p&gt;
-&lt;p&gt;推荐免费Vue基础教程视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="Vue" scheme="https://jokerdig.com/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Vue】Vue基础教程(1)</title>
-    <link href="https://jokerdig.com/2022/06/25/vue1_1/"/>
-    <id>https://jokerdig.com/2022/06/25/vue1_1/</id>
-    <published>2022-06-25T07:00:00.000Z</published>
-    <updated>2022-06-25T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;本文内容：前端核心分析、前端发展史、第一个Vue程序&lt;/p&gt;
 &lt;p&gt;推荐免费Vue基础教程视频：&lt;a</summary>
         
       
