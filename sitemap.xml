@@ -1250,6 +1250,20 @@
   </url>
   
   <url>
+    <loc>https://jokerdig.com/tags/Dos%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2022-07-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/html/</loc>
+    <lastmod>2022-07-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jokerdig.com/tags/hexo/</loc>
     <lastmod>2022-07-30</lastmod>
     <changefreq>daily</changefreq>
@@ -1265,20 +1279,6 @@
   
   <url>
     <loc>https://jokerdig.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2022-07-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/html/</loc>
-    <lastmod>2022-07-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/Dos%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2022-07-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1348,14 +1348,14 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/jdbcType/</loc>
+    <loc>https://jokerdig.com/tags/%E6%84%9F%E6%83%B3/</loc>
     <lastmod>2022-07-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/%E6%84%9F%E6%83%B3/</loc>
+    <loc>https://jokerdig.com/tags/jdbcType/</loc>
     <lastmod>2022-07-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1369,14 +1369,14 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/Mybatis%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/</loc>
+    <loc>https://jokerdig.com/tags/MySQL/</loc>
     <lastmod>2022-07-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/MySQL/</loc>
+    <loc>https://jokerdig.com/tags/Mybatis%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/</loc>
     <lastmod>2022-07-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
