@@ -618,14 +618,14 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/2022/03/22/javaSE2_2/</loc>
+    <loc>https://jokerdig.com/2022/03/22/javaSE2_1/</loc>
     
     <lastmod>2022-03-22</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jokerdig.com/2022/03/22/javaSE2_1/</loc>
+    <loc>https://jokerdig.com/2022/03/22/javaSE2_2/</loc>
     
     <lastmod>2022-03-22</lastmod>
     
@@ -1334,6 +1334,13 @@
   </url>
   
   <url>
+    <loc>https://jokerdig.com/tags/Dos%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2022-08-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jokerdig.com/tags/hexo/</loc>
     <lastmod>2022-08-15</lastmod>
     <changefreq>daily</changefreq>
@@ -1349,13 +1356,6 @@
   
   <url>
     <loc>https://jokerdig.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2022-08-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/Dos%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2022-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1481,14 +1481,14 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/Python%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</loc>
+    <loc>https://jokerdig.com/tags/Spring/</loc>
     <lastmod>2022-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/Spring/</loc>
+    <loc>https://jokerdig.com/tags/Python%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</loc>
     <lastmod>2022-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
