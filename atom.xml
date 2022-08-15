@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2022-08-13T07:00:00.000Z</updated>
+  <updated>2022-08-15T07:00:00.000Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【JVM】JVM快速入门(4)</title>
+    <link href="https://jokerdig.com/2022/08/15/jvm1_4/"/>
+    <id>https://jokerdig.com/2022/08/15/jvm1_4/</id>
+    <published>2022-08-15T07:00:00.000Z</published>
+    <updated>2022-08-15T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：GC简介及回收机制、GC-复制算法、GC-标记压缩清除算法、GC算法总结&lt;/p&gt;
+&lt;p&gt;推荐免费JVM快速入门视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
+    
+    
+    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
+    
+    <category term="JVM" scheme="https://jokerdig.com/tags/JVM/"/>
+    
+  </entry>
   
   <entry>
     <title>【JVM】JVM快速入门(3)</title>
@@ -571,36 +601,6 @@
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;本文内容：整合JDBC使用、整合Druid数据源、整合Mybatis框架&lt;/p&gt;
-&lt;p&gt;推荐免费SpringBoot基础教程视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="SpringBoot" scheme="https://jokerdig.com/tags/SpringBoot/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【SpringBoot】SpringBoot基础教程(10)</title>
-    <link href="https://jokerdig.com/2022/07/21/springboot2_1/"/>
-    <id>https://jokerdig.com/2022/07/21/springboot2_1/</id>
-    <published>2022-07-21T07:00:00.000Z</published>
-    <updated>2022-07-21T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;本文内容：员工管理系统：删除及404处理、如何写一个网站、简单回顾&lt;/p&gt;
 &lt;p&gt;推荐免费SpringBoot基础教程视频：&lt;a</summary>
         
       
