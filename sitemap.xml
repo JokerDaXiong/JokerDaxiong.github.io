@@ -611,13 +611,6 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/2022/03/22/javaSE2_1/</loc>
-    
-    <lastmod>2022-03-22</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/2022/03/22/javaSE1_9/</loc>
     
     <lastmod>2022-03-22</lastmod>
@@ -626,6 +619,13 @@
   
   <url>
     <loc>https://jokerdig.com/2022/03/22/javaSE2_2/</loc>
+    
+    <lastmod>2022-03-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/2022/03/22/javaSE2_1/</loc>
     
     <lastmod>2022-03-22</lastmod>
     
@@ -926,13 +926,6 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/2021/08/15/javaSE1_8/</loc>
-    
-    <lastmod>2021-12-11</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/2021/12/11/html1_1/</loc>
     
     <lastmod>2021-12-11</lastmod>
@@ -961,14 +954,14 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/2021/09/22/assembly1_7/</loc>
+    <loc>https://jokerdig.com/2021/09/22/assembly1_6/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jokerdig.com/2021/09/22/assembly1_6/</loc>
+    <loc>https://jokerdig.com/2021/09/22/assembly1_7/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -1171,6 +1164,13 @@
   </url>
   
   <url>
+    <loc>https://jokerdig.com/2021/08/15/javaSE1_8/</loc>
+    
+    <lastmod>2021-08-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jokerdig.com/2021/08/15/javaSE1_7/</loc>
     
     <lastmod>2021-08-15</lastmod>
@@ -1292,20 +1292,6 @@
 
   
   <url>
-    <loc>https://jokerdig.com/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/</loc>
-    <lastmod>2022-08-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.com/tags/%E6%B1%87%E7%BC%96/</loc>
-    <lastmod>2022-08-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jokerdig.com/tags/2021/</loc>
     <lastmod>2022-08-15</lastmod>
     <changefreq>daily</changefreq>
@@ -1314,6 +1300,20 @@
   
   <url>
     <loc>https://jokerdig.com/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2022-08-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/</loc>
+    <lastmod>2022-08-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.com/tags/%E6%B1%87%E7%BC%96/</loc>
     <lastmod>2022-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1474,14 +1474,14 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/Python%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</loc>
+    <loc>https://jokerdig.com/tags/oracle/</loc>
     <lastmod>2022-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/oracle/</loc>
+    <loc>https://jokerdig.com/tags/Python%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</loc>
     <lastmod>2022-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1523,14 +1523,14 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/Vue/</loc>
+    <loc>https://jokerdig.com/tags/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97%E3%80%82/</loc>
     <lastmod>2022-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jokerdig.com/tags/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97%E3%80%82/</loc>
+    <loc>https://jokerdig.com/tags/Vue/</loc>
     <lastmod>2022-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1567,14 +1567,14 @@
 
   
   <url>
-    <loc>https://jokerdig.com/categories/java/</loc>
+    <loc>https://jokerdig.com/categories/life/</loc>
     <lastmod>2022-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jokerdig.com/categories/life/</loc>
+    <loc>https://jokerdig.com/categories/note/</loc>
     <lastmod>2022-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1588,7 +1588,7 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.com/categories/note/</loc>
+    <loc>https://jokerdig.com/categories/java/</loc>
     <lastmod>2022-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
