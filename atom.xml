@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2022-08-26T07:00:00.000Z</updated>
+  <updated>2022-08-27T05:39:29.678Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://jokerdig.com/2022/08/27/juc2_2/"/>
+    <id>https://jokerdig.com/2022/08/27/juc2_2/</id>
+    <published>2022-08-27T01:47:19.133Z</published>
+    <updated>2022-08-27T05:39:29.678Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;title: 【JUC】JUC并发编程(11)&lt;br&gt;date: 2022-8-27 15:00:00&lt;br&gt;updated: 2022-8-27</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>【JUC】JUC并发编程(10)</title>
@@ -571,36 +592,6 @@
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;本文内容：Eureka：服务注册-信息配置-自我保护机制、集群环境配置、CAP原则及对比Zookeeper&lt;/p&gt;
-&lt;p&gt;推荐免费SpringCloud基础教程视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="SpringCloud" scheme="https://jokerdig.com/tags/SpringCloud/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【SpringCloud】SpringCloud基础教程(2)</title>
-    <link href="https://jokerdig.com/2022/08/03/springcloud1_2/"/>
-    <id>https://jokerdig.com/2022/08/03/springcloud1_2/</id>
-    <published>2022-08-03T07:00:00.000Z</published>
-    <updated>2022-08-03T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;本文内容：Rest学习环境搭建：服务提供者、服务消费者、Eureka：什么是Eureka&lt;/p&gt;
 &lt;p&gt;推荐免费SpringCloud基础教程视频：&lt;a</summary>
         
       
