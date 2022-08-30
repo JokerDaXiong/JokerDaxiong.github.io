@@ -47,6 +47,37 @@
   </entry>
   
   <entry>
+    <title>【POI&amp;EasyExcel】POI及EasyExcel基础教程</title>
+    <link href="https://jokerdig.com/2022/08/29/pol-easyExcel/"/>
+    <id>https://jokerdig.com/2022/08/29/pol-easyExcel/</id>
+    <published>2022-08-29T07:00:00.000Z</published>
+    <updated>2022-08-29T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费POI及EasyExcel视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
+    
+    
+    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
+    
+    <category term="POI" scheme="https://jokerdig.com/tags/POI/"/>
+    
+    <category term="EasyExcel" scheme="https://jokerdig.com/tags/EasyExcel/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【JUC】JUC并发编程(11)</title>
     <link href="https://jokerdig.com/2022/08/27/juc2_2/"/>
     <id>https://jokerdig.com/2022/08/27/juc2_2/</id>
@@ -571,36 +602,6 @@
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;本文内容：Feign：使用接口方式调用服务、Hystrix：服务熔断、服务降级&lt;/p&gt;
-&lt;p&gt;推荐免费SpringCloud基础教程视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="SpringCloud" scheme="https://jokerdig.com/tags/SpringCloud/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【SpringCloud】SpringCloud基础教程(4)</title>
-    <link href="https://jokerdig.com/2022/08/05/springcloud1_4/"/>
-    <id>https://jokerdig.com/2022/08/05/springcloud1_4/</id>
-    <published>2022-08-05T07:00:00.000Z</published>
-    <updated>2022-08-05T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;本文内容：Ribbon：负载均衡及Ribbon、使用Ribbon实现负载均衡、自定义负载均衡策略&lt;/p&gt;
 &lt;p&gt;推荐免费SpringCloud基础教程视频：&lt;a</summary>
         
       
