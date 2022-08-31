@@ -45,7 +45,7 @@
   </entry>
   
   <entry>
-    <title>【服务器购买】服务器购买和简单部署</title>
+    <title>【服务器购买】阿里云服务器购买和简单部署</title>
     <link href="https://jokerdig.com/2022/08/31/serverpurchase/"/>
     <id>https://jokerdig.com/2022/08/31/serverpurchase/</id>
     <published>2022-08-31T07:00:00.000Z</published>
@@ -64,10 +64,12 @@
     
     
     
-    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
+    <category term="geek" scheme="https://jokerdig.com/categories/geek/"/>
     
     
-    <category term="Linux" scheme="https://jokerdig.com/tags/Linux/"/>
+    <category term="Server" scheme="https://jokerdig.com/tags/Server/"/>
+    
+    <category term="服务器购买" scheme="https://jokerdig.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%B4%AD%E4%B9%B0/"/>
     
   </entry>
   
