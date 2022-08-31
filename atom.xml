@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2022-08-29T07:00:00.000Z</updated>
+  <updated>2022-09-01T07:00:00.000Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -15,6 +15,92 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Linux】Linux阿里云环境学习(1)</title>
+    <link href="https://jokerdig.com/2022/09/01/linux1_1/"/>
+    <id>https://jokerdig.com/2022/09/01/linux1_1/</id>
+    <published>2022-09-01T07:00:00.000Z</published>
+    <updated>2022-09-01T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：学习内容介绍，Linux入门概述，VMware本地安装CentOS7&lt;/p&gt;
+&lt;p&gt;推荐Linux阿里云环境学习视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
+    
+    
+    <category term="Linux" scheme="https://jokerdig.com/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【服务器购买】服务器购买和简单部署</title>
+    <link href="https://jokerdig.com/2022/08/31/serverpurchase/"/>
+    <id>https://jokerdig.com/2022/08/31/serverpurchase/</id>
+    <published>2022-08-31T07:00:00.000Z</published>
+    <updated>2022-08-31T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;阿里云购买地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
+    
+    
+    <category term="Linux" scheme="https://jokerdig.com/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【POI&amp;EasyExcel】POI及EasyExcel基础教程</title>
+    <link href="https://jokerdig.com/2022/08/30/pol-easyExcel/"/>
+    <id>https://jokerdig.com/2022/08/30/pol-easyExcel/</id>
+    <published>2022-08-30T07:00:00.000Z</published>
+    <updated>2022-08-30T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费POI及EasyExcel视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
+    
+    
+    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
+    
+    <category term="POI" scheme="https://jokerdig.com/tags/POI/"/>
+    
+    <category term="EasyExcel" scheme="https://jokerdig.com/tags/EasyExcel/"/>
+    
+  </entry>
   
   <entry>
     <title>【JUC】JUC并发编程(12)</title>
@@ -43,37 +129,6 @@
     <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
     
     <category term="JUC" scheme="https://jokerdig.com/tags/JUC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【POI&amp;EasyExcel】POI及EasyExcel基础教程</title>
-    <link href="https://jokerdig.com/2022/08/29/pol-easyExcel/"/>
-    <id>https://jokerdig.com/2022/08/29/pol-easyExcel/</id>
-    <published>2022-08-29T07:00:00.000Z</published>
-    <updated>2022-08-29T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;推荐免费POI及EasyExcel视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="POI" scheme="https://jokerdig.com/tags/POI/"/>
-    
-    <category term="EasyExcel" scheme="https://jokerdig.com/tags/EasyExcel/"/>
     
   </entry>
   
@@ -542,66 +597,6 @@
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;本文内容：Config：服务端连接Git配置、Zuul：客户端连接服务端远程访问、远程配置实战测试&lt;/p&gt;
-&lt;p&gt;推荐免费SpringCloud基础教程视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="SpringCloud" scheme="https://jokerdig.com/tags/SpringCloud/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【SpringCloud】SpringCloud基础教程(6)</title>
-    <link href="https://jokerdig.com/2022/08/09/springcloud1_6/"/>
-    <id>https://jokerdig.com/2022/08/09/springcloud1_6/</id>
-    <published>2022-08-09T07:00:00.000Z</published>
-    <updated>2022-08-09T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;本文内容：Hystrix：Dashboard流监控、Zuul：路由网关、Config：Git环境搭建&lt;/p&gt;
-&lt;p&gt;推荐免费SpringCloud基础教程视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="SpringCloud" scheme="https://jokerdig.com/tags/SpringCloud/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【SpringCloud】SpringCloud基础教程(5)</title>
-    <link href="https://jokerdig.com/2022/08/08/springcloud1_5/"/>
-    <id>https://jokerdig.com/2022/08/08/springcloud1_5/</id>
-    <published>2022-08-08T07:00:00.000Z</published>
-    <updated>2022-08-08T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;本文内容：Feign：使用接口方式调用服务、Hystrix：服务熔断、服务降级&lt;/p&gt;
 &lt;p&gt;推荐免费SpringCloud基础教程视频：&lt;a</summary>
         
       
