@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2022-09-05T07:00:00.000Z</updated>
+  <updated>2022-09-06T07:00:00.000Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -17,7 +17,66 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【JavaDSAA】Java数据结构与算法(1)</title>
+    <title>【Java数据结构与算法】稀疏数组</title>
+    <link href="https://jokerdig.com/2022/09/06/javaDSAA1_2/"/>
+    <id>https://jokerdig.com/2022/09/06/javaDSAA1_2/</id>
+    <published>2022-09-06T07:00:00.000Z</published>
+    <updated>2022-09-06T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：稀疏数组的应用场景，稀疏数组转换的思路分析，稀疏数组的代码实现&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;稀疏数组的应用场景&quot;&gt;&lt;a href=&quot;#稀疏数组的应用场景&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
+    
+    
+    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
+    
+    <category term="Java数据结构与算法" scheme="https://jokerdig.com/tags/Java%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Linux】Linux阿里云环境学习(5)</title>
+    <link href="https://jokerdig.com/2022/09/06/linux1_5/"/>
+    <id>https://jokerdig.com/2022/09/06/linux1_5/</id>
+    <published>2022-09-06T07:00:00.000Z</published>
+    <updated>2022-09-06T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：Linux磁盘管理，Linux进程管理，rpm安装JDK发布项目&lt;/p&gt;
+&lt;p&gt;推荐Linux阿里云环境学习视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
+    
+    
+    <category term="Linux" scheme="https://jokerdig.com/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java数据结构与算法】基本概述</title>
     <link href="https://jokerdig.com/2022/09/05/javaDSAA1_1/"/>
     <id>https://jokerdig.com/2022/09/05/javaDSAA1_1/</id>
     <published>2022-09-05T07:00:00.000Z</published>
@@ -546,66 +605,6 @@
     <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
     
     <category term="JUC" scheme="https://jokerdig.com/tags/JUC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【JUC】JUC并发编程(1)</title>
-    <link href="https://jokerdig.com/2022/08/16/juc1_1/"/>
-    <id>https://jokerdig.com/2022/08/16/juc1_1/</id>
-    <published>2022-08-16T07:00:00.000Z</published>
-    <updated>2022-08-16T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;本文内容：线程和进程回顾、回顾多线程、传统的Synchronized锁&lt;/p&gt;
-&lt;p&gt;推荐免费JUC并发编程视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="JUC" scheme="https://jokerdig.com/tags/JUC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【JVM】JVM快速入门(4)</title>
-    <link href="https://jokerdig.com/2022/08/15/jvm1_4/"/>
-    <id>https://jokerdig.com/2022/08/15/jvm1_4/</id>
-    <published>2022-08-15T07:00:00.000Z</published>
-    <updated>2022-08-15T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;本文内容：GC简介及回收机制、GC-复制算法、GC-标记压缩清除算法、GC算法总结&lt;/p&gt;
-&lt;p&gt;推荐免费JVM快速入门视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="JVM" scheme="https://jokerdig.com/tags/JVM/"/>
     
   </entry>
   
