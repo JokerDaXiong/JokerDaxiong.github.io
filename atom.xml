@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2022-09-06T07:00:00.000Z</updated>
+  <updated>2022-09-07T07:00:00.000Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -15,6 +15,65 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Java数据结构与算法】队列</title>
+    <link href="https://jokerdig.com/2022/09/07/javaDSAA1_3/"/>
+    <id>https://jokerdig.com/2022/09/07/javaDSAA1_3/</id>
+    <published>2022-09-07T07:00:00.000Z</published>
+    <updated>2022-09-07T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：队列的应用场景，数组模拟队列的思路分析和代码实现，数组模拟环形队列的思路分析和实现&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;队列的应用场景&quot;&gt;&lt;a href=&quot;#队列的应用场景&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
+    
+    
+    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
+    
+    <category term="Java数据结构与算法" scheme="https://jokerdig.com/tags/Java%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Linux】Linux阿里云环境学习(6)</title>
+    <link href="https://jokerdig.com/2022/09/07/linux1_6/"/>
+    <id>https://jokerdig.com/2022/09/07/linux1_6/</id>
+    <published>2022-09-07T07:00:00.000Z</published>
+    <updated>2022-09-07T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;本文内容：解压缩安装Tomcat，yum安装docker&lt;/p&gt;
+&lt;p&gt;推荐Linux阿里云环境学习视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
+    
+    
+    <category term="Linux" scheme="https://jokerdig.com/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>【Java数据结构与算法】稀疏数组</title>
@@ -533,66 +592,6 @@
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;前言：&lt;/p&gt;
 &lt;p&gt;本文内容：CopyOnWriteArraySet、ConcurrentHashMap、走进Callable&lt;/p&gt;
-&lt;p&gt;推荐免费JUC并发编程视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="JUC" scheme="https://jokerdig.com/tags/JUC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【JUC】JUC并发编程(3)</title>
-    <link href="https://jokerdig.com/2022/08/18/juc1_3/"/>
-    <id>https://jokerdig.com/2022/08/18/juc1_3/</id>
-    <published>2022-08-18T07:00:00.000Z</published>
-    <updated>2022-08-18T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;本文内容：Condition实现精准通知唤醒、八锁现象理解解锁、CopyOnWriteArrayList&lt;/p&gt;
-&lt;p&gt;推荐免费JUC并发编程视频：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="JUC" scheme="https://jokerdig.com/tags/JUC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【JUC】JUC并发编程(2)</title>
-    <link href="https://jokerdig.com/2022/08/17/juc1_2/"/>
-    <id>https://jokerdig.com/2022/08/17/juc1_2/</id>
-    <published>2022-08-17T07:00:00.000Z</published>
-    <updated>2022-08-17T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;本文内容：Lock锁、传统生产者消费者问题、防止虚假唤醒、Lock锁的生产者消费者问题&lt;/p&gt;
 &lt;p&gt;推荐免费JUC并发编程视频：&lt;a</summary>
         
       
