@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2022-09-22T07:00:00.000Z</updated>
+  <updated>2022-09-23T07:00:00.000Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Docker】Docker基础教程(3)</title>
+    <link href="https://jokerdig.com/2022/09/23/docker1_3/"/>
+    <id>https://jokerdig.com/2022/09/23/docker1_3/</id>
+    <published>2022-09-23T07:00:00.000Z</published>
+    <updated>2022-09-23T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;推荐免费Docker基础讲解视频：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
+    
+    
+    <category term="Docker" scheme="https://jokerdig.com/tags/Docker/"/>
+    
+  </entry>
   
   <entry>
     <title>【Docker】Docker基础教程(2)</title>
@@ -530,35 +557,6 @@
     
     
     <category term="Linux" scheme="https://jokerdig.com/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【服务器购买】阿里云服务器购买和简单部署</title>
-    <link href="https://jokerdig.com/2022/08/31/serverpurchase/"/>
-    <id>https://jokerdig.com/2022/08/31/serverpurchase/</id>
-    <published>2022-08-31T07:00:00.000Z</published>
-    <updated>2022-08-31T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前言：&lt;/p&gt;
-&lt;p&gt;阿里云购买地址：&lt;a href=&quot;https://www.aliyun.com/minisite/goods?userCode=sr8h0ojg&amp;share_source=copy_link&quot;&gt;云小站_专享特惠_云产品推荐-阿里云</summary>
-        
-      
-    
-    
-    
-    <category term="geek" scheme="https://jokerdig.com/categories/geek/"/>
-    
-    
-    <category term="Server" scheme="https://jokerdig.com/tags/Server/"/>
-    
-    <category term="服务器购买" scheme="https://jokerdig.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%B4%AD%E4%B9%B0/"/>
     
   </entry>
   
