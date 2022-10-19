@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【SpringCloud】SpringCloud基础教程(1) | Hey,Joker</title><meta name="keywords" content="Java"><meta name="author" content="JokerDaxiong"><meta name="copyright" content="JokerDaxiong"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言： 本文内容：阶段回顾、微服务和微服务架构、什么是SpringCloud 推荐免费SpringCloud基础教程视频：【狂神说Java】SpringCloud最新教程IDEA版_哔哩哔哩_bilibili  阶段回顾所学内容回顾 JavaSE 数据库 前端 Servlet Http Mybatis Spring SpringMVC SpringBoot(Dubbo+zookeeper) Ma">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【SpringCloud】SpringCloud基础教程(1) | Hey,Joker</title><meta name="keywords" content="Java"><meta name="author" content="JokerDaxiong"><meta name="copyright" content="JokerDaxiong"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言： 本文内容：阶段回顾、微服务和微服务架构、什么是SpringCloud 推荐免费SpringCloud基础教程视频：【狂神说Java】SpringCloud最新教程IDEA版_哔哩哔哩_bilibili  阶段回顾 所学内容回顾  JavaSE 数据库 前端 Servlet Http Mybatis Spring SpringMVC SpringBoot(Dubbo+zookeeper)">
 <meta property="og:type" content="article">
 <meta property="og:title" content="【SpringCloud】SpringCloud基础教程(1)">
 <meta property="og:url" content="https://jokerdig.com/2022/08/02/springcloud1_1/index.html">
 <meta property="og:site_name" content="Hey,Joker">
-<meta property="og:description" content="前言： 本文内容：阶段回顾、微服务和微服务架构、什么是SpringCloud 推荐免费SpringCloud基础教程视频：【狂神说Java】SpringCloud最新教程IDEA版_哔哩哔哩_bilibili  阶段回顾所学内容回顾 JavaSE 数据库 前端 Servlet Http Mybatis Spring SpringMVC SpringBoot(Dubbo+zookeeper) Ma">
+<meta property="og:description" content="前言： 本文内容：阶段回顾、微服务和微服务架构、什么是SpringCloud 推荐免费SpringCloud基础教程视频：【狂神说Java】SpringCloud最新教程IDEA版_哔哩哔哩_bilibili  阶段回顾 所学内容回顾  JavaSE 数据库 前端 Servlet Http Mybatis Spring SpringMVC SpringBoot(Dubbo+zookeeper)">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://jokerdig.oss-cn-shanghai.aliyuncs.com/jokerdig/202209201720864.png">
 <meta property="article:published_time" content="2022-08-02T07:00:00.000Z">
@@ -183,7 +183,9 @@ gtag('config', 'UA-204417710-1');
 <p>本文内容：阶段回顾、微服务和微服务架构、什么是SpringCloud</p>
 <p>推荐免费SpringCloud基础教程视频：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.bilibili.com/video/BV1jJ411S7xr?p=1">【狂神说Java】SpringCloud最新教程IDEA版_哔哩哔哩_bilibili</a></p>
 </blockquote>
-<h3 id="阶段回顾"><a href="#阶段回顾" class="headerlink" title="阶段回顾"></a>阶段回顾</h3><h4 id="所学内容回顾"><a href="#所学内容回顾" class="headerlink" title="所学内容回顾"></a>所学内容回顾</h4><ul>
+<h3 id="阶段回顾">阶段回顾</h3>
+<h4 id="所学内容回顾">所学内容回顾</h4>
+<ul>
 <li>JavaSE</li>
 <li>数据库</li>
 <li>前端</li>
@@ -196,15 +198,19 @@ gtag('config', 'UA-204417710-1');
 <li>Maven、Git</li>
 <li>Ajax、JSON</li>
 </ul>
-<h4 id="内容梳理"><a href="#内容梳理" class="headerlink" title="内容梳理"></a>内容梳理</h4><p><strong>Web架构的演进</strong></p>
+<h4 id="内容梳理">内容梳理</h4>
+<p><strong>Web架构的演进</strong></p>
 <ul>
-<li><p>三层架构+MVC</p>
+<li>
+<p>三层架构+MVC</p>
 <p>|</p>
 </li>
-<li><p>Spring</p>
+<li>
+<p>Spring</p>
 <p>|</p>
 </li>
-<li><p>SpringBoot(新一代JavaEE开发标准) 自动装配(模块化)</p>
+<li>
+<p>SpringBoot(新一代JavaEE开发标准) 自动装配(模块化)</p>
 </li>
 </ul>
 <p><strong>微服务架构核心问题</strong></p>
@@ -216,19 +222,22 @@ gtag('config', 'UA-204417710-1');
 </ol>
 <p>解决方案：Spring Cloud(生态)</p>
 <ul>
-<li><p>Spring Cloud NetFlix(一站式解决方案)</p>
+<li>
+<p>Spring Cloud NetFlix(一站式解决方案)</p>
 <p>api：使用api网关，zuul组件</p>
 <p>Feign–HttpClient–Http通信方式，同步，阻塞</p>
 <p>服务注册发现：Eureka</p>
 <p>熔断机制：Hystrix</p>
 </li>
-<li><p>Apache Dubbo Zookeeper(半自动，需要整合)</p>
+<li>
+<p>Apache Dubbo Zookeeper(半自动，需要整合)</p>
 <p>api：找第三方组件，或者自己实现</p>
 <p>Dubbo</p>
 <p>服务注册发现：Zookeeper</p>
 <p>熔断机制：借助Hystrix</p>
 </li>
-<li><p>Spring Cloud Alibaba(一站式解决方案)</p>
+<li>
+<p>Spring Cloud Alibaba(一站式解决方案)</p>
 </li>
 </ul>
 <p><strong>新概念</strong></p>
@@ -240,16 +249,19 @@ gtag('config', 'UA-204417710-1');
 <li>注册和发现</li>
 <li>熔断机制</li>
 </ol>
-<h3 id="微服务和微服务架构"><a href="#微服务和微服务架构" class="headerlink" title="微服务和微服务架构"></a>微服务和微服务架构</h3><p><strong>什么是微服务</strong></p>
+<h3 id="微服务和微服务架构">微服务和微服务架构</h3>
+<p><strong>什么是微服务</strong></p>
 <p>微服务是一种开发软件的架构和组织方法，其中软件由通过明确定义的 API 进行通信的小型独立服务组成。这些服务由各个小型独立团队负责。</p>
 <p>微服务架构使应用程序更易于扩展和更快地开发，从而加速创新并缩短新功能的上市时间。</p>
 <p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://martinfowler.com/articles/microservices.html#CharacteristicsOfAMicroserviceArchitecture">微服务 (martinfowler.com)</a></p>
-<h4 id="微服务与微服务架构"><a href="#微服务与微服务架构" class="headerlink" title="微服务与微服务架构"></a>微服务与微服务架构</h4><p><strong>微服务</strong></p>
+<h4 id="微服务与微服务架构">微服务与微服务架构</h4>
+<p><strong>微服务</strong></p>
 <p>强调的是服务的大小，他关注的是某一个点，是具体解决某一个问题/提供落地对应服务的一个应用，可以狭义的看作是IDEA中的一个个微服务工程，或者Module</p>
 <p><strong>微服务架构</strong></p>
 <p>一种架构形式，Martin Fowler于2014年提出</p>
 <p>微服务架构将应用程序构建为独立的组件，并将每个应用程序进程作为一项服务运行。这些服务使用轻量级 API 通过明确定义的接口进行通信。这些服务是围绕业务功能构建的，每项服务执行一项功能。由于它们是独立运行的，因此可以针对各项服务进行更新、部署和扩展，以满足对应用程序特定功能的需求。</p>
-<h4 id="微服务的优缺点"><a href="#微服务的优缺点" class="headerlink" title="微服务的优缺点"></a>微服务的优缺点</h4><p><strong>优点</strong></p>
+<h4 id="微服务的优缺点">微服务的优缺点</h4>
+<p><strong>优点</strong></p>
 <ul>
 <li>单一职责</li>
 <li>高内聚，低耦合</li>
@@ -269,14 +281,16 @@ gtag('config', 'UA-204417710-1');
 <li>系统集成测试</li>
 <li>性能监控</li>
 </ul>
-<h4 id="微服务技术栈"><a href="#微服务技术栈" class="headerlink" title="微服务技术栈"></a>微服务技术栈</h4><table>
+<h4 id="微服务技术栈">微服务技术栈</h4>
+<table>
 <thead>
 <tr>
 <th>微服务条目</th>
 <th>落地技术</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>服务开发</td>
 <td>SpringBoot，Spring，SpringMVC</td>
 </tr>
@@ -336,8 +350,10 @@ gtag('config', 'UA-204417710-1');
 <td>事件消息总线</td>
 <td>SpringCloud Bus</td>
 </tr>
-</tbody></table>
-<h4 id="为什么选择SpringCloud作为微服务架构"><a href="#为什么选择SpringCloud作为微服务架构" class="headerlink" title="为什么选择SpringCloud作为微服务架构"></a>为什么选择SpringCloud作为微服务架构</h4><p><strong>选型依据</strong></p>
+</tbody>
+</table>
+<h4 id="为什么选择SpringCloud作为微服务架构">为什么选择SpringCloud作为微服务架构</h4>
+<p><strong>选型依据</strong></p>
 <ul>
 <li>整体解决方案和框架成熟度</li>
 <li>社区热度</li>
@@ -350,7 +366,7 @@ gtag('config', 'UA-204417710-1');
 <li>京东：JSF</li>
 <li>新浪：Motan</li>
 <li>当当：DubboX</li>
-<li>…….</li>
+<li>…</li>
 </ul>
 <p><strong>各位服务架构对比</strong></p>
 <table>
@@ -364,7 +380,8 @@ gtag('config', 'UA-204417710-1');
 <th>Dubbo，DubboX</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>功能定位</td>
 <td>完整的微服务架构</td>
 <td>RPC架构，但整合了ZK或Consul，是心啊集群环境的基本服务注册、发现</td>
@@ -468,26 +485,33 @@ gtag('config', 'UA-204417710-1');
 <td>IDL定义</td>
 <td>实践的公司比较多</td>
 </tr>
-</tbody></table>
-<h3 id="什么是SpringCloud"><a href="#什么是SpringCloud" class="headerlink" title="什么是SpringCloud"></a>什么是SpringCloud</h3><h4 id="SpringCloud概述"><a href="#SpringCloud概述" class="headerlink" title="SpringCloud概述"></a>SpringCloud概述</h4><blockquote>
+</tbody>
+</table>
+<h3 id="什么是SpringCloud">什么是SpringCloud</h3>
+<h4 id="SpringCloud概述">SpringCloud概述</h4>
+<blockquote>
 <p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://spring.io/cloud">Spring | Cloud</a></p>
 </blockquote>
 <p><code>Spring Cloud</code> 是一系列框架的有序集合，它利用 <code>Spring Boot </code>的开发便利性简化了分布式系统的开发，比如服务发现、服务网关、服务路由、链路追踪等。</p>
 <p><code>Spring Cloud</code> 并不重复造轮子，而是将市面上开发得比较好的模块集成进去，进行封装，从而减少了各模块的开发成本。</p>
 <p>换句话说：<code>Spring Cloud </code>提供了构建分布式系统所需的“<strong>全家桶</strong>”</p>
 <p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://jokerdig.oss-cn-shanghai.aliyuncs.com/jokerdig/202209072132163.png" alt="44"></p>
-<h4 id="Spirng-Cloud和Spring-Boot的关系"><a href="#Spirng-Cloud和Spring-Boot的关系" class="headerlink" title="Spirng Cloud和Spring Boot的关系"></a>Spirng Cloud和Spring Boot的关系</h4><ul>
+<h4 id="Spirng-Cloud和Spring-Boot的关系">Spirng Cloud和Spring Boot的关系</h4>
+<ul>
 <li><code>SpringBoot</code>专注于快速方便的开发单个微服务</li>
 <li><code>SpringCloud</code>是关注全局的微服务协调整治框架，它将<code>SpringBoot</code>开发的一个个单体微服务整合并管理，为各个微服务之间提供：配置管理，服务发现，断路器，路由，微代理，事件总线，全局锁，决策精选，分布式会话等集成服务</li>
 <li><code>SpringBoot</code>可以离开<code>SpringCloud</code>独立应用，开发项目，但是<code>SpringCloud</code>离不开<code>SpringBoot</code>，属于依赖关系</li>
 <li><code>SpringBoot</code>专注于快速，方便的开发单个微服务，<code>SpringCloud</code>关注全局的服务治理框架</li>
 </ul>
-<h4 id="Dubbo和Spring-Cloud技术选型"><a href="#Dubbo和Spring-Cloud技术选型" class="headerlink" title="Dubbo和Spring Cloud技术选型"></a>Dubbo和Spring Cloud技术选型</h4><ol>
-<li><p>分布式+服务治理Dubbo</p>
+<h4 id="Dubbo和Spring-Cloud技术选型">Dubbo和Spring Cloud技术选型</h4>
+<ol>
+<li>
+<p>分布式+服务治理Dubbo</p>
 <p>目前成熟的互联网架构：应用服务化拆分+消息中间件</p>
 <p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://jokerdig.oss-cn-shanghai.aliyuncs.com/jokerdig/202209072132810.png" alt="43"></p>
 </li>
-<li><p>Dubbo和SpringCloud对比</p>
+<li>
+<p>Dubbo和SpringCloud对比</p>
 <table>
 <thead>
 <tr>
@@ -496,7 +520,8 @@ gtag('config', 'UA-204417710-1');
 <th>SpringCloud</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>服务注册中心</td>
 <td>Zookeeper</td>
 <td>Spring Cloud Netflix Eureka</td>
@@ -546,13 +571,15 @@ gtag('config', 'UA-204417710-1');
 <td>无</td>
 <td>Spring Cloud Task</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 </li>
 </ol>
 <p><strong>最大区别</strong></p>
 <p><code>Spring Cloud</code>抛弃了<code>Dubbo</code>的<code>RPC</code>通信，采用基于<code>HTTP</code>的<code>Rest</code>方式。</p>
 <p><code>Spring Cloud</code>拥有一条完整的生态，社区活跃度高，而<code>Dubbo</code>的自定义程度高，但社区活跃度低，二者各有优略，按需选择即可。</p>
-<h4 id="Spring-Cloud能干什么"><a href="#Spring-Cloud能干什么" class="headerlink" title="Spring Cloud能干什么"></a>Spring Cloud能干什么</h4><ul>
+<h4 id="Spring-Cloud能干什么">Spring Cloud能干什么</h4>
+<ul>
 <li><code>Distributed/version configuration</code>(分布式、版本控制配置)</li>
 <li><code>Service registration and discovery</code>(服务注册与发现)</li>
 <li><code>Routing</code>(路由)</li>
@@ -561,7 +588,8 @@ gtag('config', 'UA-204417710-1');
 <li><code>Circuit Breakers</code>(断路器)</li>
 <li><code>Distributed messaging</code>(分布式消息管理)</li>
 </ul>
-<h4 id="Spring-Cloud下载"><a href="#Spring-Cloud下载" class="headerlink" title="Spring Cloud下载"></a>Spring Cloud下载</h4><p>下载地址：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://spring.io/projects/spring-cloud#learn">Spring Cloud</a></p>
+<h4 id="Spring-Cloud下载">Spring Cloud下载</h4>
+<p>下载地址：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://spring.io/projects/spring-cloud#learn">Spring Cloud</a></p>
 <blockquote>
 <p>一般选择GA稳定版本</p>
 </blockquote>

@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【Docker】Docker基础教程(2) | Hey,Joker</title><meta name="keywords" content="docker"><meta name="author" content="JokerDaxiong"><meta name="copyright" content="JokerDaxiong"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言： 推荐免费Docker基础讲解视频：【狂神说Java】Docker最新超详细版教程通俗易懂_哔哩哔哩_bilibili  常用其他命令后台启动容器1234# docker run -d 镜像名[root@jokerdig ~]# docker run -d centos6819932fe4b4e58575ac1fb7b0e4046730ef606a886019753c17ab9a954b3">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【Docker】Docker基础教程(2) | Hey,Joker</title><meta name="keywords" content="docker"><meta name="author" content="JokerDaxiong"><meta name="copyright" content="JokerDaxiong"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言： 推荐免费Docker基础讲解视频：【狂神说Java】Docker最新超详细版教程通俗易懂_哔哩哔哩_bilibili  常用其他命令 后台启动容器 1234# docker run -d 镜像名[root@jokerdig ~]# docker run -d centos6819932fe4b4e58575ac1fb7b0e4046730ef606a886019753c17ab9a954">
 <meta property="og:type" content="article">
 <meta property="og:title" content="【Docker】Docker基础教程(2)">
 <meta property="og:url" content="https://jokerdig.com/2022/09/22/docker1_2/index.html">
 <meta property="og:site_name" content="Hey,Joker">
-<meta property="og:description" content="前言： 推荐免费Docker基础讲解视频：【狂神说Java】Docker最新超详细版教程通俗易懂_哔哩哔哩_bilibili  常用其他命令后台启动容器1234# docker run -d 镜像名[root@jokerdig ~]# docker run -d centos6819932fe4b4e58575ac1fb7b0e4046730ef606a886019753c17ab9a954b3">
+<meta property="og:description" content="前言： 推荐免费Docker基础讲解视频：【狂神说Java】Docker最新超详细版教程通俗易懂_哔哩哔哩_bilibili  常用其他命令 后台启动容器 1234# docker run -d 镜像名[root@jokerdig ~]# docker run -d centos6819932fe4b4e58575ac1fb7b0e4046730ef606a886019753c17ab9a954">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://jokerdig.oss-cn-shanghai.aliyuncs.com/jokerdig/202209201724896.png">
 <meta property="article:published_time" content="2022-09-22T07:00:00.000Z">
@@ -181,10 +181,11 @@ gtag('config', 'UA-204417710-1');
 <p>前言：</p>
 <p>推荐免费Docker基础讲解视频：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.bilibili.com/video/BV1og4y1q7M4/?p=11">【狂神说Java】Docker最新超详细版教程通俗易懂_哔哩哔哩_bilibili</a></p>
 </blockquote>
-<h3 id="常用其他命令"><a href="#常用其他命令" class="headerlink" title="常用其他命令"></a>常用其他命令</h3><h4 id="后台启动容器"><a href="#后台启动容器" class="headerlink" title="后台启动容器"></a>后台启动容器</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> docker run -d 镜像名</span></span><br><span class="line">[root@jokerdig ~]# docker run -d centos</span><br><span class="line">6819932fe4b4e58575ac1fb7b0e4046730ef606a886019753c17ab9a954b3fd0</span><br><span class="line"><span class="meta">#</span><span class="bash"> nginx 容器启动后，发现自己没有提供服务，就会立刻停止;</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="查看日志"><a href="#查看日志" class="headerlink" title="查看日志"></a>查看日志</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 查看日志</span></span><br><span class="line">docker logs [OPTIONS] CONTAINER</span><br></pre></td></tr></table></figure>
-
+<h3 id="常用其他命令">常用其他命令</h3>
+<h4 id="后台启动容器">后台启动容器</h4>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> docker run -d 镜像名</span></span><br><span class="line">[root@jokerdig ~]# docker run -d centos</span><br><span class="line">6819932fe4b4e58575ac1fb7b0e4046730ef606a886019753c17ab9a954b3fd0</span><br><span class="line"><span class="meta">#</span><span class="bash"> nginx 容器启动后，发现自己没有提供服务，就会立刻停止;</span></span><br></pre></td></tr></table></figure>
+<h4 id="查看日志">查看日志</h4>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 查看日志</span></span><br><span class="line">docker logs [OPTIONS] CONTAINER</span><br></pre></td></tr></table></figure>
 <p>描述(OPTIONS)</p>
 <table>
 <thead>
@@ -194,7 +195,8 @@ gtag('config', 'UA-204417710-1');
 <th>描述</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>--details</code></td>
 <td></td>
 <td>显示提供给日志的额外详细信息</td>
@@ -224,17 +226,16 @@ gtag('config', 'UA-204417710-1');
 <td></td>
 <td>在时间戳之前显示日志</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>测试</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@jokerdig ~]# docker logs -f -t 5d0da3dc9764</span><br></pre></td></tr></table></figure>
-
-<h4 id="查看容器中的进程信息"><a href="#查看容器中的进程信息" class="headerlink" title="查看容器中的进程信息"></a>查看容器中的进程信息</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 显示容器的运行进程</span></span><br><span class="line">docker top CONTAINER [ps OPTIONS]</span><br></pre></td></tr></table></figure>
-
+<h4 id="查看容器中的进程信息">查看容器中的进程信息</h4>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 显示容器的运行进程</span></span><br><span class="line">docker top CONTAINER [ps OPTIONS]</span><br></pre></td></tr></table></figure>
 <p>测试</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@jokerdig ~]# docker top 5d0da3dc9764</span><br></pre></td></tr></table></figure>
-
-<h4 id="查看镜像元数据"><a href="#查看镜像元数据" class="headerlink" title="查看镜像元数据"></a>查看镜像元数据</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 返回Docker对象的元数据</span></span><br><span class="line">docker inspect [OPTIONS] NAME|ID [NAME|ID...]</span><br></pre></td></tr></table></figure>
-
+<h4 id="查看镜像元数据">查看镜像元数据</h4>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 返回Docker对象的元数据</span></span><br><span class="line">docker inspect [OPTIONS] NAME|ID [NAME|ID...]</span><br></pre></td></tr></table></figure>
 <p>选项(OPTIONS)</p>
 <table>
 <thead>
@@ -244,7 +245,8 @@ gtag('config', 'UA-204417710-1');
 <th>描述</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>--format</code> , <code>-f</code></td>
 <td></td>
 <td>使用给定的Go模板格式化输出</td>
@@ -259,21 +261,23 @@ gtag('config', 'UA-204417710-1');
 <td></td>
 <td>返回指定类型的JSON</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>测试</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@jokerdig ~]# docker inspect 5d0da3dc97</span><br></pre></td></tr></table></figure>
-
-<h4 id="进入当前正在运行的容器"><a href="#进入当前正在运行的容器" class="headerlink" title="进入当前正在运行的容器"></a>进入当前正在运行的容器</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 进入当前正在运行的容器</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 方式一</span></span><br><span class="line">docker exec -it 容器ID /bin/bash</span><br><span class="line"><span class="meta">#</span><span class="bash"> 方式二</span></span><br><span class="line">docker attach 容器ID /bin/bash</span><br></pre></td></tr></table></figure>
-
+<h4 id="进入当前正在运行的容器">进入当前正在运行的容器</h4>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 进入当前正在运行的容器</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 方式一</span></span><br><span class="line">docker exec -it 容器ID /bin/bash</span><br><span class="line"><span class="meta">#</span><span class="bash"> 方式二</span></span><br><span class="line">docker attach 容器ID /bin/bash</span><br></pre></td></tr></table></figure>
 <p>二者的区别：</p>
 <ul>
-<li><p>docker exec：进入容器后开启一个新的终端，可以在里面操作(常用)；</p>
+<li>
+<p>docker exec：进入容器后开启一个新的终端，可以在里面操作(常用)；</p>
 </li>
-<li><p>docker attach：进入容器正在执行的终端，不会启动新的进程；</p>
+<li>
+<p>docker attach：进入容器正在执行的终端，不会启动新的进程；</p>
 </li>
 </ul>
-<h4 id="从容器内拷贝文件到主机"><a href="#从容器内拷贝文件到主机" class="headerlink" title="从容器内拷贝文件到主机"></a>从容器内拷贝文件到主机</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 在容器和本地文件系统之间复制文件/文件夹</span></span><br><span class="line">docker cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH|-</span><br></pre></td></tr></table></figure>
-
+<h4 id="从容器内拷贝文件到主机">从容器内拷贝文件到主机</h4>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 在容器和本地文件系统之间复制文件/文件夹</span></span><br><span class="line">docker cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH|-</span><br></pre></td></tr></table></figure>
 <p>选项(OPTIONS)</p>
 <table>
 <thead>
@@ -283,7 +287,8 @@ gtag('config', 'UA-204417710-1');
 <th>描述</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>--archive</code> , <code>-a</code></td>
 <td></td>
 <td>存档模式（复制所有uid/gid信息）</td>
@@ -293,79 +298,103 @@ gtag('config', 'UA-204417710-1');
 <td></td>
 <td>始终遵循SRC_PATH中的符号链接</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>测试</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 启动容器</span></span><br><span class="line">[root@jokerdig ~]# docker run -it centos /bin/bash</span><br><span class="line">[root@b0e02a550063 /]# cd /home</span><br><span class="line">[root@b0e02a550063 home]# ls</span><br><span class="line"><span class="meta">#</span><span class="bash"> 在容器的home目录创建test.java</span></span><br><span class="line">[root@b0e02a550063 home]# touch test.java</span><br><span class="line">[root@b0e02a550063 home]# exit</span><br><span class="line">exit</span><br><span class="line"><span class="meta">#</span><span class="bash"> 从容器拷贝test.java到主机</span></span><br><span class="line">[root@jokerdig home]# docker cp b0e02a550063:/home/test.java /home</span><br><span class="line">[root@jokerdig home]# ls</span><br><span class="line">test.java</span><br><span class="line">[root@jokerdig home]# </span><br></pre></td></tr></table></figure>
-
-<h3 id="部署Nginx"><a href="#部署Nginx" class="headerlink" title="部署Nginx"></a>部署Nginx</h3><blockquote>
+<h3 id="部署Nginx">部署Nginx</h3>
+<blockquote>
 <p>Docker安装Nginx</p>
 </blockquote>
 <ol>
-<li><p>搜索镜像</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[root@jokerdig ~]# docker search nginx</span><br><span class="line">NAME   DESCRIPTION                   STARS     OFFICIAL   AUTOMATED</span><br><span class="line">nginx  Official build of Nginx.      17422             [OK]       </span><br></pre></td></tr></table></figure></li>
-<li><p>下载镜像</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">[root@jokerdig ~]# docker pull nginx</span><br><span class="line">Using default tag: latest</span><br><span class="line">latest: Pulling from library/nginx</span><br><span class="line">31b3f1ad4ce1: Pull complete </span><br><span class="line">fd42b079d0f8: Pull complete </span><br><span class="line">30585fbbebc6: Pull complete </span><br><span class="line">18f4ffdd25f4: Pull complete </span><br><span class="line">9dc932c8fba2: Pull complete </span><br><span class="line">600c24b8ba39: Pull complete </span><br><span class="line">Digest: sha256:0b970013351304af46f322da1263516b188318682b2ab1091862497591189ff1</span><br><span class="line">Status: Downloaded newer image for nginx:latest</span><br><span class="line">docker.io/library/nginx:latest</span><br></pre></td></tr></table></figure></li>
-<li><p>启动nginx</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 启动容器</span>                       </span><br><span class="line"><span class="meta">#</span><span class="bash"> -name 容器命名</span>      </span><br><span class="line"><span class="meta">#</span><span class="bash"> -p 服务器端口:容器内端口(前提是3355端口安全组开放)</span></span><br><span class="line">[root@jokerdig ~]# docker run -d --name nginx001 -p 3355:80 nginx</span><br><span class="line">50a74618450cec874acf12411dd0972ead390458dd188b1d8865a9e6ce033518</span><br><span class="line"><span class="meta">#</span><span class="bash"> 查看容器是否启动</span></span><br><span class="line">[root@jokerdig ~]# docker ps</span><br><span class="line">CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS         PORTS                                   NAMES</span><br><span class="line">50a74618450c   nginx     &quot;/docker-entrypoint.…&quot;   6 seconds ago   Up 6 seconds   0.0.0.0:3355-&gt;80/tcp, :::3355-&gt;80/tcp   nginx001</span><br><span class="line">[root@jokerdig ~]# </span><br></pre></td></tr></table></figure></li>
-<li><p>运行测试</p>
+<li>
+<p>搜索镜像</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[root@jokerdig ~]# docker search nginx</span><br><span class="line">NAME   DESCRIPTION                   STARS     OFFICIAL   AUTOMATED</span><br><span class="line">nginx  Official build of Nginx.      17422             [OK]       </span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>下载镜像</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">[root@jokerdig ~]# docker pull nginx</span><br><span class="line">Using default tag: latest</span><br><span class="line">latest: Pulling from library/nginx</span><br><span class="line">31b3f1ad4ce1: Pull complete </span><br><span class="line">fd42b079d0f8: Pull complete </span><br><span class="line">30585fbbebc6: Pull complete </span><br><span class="line">18f4ffdd25f4: Pull complete </span><br><span class="line">9dc932c8fba2: Pull complete </span><br><span class="line">600c24b8ba39: Pull complete </span><br><span class="line">Digest: sha256:0b970013351304af46f322da1263516b188318682b2ab1091862497591189ff1</span><br><span class="line">Status: Downloaded newer image for nginx:latest</span><br><span class="line">docker.io/library/nginx:latest</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>启动nginx</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 启动容器</span>                       </span><br><span class="line"><span class="meta">#</span><span class="bash"> -name 容器命名</span>      </span><br><span class="line"><span class="meta">#</span><span class="bash"> -p 服务器端口:容器内端口(前提是3355端口安全组开放)</span></span><br><span class="line">[root@jokerdig ~]# docker run -d --name nginx001 -p 3355:80 nginx</span><br><span class="line">50a74618450cec874acf12411dd0972ead390458dd188b1d8865a9e6ce033518</span><br><span class="line"><span class="meta">#</span><span class="bash"> 查看容器是否启动</span></span><br><span class="line">[root@jokerdig ~]# docker ps</span><br><span class="line">CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS         PORTS                                   NAMES</span><br><span class="line">50a74618450c   nginx     &quot;/docker-entrypoint.…&quot;   6 seconds ago   Up 6 seconds   0.0.0.0:3355-&gt;80/tcp, :::3355-&gt;80/tcp   nginx001</span><br><span class="line">[root@jokerdig ~]# </span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>运行测试</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">[root@jokerdig ~]# curl localhost:3355</span><br><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;title&gt;Welcome to nginx!&lt;/title&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line">html &#123; color-scheme: light dark; &#125;</span><br><span class="line">body &#123; width: 35em; margin: 0 auto;</span><br><span class="line">font-family: Tahoma, Verdana, Arial, sans-serif; &#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;</span><br><span class="line">&lt;p&gt;If you see this page, the nginx web server is successfully installed and</span><br><span class="line">working. Further configuration is required.&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;p&gt;For online documentation and support please refer to</span><br><span class="line">&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;</span><br><span class="line">Commercial support is available at</span><br><span class="line">&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br><span class="line"><span class="meta">#</span><span class="bash"> 进入容器</span></span><br><span class="line">[root@jokerdig ~]# docker exec -it nginx001 /bin/bash</span><br><span class="line">root@50a74618450c:/# whereis nginx</span><br><span class="line">nginx: /usr/sbin/nginx /usr/lib/nginx /etc/nginx /usr/share/nginx</span><br><span class="line">root@50a74618450c:/# </span><br></pre></td></tr></table></figure>
-
 <blockquote>
 <p>端口暴露理解图</p>
 </blockquote>
 <p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://jokerdig.oss-cn-shanghai.aliyuncs.com/jokerdig/202209221142933.png" alt="image-20220922114216684"></p>
 </li>
-<li><p>停止容器</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 退出</span></span><br><span class="line">root@50a74618450c:/# exit</span><br><span class="line">exit</span><br><span class="line">[root@jokerdig ~]# docker ps</span><br><span class="line">CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS                                   NAMES</span><br><span class="line">50a74618450c   nginx     &quot;/docker-entrypoint.…&quot;   13 minutes ago   Up 13 minutes   0.0.0.0:3355-&gt;80/tcp, :::3355-&gt;80/tcp   nginx001</span><br><span class="line"><span class="meta">#</span><span class="bash"> 停止nginx容器</span></span><br><span class="line">[root@jokerdig ~]# docker stop 50a74618450c</span><br><span class="line">50a74618450c</span><br></pre></td></tr></table></figure></li>
+<li>
+<p>停止容器</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 退出</span></span><br><span class="line">root@50a74618450c:/# exit</span><br><span class="line">exit</span><br><span class="line">[root@jokerdig ~]# docker ps</span><br><span class="line">CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS                                   NAMES</span><br><span class="line">50a74618450c   nginx     &quot;/docker-entrypoint.…&quot;   13 minutes ago   Up 13 minutes   0.0.0.0:3355-&gt;80/tcp, :::3355-&gt;80/tcp   nginx001</span><br><span class="line"><span class="meta">#</span><span class="bash"> 停止nginx容器</span></span><br><span class="line">[root@jokerdig ~]# docker stop 50a74618450c</span><br><span class="line">50a74618450c</span><br></pre></td></tr></table></figure>
+</li>
 </ol>
-<h3 id="部署Tomcat"><a href="#部署Tomcat" class="headerlink" title="部署Tomcat"></a>部署Tomcat</h3><blockquote>
+<h3 id="部署Tomcat">部署Tomcat</h3>
+<blockquote>
 <p>Docker安装Tomcat</p>
 </blockquote>
 <ol>
-<li><p>运行Tomcat</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 运行tomcat服务(运行的时候会自动帮我们拉去到本地)</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> --rm 用完后直接删掉</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> docker run -it --rm tomcat:8.5</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 运行</span></span><br><span class="line">[root@jokerdig ~]# docker run -it --rm tomcat:8.5</span><br><span class="line"><span class="meta">#</span><span class="bash"> 开始从Dockerhub拉取tomcat</span></span><br><span class="line">Unable to find image &#x27;tomcat:8.5&#x27; locally</span><br><span class="line">8.5: Pulling from library/tomcat</span><br><span class="line">2b55860d4c66: Pull complete </span><br><span class="line">49a58ffb4a94: Pull complete </span><br><span class="line">8889343dc9d4: Pull complete </span><br><span class="line">5c321d92dfdb: Pull complete </span><br><span class="line">65e12e19b4c9: Pull complete </span><br><span class="line">62a7c4782c2f: Pull complete </span><br><span class="line">e04f1c28dfdd: Pull complete </span><br><span class="line">Digest: sha256:eee599390437683dc87463aa66fd7b46dbc25e39178df1e89a9f3382a77c3a58</span><br><span class="line">Status: Downloaded newer image for tomcat:8.5</span><br><span class="line"><span class="meta">#</span><span class="bash"> 拉取完成后直接启动了Tomcat</span></span><br><span class="line">Using CATALINA_BASE:   /usr/local/tomcat</span><br><span class="line">Using CATALINA_HOME:   /usr/local/tomcat</span><br><span class="line">Using CATALINA_TMPDIR: /usr/local/tomcat/temp</span><br><span class="line">Using JRE_HOME:        /opt/java/openjdk</span><br><span class="line">Using CLASSPATH:       /usr/local/tomcat/bin/bootstrap.jar:/usr/local/tomcat/bin/tomcat-juli.jar</span><br><span class="line">Using CATALINA_OPTS:   </span><br><span class="line"><span class="meta">#</span><span class="bash"> .........</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 中间内容省略</span></span><br><span class="line">22-Sep-2022 03:52:41.199 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [&quot;http-nio-8080&quot;]</span><br><span class="line">22-Sep-2022 03:52:41.212 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 64 ms</span><br><span class="line"><span class="meta">#</span><span class="bash"> 停掉tomcat后， 容器就被删除了(镜像没有被删除)</span></span><br><span class="line">[root@jokerdig ~]# docker ps</span><br><span class="line">CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES</span><br></pre></td></tr></table></figure></li>
-<li><p>手动启动</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[root@jokerdig ~]# docker run -d -p 3344:8080 --name tomcat01 tomcat</span><br><span class="line">dcb362c29a523e57ced30b8619e2b74fa50d43e6320349097db990b64b09b91a</span><br><span class="line"><span class="meta">#</span><span class="bash"> 访问发现是404，因为docker官方的tomcat版本是阉割过的版本</span></span><br></pre></td></tr></table></figure></li>
-<li><p>进入Tomcat镜像</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">[root@jokerdig ~]# docker exec -it tomcat01 /bin/bash</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat# ls</span><br><span class="line">bin              logs            temp</span><br><span class="line">BUILDING.txt     native-jni-lib  webapps</span><br><span class="line">conf             NOTICE          webapps.dist</span><br><span class="line">CONTRIBUTING.md  README.md       work</span><br><span class="line">lib              RELEASE-NOTES</span><br><span class="line">LICENSE          RUNNING.txt</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat# cd webapps</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat/webapps# ls</span><br><span class="line"><span class="meta">#</span><span class="bash"> webapps里是空的</span></span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat/webapps# </span><br><span class="line"><span class="meta">#</span><span class="bash"> 官方的镜像移除了不必要的内容，保证了最小的可运行环境;</span></span><br></pre></td></tr></table></figure></li>
-<li><p>找到root，复制到webapps</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">root@dcb362c29a52:/usr/local/tomcat# cd webapps.dist</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat/webapps.dist# ls</span><br><span class="line">docs  examples  host-manager  manager  ROOT</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat/webapps.dist# cd ..</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat# cp -r webapps.dist/* webapps</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat# cd webapps</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat/webapps# ls</span><br><span class="line">docs  examples  host-manager  manager  ROOT</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat/webapps# </span><br></pre></td></tr></table></figure></li>
-<li><p>重新访问</p>
+<li>
+<p>运行Tomcat</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 运行tomcat服务(运行的时候会自动帮我们拉去到本地)</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> --rm 用完后直接删掉</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> docker run -it --rm tomcat:8.5</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 运行</span></span><br><span class="line">[root@jokerdig ~]# docker run -it --rm tomcat:8.5</span><br><span class="line"><span class="meta">#</span><span class="bash"> 开始从Dockerhub拉取tomcat</span></span><br><span class="line">Unable to find image &#x27;tomcat:8.5&#x27; locally</span><br><span class="line">8.5: Pulling from library/tomcat</span><br><span class="line">2b55860d4c66: Pull complete </span><br><span class="line">49a58ffb4a94: Pull complete </span><br><span class="line">8889343dc9d4: Pull complete </span><br><span class="line">5c321d92dfdb: Pull complete </span><br><span class="line">65e12e19b4c9: Pull complete </span><br><span class="line">62a7c4782c2f: Pull complete </span><br><span class="line">e04f1c28dfdd: Pull complete </span><br><span class="line">Digest: sha256:eee599390437683dc87463aa66fd7b46dbc25e39178df1e89a9f3382a77c3a58</span><br><span class="line">Status: Downloaded newer image for tomcat:8.5</span><br><span class="line"><span class="meta">#</span><span class="bash"> 拉取完成后直接启动了Tomcat</span></span><br><span class="line">Using CATALINA_BASE:   /usr/local/tomcat</span><br><span class="line">Using CATALINA_HOME:   /usr/local/tomcat</span><br><span class="line">Using CATALINA_TMPDIR: /usr/local/tomcat/temp</span><br><span class="line">Using JRE_HOME:        /opt/java/openjdk</span><br><span class="line">Using CLASSPATH:       /usr/local/tomcat/bin/bootstrap.jar:/usr/local/tomcat/bin/tomcat-juli.jar</span><br><span class="line">Using CATALINA_OPTS:   </span><br><span class="line"><span class="meta">#</span><span class="bash"> .........</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 中间内容省略</span></span><br><span class="line">22-Sep-2022 03:52:41.199 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [&quot;http-nio-8080&quot;]</span><br><span class="line">22-Sep-2022 03:52:41.212 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 64 ms</span><br><span class="line"><span class="meta">#</span><span class="bash"> 停掉tomcat后， 容器就被删除了(镜像没有被删除)</span></span><br><span class="line">[root@jokerdig ~]# docker ps</span><br><span class="line">CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>手动启动</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[root@jokerdig ~]# docker run -d -p 3344:8080 --name tomcat01 tomcat</span><br><span class="line">dcb362c29a523e57ced30b8619e2b74fa50d43e6320349097db990b64b09b91a</span><br><span class="line"><span class="meta">#</span><span class="bash"> 访问发现是404，因为docker官方的tomcat版本是阉割过的版本</span></span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>进入Tomcat镜像</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">[root@jokerdig ~]# docker exec -it tomcat01 /bin/bash</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat# ls</span><br><span class="line">bin              logs            temp</span><br><span class="line">BUILDING.txt     native-jni-lib  webapps</span><br><span class="line">conf             NOTICE          webapps.dist</span><br><span class="line">CONTRIBUTING.md  README.md       work</span><br><span class="line">lib              RELEASE-NOTES</span><br><span class="line">LICENSE          RUNNING.txt</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat# cd webapps</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat/webapps# ls</span><br><span class="line"><span class="meta">#</span><span class="bash"> webapps里是空的</span></span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat/webapps# </span><br><span class="line"><span class="meta">#</span><span class="bash"> 官方的镜像移除了不必要的内容，保证了最小的可运行环境;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>找到root，复制到webapps</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">root@dcb362c29a52:/usr/local/tomcat# cd webapps.dist</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat/webapps.dist# ls</span><br><span class="line">docs  examples  host-manager  manager  ROOT</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat/webapps.dist# cd ..</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat# cp -r webapps.dist/* webapps</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat# cd webapps</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat/webapps# ls</span><br><span class="line">docs  examples  host-manager  manager  ROOT</span><br><span class="line">root@dcb362c29a52:/usr/local/tomcat/webapps# </span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>重新访问</p>
 <p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://jokerdig.oss-cn-shanghai.aliyuncs.com/jokerdig/202209221327953.png" alt="image-20220922132733854"></p>
 </li>
 </ol>
-<h3 id="部署ES-Kibana"><a href="#部署ES-Kibana" class="headerlink" title="部署ES+Kibana"></a>部署ES+Kibana</h3><blockquote>
+<h3 id="部署ES-Kibana">部署ES+Kibana</h3>
+<blockquote>
 <p>elasticsearch暴露端口多，而且十分耗内存，且要把数据放置到安全目录(挂载)</p>
 </blockquote>
 <ol>
-<li><p>运行镜像</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> --net 网络配置</span></span><br><span class="line"><span class="meta">#</span><span class="bash">下载并启动elasticsearch</span> </span><br><span class="line">docker run -d --name elasticsearch --net somenetwork -p 9200:9200 -p 9300:9300 -e &quot;discovery.type=single-node&quot; elasticsearch:7.17.6</span><br><span class="line"><span class="meta">#</span><span class="bash"> 下载启动后，发现elasticsearch使用非常卡顿</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 如果elasticsearch启动成功，就先关闭elasticsearch</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 查看docker cpu状态</span></span><br><span class="line">docker stats</span><br></pre></td></tr></table></figure></li>
-<li><p>增加内存限制</p>
+<li>
+<p>运行镜像</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> --net 网络配置</span></span><br><span class="line"><span class="meta">#</span><span class="bash">下载并启动elasticsearch</span> </span><br><span class="line">docker run -d --name elasticsearch --net somenetwork -p 9200:9200 -p 9300:9300 -e &quot;discovery.type=single-node&quot; elasticsearch:7.17.6</span><br><span class="line"><span class="meta">#</span><span class="bash"> 下载启动后，发现elasticsearch使用非常卡顿</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 如果elasticsearch启动成功，就先关闭elasticsearch</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 查看docker cpu状态</span></span><br><span class="line">docker stats</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>增加内存限制</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> -e ES_JAVA_POTS=<span class="string">&quot;-Xms128m -Xmx128m&quot;</span></span></span><br><span class="line">docker run -d --name elasticsearch02 -p 9200:9200 -p 9300:9300 -e ES_JAVA_POTS=&quot;-Xms64m -Xmx128m&quot; -e &quot;discovery.type=single-node&quot; --name elastic_search elasticsearch:7.17.6</span><br></pre></td></tr></table></figure>
-
 <p>运行测试</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[root@jokerdig ~]# docker run -d --name elasticsearch02 -p 9200:9200 -p 9300:9300 -e ES_JAVA_POTS=&quot;-Xms64m -Xmx128m&quot; -e &quot;discovery.type=single-node&quot; --name elastic_search elasticsearch:7.17.6</span><br><span class="line">845a223848a27749ea954335aad392f125235ed4507379676b3acbc8c3f11d04</span><br><span class="line"><span class="meta">#</span><span class="bash"> 查看容器进程</span></span><br><span class="line">[root@jokerdig ~]# docker ps</span><br><span class="line">CONTAINER ID   IMAGE                  COMMAND                  CREATED         STATUS         PORTS                                                                                  NAMES</span><br><span class="line">845a223848a2   elasticsearch:7.17.6   &quot;/bin/tini -- /usr/l…&quot;   6 seconds ago   Up 4 seconds   0.0.0.0:9200-&gt;9200/tcp, :::9200-&gt;9200/tcp, 0.0.0.0:9300-&gt;9300/tcp, :::9300-&gt;9300/tcp   elastic_search</span><br></pre></td></tr></table></figure></li>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[root@jokerdig ~]# docker run -d --name elasticsearch02 -p 9200:9200 -p 9300:9300 -e ES_JAVA_POTS=&quot;-Xms64m -Xmx128m&quot; -e &quot;discovery.type=single-node&quot; --name elastic_search elasticsearch:7.17.6</span><br><span class="line">845a223848a27749ea954335aad392f125235ed4507379676b3acbc8c3f11d04</span><br><span class="line"><span class="meta">#</span><span class="bash"> 查看容器进程</span></span><br><span class="line">[root@jokerdig ~]# docker ps</span><br><span class="line">CONTAINER ID   IMAGE                  COMMAND                  CREATED         STATUS         PORTS                                                                                  NAMES</span><br><span class="line">845a223848a2   elasticsearch:7.17.6   &quot;/bin/tini -- /usr/l…&quot;   6 seconds ago   Up 4 seconds   0.0.0.0:9200-&gt;9200/tcp, :::9200-&gt;9200/tcp, 0.0.0.0:9300-&gt;9300/tcp, :::9300-&gt;9300/tcp   elastic_search</span><br></pre></td></tr></table></figure>
+</li>
 </ol>
 <blockquote>
 <p>kibana连接elasticsearch</p>
 <p>需要学习Docker网络原理</p>
 </blockquote>
 <p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://jokerdig.oss-cn-shanghai.aliyuncs.com/jokerdig/202209221430339.png" alt="image-20220922143004272"></p>
-<h3 id="Portainer可视化面板安装"><a href="#Portainer可视化面板安装" class="headerlink" title="Portainer可视化面板安装"></a>Portainer可视化面板安装</h3><blockquote>
+<h3 id="Portainer可视化面板安装">Portainer可视化面板安装</h3>
+<blockquote>
 <p>先使用Portainer可视化面板，但不是最优选择；</p>
 </blockquote>
-<h4 id="什么是Portainer"><a href="#什么是Portainer" class="headerlink" title="什么是Portainer"></a>什么是Portainer</h4><p>Docker的图形化界面管理工具，提供一个后台面板供我们操作；</p>
-<h4 id="安装Portainer"><a href="#安装Portainer" class="headerlink" title="安装Portainer"></a>安装Portainer</h4><blockquote>
+<h4 id="什么是Portainer">什么是Portainer</h4>
+<p>Docker的图形化界面管理工具，提供一个后台面板供我们操作；</p>
+<h4 id="安装Portainer">安装Portainer</h4>
+<blockquote>
 <p>安装</p>
 </blockquote>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 安装 (服务器安全组开启对应端口)</span></span><br><span class="line">docker run -d -p 8088:9000 \</span><br><span class="line">--restart=always -v /var/run/docker.sock:/var/run/docker.sock --privileged=true portainer/portainer</span><br></pre></td></tr></table></figure>
-
 <p>运行结果</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[root@jokerdig ~]# docker run -d -p 8088:9000 \</span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> --restart=always -v /var/run/docker.sock:/var/run/docker</span></span><br><span class="line">Unable to find image &#x27;portainer/portainer:latest&#x27; locally</span><br><span class="line">latest: Pulling from portainer/portainer</span><br><span class="line">b890dbc4eb27: Pull complete </span><br><span class="line">81378af8dad0: Pull complete </span><br><span class="line">Digest: sha256:958a8e5c814e2610fb1946179a3db598f9b5c15ed90d92b42d94aa99f039f30b</span><br><span class="line">Status: Downloaded newer image for portainer/portainer:latest</span><br><span class="line">f49be8654a13b892a64a53ba0b7b4f1b8665801d503ac5efcd27d355388a7b4d</span><br><span class="line">[root@jokerdig ~]# </span><br></pre></td></tr></table></figure>
-
 <blockquote>
-<p>访问测试 </p>
-<p>http://你服务器外网IP:8088 (第一次访问比较慢)</p>
+<p>访问测试</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="http://xn--IP-0p3cl7jf7fvve6y4a8l8b:8088">http://你服务器外网IP:8088</a> (第一次访问比较慢)</p>
 </blockquote>
 <p><strong>登录界面</strong></p>
 <p>设置号账号密码，进行登录</p>

@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【SpringBoot】SpringBoot基础教程(4) | Hey,Joker</title><meta name="keywords" content="Java"><meta name="author" content="JokerDaxiong"><meta name="copyright" content="JokerDaxiong"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言： 本文内容：JSR303校验、多环境配置及配置文件位置、自动配置原理再理解 推荐免费SpringBoot基础教程视频：[【狂神说Java】SpringBoot最新教程通俗易懂_哔哩哔哩_bilibili  JSR303校验SpringBoot中可以用@validated来校验数据，如果数据异常则会统一抛出异常，方比那异常中心统一处理。  Email爆红引入这个依赖即可 12345&lt;!">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【SpringBoot】SpringBoot基础教程(4) | Hey,Joker</title><meta name="keywords" content="Java"><meta name="author" content="JokerDaxiong"><meta name="copyright" content="JokerDaxiong"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言： 本文内容：JSR303校验、多环境配置及配置文件位置、自动配置原理再理解 推荐免费SpringBoot基础教程视频：[【狂神说Java】SpringBoot最新教程通俗易懂_哔哩哔哩_bilibili  JSR303校验 SpringBoot中可以用@validated来校验数据，如果数据异常则会统一抛出异常，方比那异常中心统一处理。  Email爆红引入这个依赖即可 12345&lt;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="【SpringBoot】SpringBoot基础教程(4)">
 <meta property="og:url" content="https://jokerdig.com/2022/07/14/springboot1_4/index.html">
 <meta property="og:site_name" content="Hey,Joker">
-<meta property="og:description" content="前言： 本文内容：JSR303校验、多环境配置及配置文件位置、自动配置原理再理解 推荐免费SpringBoot基础教程视频：[【狂神说Java】SpringBoot最新教程通俗易懂_哔哩哔哩_bilibili  JSR303校验SpringBoot中可以用@validated来校验数据，如果数据异常则会统一抛出异常，方比那异常中心统一处理。  Email爆红引入这个依赖即可 12345&lt;!">
+<meta property="og:description" content="前言： 本文内容：JSR303校验、多环境配置及配置文件位置、自动配置原理再理解 推荐免费SpringBoot基础教程视频：[【狂神说Java】SpringBoot最新教程通俗易懂_哔哩哔哩_bilibili  JSR303校验 SpringBoot中可以用@validated来校验数据，如果数据异常则会统一抛出异常，方比那异常中心统一处理。  Email爆红引入这个依赖即可 12345&lt;">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://jokerdig.oss-cn-shanghai.aliyuncs.com/jokerdig/202209201719039.jpg">
 <meta property="article:published_time" content="2022-07-14T07:00:00.000Z">
@@ -183,17 +183,16 @@ gtag('config', 'UA-204417710-1');
 <p>本文内容：JSR303校验、多环境配置及配置文件位置、自动配置原理再理解</p>
 <p>推荐免费SpringBoot基础教程视频：[<a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.bilibili.com/video/BV1PE411i7CV?p=10">【狂神说Java】SpringBoot最新教程通俗易懂_哔哩哔哩_bilibili</a></p>
 </blockquote>
-<h3 id="JSR303校验"><a href="#JSR303校验" class="headerlink" title="JSR303校验"></a>JSR303校验</h3><p>SpringBoot中可以用<code>@validated</code>来校验数据，如果数据异常则会统一抛出异常，方比那异常中心统一处理。</p>
+<h3 id="JSR303校验">JSR303校验</h3>
+<p>SpringBoot中可以用<code>@validated</code>来校验数据，如果数据异常则会统一抛出异常，方比那异常中心统一处理。</p>
 <blockquote>
 <p>Email爆红引入这个依赖即可</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--        @Validated --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter-validation<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </blockquote>
 <p>这里我们让Person实体类的name必须为邮箱格式</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.jokerdig.pojo;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> lombok.AllArgsConstructor;</span><br><span class="line"><span class="keyword">import</span> lombok.Data;</span><br><span class="line"><span class="keyword">import</span> lombok.NoArgsConstructor;</span><br><span class="line"><span class="keyword">import</span> org.springframework.boot.context.properties.ConfigurationProperties;</span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Component;</span><br><span class="line"><span class="keyword">import</span> org.springframework.validation.annotation.Validated;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.validation.constraints.Email;</span><br><span class="line"><span class="keyword">import</span> java.util.Date;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> Joker大雄</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@data</span> 2022/7/13 - 11:29</span></span><br><span class="line"><span class="comment"> **/</span></span><br><span class="line"><span class="meta">@Component</span></span><br><span class="line"><span class="meta">@Data</span></span><br><span class="line"><span class="meta">@AllArgsConstructor</span></span><br><span class="line"><span class="meta">@NoArgsConstructor</span></span><br><span class="line"><span class="meta">@ConfigurationProperties(prefix = &quot;person&quot;)</span></span><br><span class="line"><span class="meta">@Validated</span> <span class="comment">// 数据校验</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Person</span> </span>&#123;</span><br><span class="line">    <span class="meta">@Email()</span></span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> Integer age;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">boolean</span> happy;</span><br><span class="line">    <span class="keyword">private</span> Date birth;</span><br><span class="line">    <span class="keyword">private</span> Map&lt;String,Object&gt; maps;</span><br><span class="line">    <span class="keyword">private</span> List&lt;Object&gt; lists;</span><br><span class="line">    <span class="keyword">private</span> Dog dog;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 <p>运行测试，发现报错(我们赋值不是Email)</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">-------------------------------------------------------------------------------</span><br><span class="line">Test set: com.jokerdig.Springboot02ConfigApplicationTests</span><br><span class="line">-------------------------------------------------------------------------------</span><br><span class="line">Tests run: <span class="number">1</span>, Failures: <span class="number">0</span>, Errors: <span class="number">1</span>, Skipped: <span class="number">0</span>, Time elapsed: <span class="number">1.736</span> s &lt;&lt;&lt; FAILURE! - in com.jokerdig.Springboot02ConfigApplicationTests</span><br><span class="line">contextLoads  Time elapsed: <span class="number">0.001</span> s  &lt;&lt;&lt; ERROR!</span><br><span class="line">java.lang.IllegalStateException: Failed to load ApplicationContext</span><br><span class="line">Caused by: org.springframework.boot.context.properties.bind.validation.BindValidationException: </span><br><span class="line">Binding validation errors on person</span><br><span class="line">   - Field error in object <span class="string">&#x27;person&#x27;</span> on field <span class="string">&#x27;name&#x27;</span>: rejected value [JokerDaxiong]; codes [Email.person.name,Email.name,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [person.name,name]; arguments []; <span class="keyword">default</span> message [name],[Ljavax.validation.constraints.Pattern$Flag;@3af356f,.*]; <span class="keyword">default</span> message [不是一个合法的电子邮件地址]; origin <span class="class"><span class="keyword">class</span> <span class="title">path</span> <span class="title">resource</span> [<span class="title">application</span>.<span class="title">yaml</span>]:2:9</span></span><br></pre></td></tr></table></figure>
-
 <p><strong>除了<code>Email()</code>，JSR303还有一些常用的注解</strong></p>
 <table>
 <thead>
@@ -202,7 +201,8 @@ gtag('config', 'UA-204417710-1');
 <th>说明</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>@Null</td>
 <td>必须为null</td>
 </tr>
@@ -270,8 +270,11 @@ gtag('config', 'UA-204417710-1');
 <td>@Range</td>
 <td>被修饰的元素必须在合适的范围内</td>
 </tr>
-</tbody></table>
-<h3 id="多环境配置及配置文件位置"><a href="#多环境配置及配置文件位置" class="headerlink" title="多环境配置及配置文件位置"></a>多环境配置及配置文件位置</h3><h4 id="配置文件可以存放的位置"><a href="#配置文件可以存放的位置" class="headerlink" title="配置文件可以存放的位置"></a>配置文件可以存放的位置</h4><ol>
+</tbody>
+</table>
+<h3 id="多环境配置及配置文件位置">多环境配置及配置文件位置</h3>
+<h4 id="配置文件可以存放的位置">配置文件可以存放的位置</h4>
+<ol>
 <li><code>file:./config/</code>根目录的<code>config</code>文件下放置</li>
 <li><code>file:./</code>根目录下放置</li>
 <li><code>classpath:/config/</code>resources目录的<code>config</code>文件下放置</li>
@@ -279,35 +282,32 @@ gtag('config', 'UA-204417710-1');
 </ol>
 <p>分别在四个位置新建配置文件，然后设置端口号，运行项目观察默认生效的端口号</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">2022</span>-<span class="number">07</span>-<span class="number">14</span> <span class="number">10</span>:<span class="number">19</span>:<span class="number">32.371</span>  INFO <span class="number">12196</span> --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : <span class="function">Tomcat started on <span class="title">port</span><span class="params">(s)</span>: 8082 <span class="params">(http)</span> with context path &#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
-
 <p>发现执行了8082端口，8082端口是在根目录下的<code>config</code>文件夹下的配置文件</p>
 <p>我们运行并删除配置文件，来观察配置文件的优先级，得出：</p>
 <blockquote>
 <p>根目录的<code>config</code>文件下放置的优先级&gt;根目录下放置的优先级&gt;resources目录的<code>config</code>文件下放置的优先级&gt;resources目录下放置的优先级</p>
 </blockquote>
-<h4 id="SpringBoot多环境切换"><a href="#SpringBoot多环境切换" class="headerlink" title="SpringBoot多环境切换"></a>SpringBoot多环境切换</h4><p>profile是Spring对不同环境提供不同配置功能的支持，可以通过激活不同的环境版本，实现快速切换环境；</p>
+<h4 id="SpringBoot多环境切换">SpringBoot多环境切换</h4>
+<p>profile是Spring对不同环境提供不同配置功能的支持，可以通过激活不同的环境版本，实现快速切换环境；</p>
 <p>方式一：多配置文件</p>
 <p>我们在主配置文件编写的时候，文件名可以是<code>application-&#123;profile&#125;.properties/yaml</code>,来指定多个环境版本；</p>
 <p>例如：<code>application-test.properties</code>代表测试环境配置；<code>application-dev.properties</code>代表开发环境配置；</p>
 <p>但是SpringBoot并不会直接启动这些配置文件，它默认使用<code>application.properties</code>主配置文件；我们需要通过一个配置来选择需要激活的环境；</p>
 <figure class="highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 比如我们在配置文件中指定使用dev环境，可以通过设置不同端口来测试</span></span><br><span class="line"><span class="comment"># 我们启动springBoot 就可以看到已经切换到dev下的配置了</span></span><br><span class="line"><span class="meta">spring.profiles.active</span>=<span class="string">dev</span></span><br></pre></td></tr></table></figure>
-
 <blockquote>
 <p>以上<code>properties</code>都可以替换为<code>yaml</code>，这里只是举例</p>
 </blockquote>
 <p>运行测试</p>
 <p>启动端口已经切换到<code>dev</code>开发环境</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">Tomcat started on <span class="title">port</span><span class="params">(s)</span>: 8083 <span class="params">(http)</span> with context path &#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
-
 <p>方式二：自主选择</p>
 <p>yaml提供了多文档模块</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 方式二 多文档模块</span></span><br><span class="line"><span class="attr">server:</span></span><br><span class="line">  <span class="attr">port:</span> <span class="number">8081</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 激活开发端口</span></span><br><span class="line"><span class="attr">spring:</span></span><br><span class="line">  <span class="attr">profiles:</span></span><br><span class="line">    <span class="attr">active:</span> <span class="string">dev</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">server:</span></span><br><span class="line">  <span class="attr">port:</span> <span class="number">8082</span></span><br><span class="line"><span class="attr">spring:</span></span><br><span class="line">  <span class="attr">profiles:</span> <span class="string">test</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">server:</span></span><br><span class="line">  <span class="attr">port:</span> <span class="number">8083</span></span><br><span class="line"><span class="attr">spring:</span></span><br><span class="line">  <span class="attr">profiles:</span> <span class="string">dev</span></span><br></pre></td></tr></table></figure>
-
 <p>运行测试</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">Tomcat started on <span class="title">port</span><span class="params">(s)</span>: 8083 <span class="params">(http)</span> with context path &#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="自动配置原理再理解"><a href="#自动配置原理再理解" class="headerlink" title="自动配置原理再理解"></a>自动配置原理再理解</h3><h4 id="自动配置再理解"><a href="#自动配置再理解" class="headerlink" title="自动配置再理解"></a>自动配置再理解</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// spring接管</span></span><br><span class="line"><span class="meta">@Configuration(proxyBeanMethods = false)</span></span><br><span class="line"><span class="comment">// spring中能配置的内容都在这个属性下对应</span></span><br><span class="line"><span class="meta">@EnableConfigurationProperties(WebServicesProperties.class)</span></span><br><span class="line"><span class="comment">// 封装配置文件中相关属性</span></span><br><span class="line"><span class="meta">@AutoConfigureAfter(ServletWebServerFactoryAutoConfiguration.class)</span></span><br></pre></td></tr></table></figure>
-
+<h3 id="自动配置原理再理解">自动配置原理再理解</h3>
+<h4 id="自动配置再理解">自动配置再理解</h4>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// spring接管</span></span><br><span class="line"><span class="meta">@Configuration(proxyBeanMethods = false)</span></span><br><span class="line"><span class="comment">// spring中能配置的内容都在这个属性下对应</span></span><br><span class="line"><span class="meta">@EnableConfigurationProperties(WebServicesProperties.class)</span></span><br><span class="line"><span class="comment">// 封装配置文件中相关属性</span></span><br><span class="line"><span class="meta">@AutoConfigureAfter(ServletWebServerFactoryAutoConfiguration.class)</span></span><br></pre></td></tr></table></figure>
 <p>自动装配总结</p>
 <ol>
 <li>SpringBoot启动会加载大量的自动配置类</li>
@@ -317,12 +317,15 @@ gtag('config', 'UA-204417710-1');
 </ol>
 <p>核心</p>
 <ul>
-<li><p>xxxAutoConfiguration：自动配置类，为容器添加组件</p>
+<li>
+<p>xxxAutoConfiguration：自动配置类，为容器添加组件</p>
 </li>
-<li><p>xxxProperties：封装配置文件中相关属性</p>
+<li>
+<p>xxxProperties：封装配置文件中相关属性</p>
 </li>
 </ul>
-<h4 id="Conditional"><a href="#Conditional" class="headerlink" title="@Conditional"></a>@Conditional</h4><p>了解自动装配原理，我们发现自动配置类必须在一定条件下才能生效；<code>@Conditional</code>派生注解(Spring原生注解)</p>
+<h4 id="Conditional">@Conditional</h4>
+<p>了解自动装配原理，我们发现自动配置类必须在一定条件下才能生效；<code>@Conditional</code>派生注解(Spring原生注解)</p>
 <p>作用：必须是<code>@conditional</code>指定条件成立，才能为容器中添加组件，所配置的内容才能生效；</p>
 <table>
 <thead>
@@ -331,7 +334,8 @@ gtag('config', 'UA-204417710-1');
 <th>作用</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>@ConditionalOnJava</td>
 <td>系统的Java版本是否符合要求</td>
 </tr>
@@ -379,9 +383,10 @@ gtag('config', 'UA-204417710-1');
 <td>@ConditionalOnJndi</td>
 <td>JNDI存在指定项</td>
 </tr>
-</tbody></table>
-<h4 id="如何判断配置类是否生效"><a href="#如何判断配置类是否生效" class="headerlink" title="如何判断配置类是否生效"></a>如何判断配置类是否生效</h4><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 开启springboot调试类</span></span><br><span class="line"><span class="attr">debug:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
+</tbody>
+</table>
+<h4 id="如何判断配置类是否生效">如何判断配置类是否生效</h4>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 开启springboot调试类</span></span><br><span class="line"><span class="attr">debug:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 <p>Positive matches：自动配置类启用的：正匹配</p>
 <p>Negative matches：没有启动，没有匹配成功的自动配置类：负匹配</p>
 <p>Unconditional classes：没有条件的类</p>

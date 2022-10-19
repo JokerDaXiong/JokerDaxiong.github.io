@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【SpringBoot】SpringBoot基础教程(18) | Hey,Joker</title><meta name="keywords" content="Java"><meta name="author" content="JokerDaxiong"><meta name="copyright" content="JokerDaxiong"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言： 本文内容：定时执行任务、分布式系统理论、什么是RPC 推荐免费SpringBoot基础教程视频：【狂神说Java】SpringBoot最新教程通俗易懂_哔哩哔哩_bilibili  定时执行任务12345TaskScheduler 任务调度者TaskExecutor  任务执行者@EnableScheduling  &#x2F;&#x2F;开启定时功能注解@Scheduled &#x2F;&#x2F; 执行 使用Cron表达式">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【SpringBoot】SpringBoot基础教程(18) | Hey,Joker</title><meta name="keywords" content="Java"><meta name="author" content="JokerDaxiong"><meta name="copyright" content="JokerDaxiong"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言： 本文内容：定时执行任务、分布式系统理论、什么是RPC 推荐免费SpringBoot基础教程视频：【狂神说Java】SpringBoot最新教程通俗易懂_哔哩哔哩_bilibili  定时执行任务 12345TaskScheduler 任务调度者TaskExecutor  任务执行者@EnableScheduling  &#x2F;&#x2F;开启定时功能注解@Scheduled &#x2F;&#x2F; 执行 使用Cron表达">
 <meta property="og:type" content="article">
 <meta property="og:title" content="【SpringBoot】SpringBoot基础教程(18)">
 <meta property="og:url" content="https://jokerdig.com/2022/07/30/springboot2_9/index.html">
 <meta property="og:site_name" content="Hey,Joker">
-<meta property="og:description" content="前言： 本文内容：定时执行任务、分布式系统理论、什么是RPC 推荐免费SpringBoot基础教程视频：【狂神说Java】SpringBoot最新教程通俗易懂_哔哩哔哩_bilibili  定时执行任务12345TaskScheduler 任务调度者TaskExecutor  任务执行者@EnableScheduling  &#x2F;&#x2F;开启定时功能注解@Scheduled &#x2F;&#x2F; 执行 使用Cron表达式">
+<meta property="og:description" content="前言： 本文内容：定时执行任务、分布式系统理论、什么是RPC 推荐免费SpringBoot基础教程视频：【狂神说Java】SpringBoot最新教程通俗易懂_哔哩哔哩_bilibili  定时执行任务 12345TaskScheduler 任务调度者TaskExecutor  任务执行者@EnableScheduling  &#x2F;&#x2F;开启定时功能注解@Scheduled &#x2F;&#x2F; 执行 使用Cron表达">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://jokerdig.oss-cn-shanghai.aliyuncs.com/jokerdig/202209201719039.jpg">
 <meta property="article:published_time" content="2022-07-30T07:00:00.000Z">
@@ -183,17 +183,24 @@ gtag('config', 'UA-204417710-1');
 <p>本文内容：定时执行任务、分布式系统理论、什么是RPC</p>
 <p>推荐免费SpringBoot基础教程视频：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.bilibili.com/video/BV1PE411i7CV?p=53">【狂神说Java】SpringBoot最新教程通俗易懂_哔哩哔哩_bilibili</a></p>
 </blockquote>
-<h3 id="定时执行任务"><a href="#定时执行任务" class="headerlink" title="定时执行任务"></a>定时执行任务</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">TaskScheduler 任务调度者</span><br><span class="line">TaskExecutor  任务执行者</span><br><span class="line"></span><br><span class="line"><span class="meta">@EnableScheduling</span>  <span class="comment">//开启定时功能注解</span></span><br><span class="line"><span class="meta">@Scheduled</span> <span class="comment">// 执行 使用Cron表达式</span></span><br></pre></td></tr></table></figure>
-
+<h3 id="定时执行任务">定时执行任务</h3>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">TaskScheduler 任务调度者</span><br><span class="line">TaskExecutor  任务执行者</span><br><span class="line"></span><br><span class="line"><span class="meta">@EnableScheduling</span>  <span class="comment">//开启定时功能注解</span></span><br><span class="line"><span class="meta">@Scheduled</span> <span class="comment">// 执行 使用Cron表达式</span></span><br></pre></td></tr></table></figure>
 <ol>
-<li><p>在service包下新建<code>ScheduledService</code></p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.jokerdig.service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.springframework.scheduling.annotation.EnableScheduling;</span><br><span class="line"><span class="keyword">import</span> org.springframework.scheduling.annotation.Scheduled;</span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Service;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> Joker大雄</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@data</span> 2022/7/30 - 10:38</span></span><br><span class="line"><span class="comment"> **/</span></span><br><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="meta">@EnableScheduling</span> <span class="comment">// 开启定时</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ScheduledService</span> </span>&#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">// hello在特定的时间执行 cron计划任务</span></span><br><span class="line">    <span class="comment">// cron 表达式  可以通过在线生成指定的cron表达式</span></span><br><span class="line">    <span class="comment">// 秒 分 时 日 月 星期(0-7)</span></span><br><span class="line">    <span class="comment">// @Scheduled(cron = &quot;30 57 10 * * ?&quot;)</span></span><br><span class="line">    <span class="meta">@Scheduled(cron = &quot;0/2 * * * * ?&quot;)</span> <span class="comment">// 每两秒执行一次</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">hello</span><span class="params">()</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;hello 现在被执行了&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-<li><p>到指定时间后，就会执行<code>hello</code>方法</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello 现在被执行了</span><br></pre></td></tr></table></figure></li>
+<li>
+<p>在service包下新建<code>ScheduledService</code></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.jokerdig.service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.springframework.scheduling.annotation.EnableScheduling;</span><br><span class="line"><span class="keyword">import</span> org.springframework.scheduling.annotation.Scheduled;</span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Service;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> Joker大雄</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@data</span> 2022/7/30 - 10:38</span></span><br><span class="line"><span class="comment"> **/</span></span><br><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="meta">@EnableScheduling</span> <span class="comment">// 开启定时</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ScheduledService</span> </span>&#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">// hello在特定的时间执行 cron计划任务</span></span><br><span class="line">    <span class="comment">// cron 表达式  可以通过在线生成指定的cron表达式</span></span><br><span class="line">    <span class="comment">// 秒 分 时 日 月 星期(0-7)</span></span><br><span class="line">    <span class="comment">// @Scheduled(cron = &quot;30 57 10 * * ?&quot;)</span></span><br><span class="line">    <span class="meta">@Scheduled(cron = &quot;0/2 * * * * ?&quot;)</span> <span class="comment">// 每两秒执行一次</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">hello</span><span class="params">()</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;hello 现在被执行了&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>到指定时间后，就会执行<code>hello</code>方法</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello 现在被执行了</span><br></pre></td></tr></table></figure>
+</li>
 </ol>
-<h3 id="分布式系统理论"><a href="#分布式系统理论" class="headerlink" title="分布式系统理论"></a>分布式系统理论</h3><h4 id="什么是分布式系统"><a href="#什么是分布式系统" class="headerlink" title="什么是分布式系统"></a>什么是分布式系统</h4><p>分布式系统是若干独立计算机的集合，这些计算机对于用户来说就像单个相关系统</p>
+<h3 id="分布式系统理论">分布式系统理论</h3>
+<h4 id="什么是分布式系统">什么是分布式系统</h4>
+<p>分布式系统是若干独立计算机的集合，这些计算机对于用户来说就像单个相关系统</p>
 <p>分布式系统是由一组通过网络进行通信，为了完成共同的任务而协调工作的计算机节点组成的系统。分布式系统的出现是为了用廉价的、普通的机器完成单个计算机无法完成的计算、存储任务。其目的是利用更多的机器，处理更多的数据。</p>
-<h4 id="Dubbo2-x"><a href="#Dubbo2-x" class="headerlink" title="Dubbo2.x"></a>Dubbo2.x</h4><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://dubbo.apache.org/zh/docsv2.7/">文档 2.x | Apache Dubbo</a></p>
+<h4 id="Dubbo2-x">Dubbo2.x</h4>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://dubbo.apache.org/zh/docsv2.7/">文档 2.x | Apache Dubbo</a></p>
 <p>随着互联网的发展，网站应用的规模不断扩大，常规的垂直应用架构已无法应对，分布式服务架构以及流动计算架构的趋势，急需一个治理系统架构保证其有条不紊的严谨</p>
 <p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://jokerdig.oss-cn-shanghai.aliyuncs.com/jokerdig/202209072130284.png" alt="50"></p>
 <p><strong>单一应用架构</strong></p>
@@ -204,7 +211,8 @@ gtag('config', 'UA-204417710-1');
 <p>当垂直应用越来越多，应用之间交互不可避免，将核心业务抽取出来，作为独立的服务，逐渐形成稳定的服务中心，使前端应用能更快速的响应多变的市场需求。此时，用于提高业务复用及整合的分布式服务框架(RPC)是关键。</p>
 <p><strong>流动计算架构</strong></p>
 <p>当服务越来越多，容量的评估，小服务资源的浪费等问题逐渐显现，此时需增加一个调度中心基于访问压力实时管理集群容量，提高集群利用率。此时，用于提高机器利用率的资源调度和治理中心(SOA)是关键。</p>
-<h4 id="Dubbo3-x"><a href="#Dubbo3-x" class="headerlink" title="Dubbo3.x"></a>Dubbo3.x</h4><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://dubbo.apache.org/zh/overview/">文档 | Apache Dubbo</a></p>
+<h4 id="Dubbo3-x">Dubbo3.x</h4>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://dubbo.apache.org/zh/overview/">文档 | Apache Dubbo</a></p>
 <p><strong>背景</strong></p>
 <ol>
 <li>首先，如何更好的满足企业实践诉求</li>
@@ -220,18 +228,26 @@ gtag('config', 'UA-204417710-1');
 <li><strong>更易用、更丰富的服务治理能力。</strong> 微服务的动态特性给治理工作带来了很高的复杂性，而 Dubbo 这方面一直做的不错，是最早的一批治理能力定义者与实践者；3.0 需面向更丰富的场景化，提供诸如可观测性、安全性、灰度发布、错误注入、外部化配置、统一的治理规则等能力。</li>
 <li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://dubbo.apache.org/zh/overview/whatsnew/background/#%E4%BA%91%E5%8E%9F%E7%94%9F"><strong>全面拥抱云原生</strong></a></li>
 </ul>
-<h3 id="什么是RPC"><a href="#什么是RPC" class="headerlink" title="什么是RPC"></a>什么是RPC</h3><h4 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h4><p>RPC[Remote Procedure Call]是指<strong>远程过程调用</strong>，是一种进程见通信方式，他是一种技术的思想，而非规范。程序调用另一个地址空间(通常是共享网络的另一台机器)的过程或函数，而不用程序员显式编码这个远程调用的细节，即程序员无论调用本地还是远程的函数，本质上编写的调用代码基本相同。</p>
-<h4 id="RPC的核心模块"><a href="#RPC的核心模块" class="headerlink" title="RPC的核心模块"></a>RPC的核心模块</h4><p><strong>通信</strong></p>
+<h3 id="什么是RPC">什么是RPC</h3>
+<h4 id="概述">概述</h4>
+<p>RPC[Remote Procedure Call]是指<strong>远程过程调用</strong>，是一种进程见通信方式，他是一种技术的思想，而非规范。程序调用另一个地址空间(通常是共享网络的另一台机器)的过程或函数，而不用程序员显式编码这个远程调用的细节，即程序员无论调用本地还是远程的函数，本质上编写的调用代码基本相同。</p>
+<h4 id="RPC的核心模块">RPC的核心模块</h4>
+<p><strong>通信</strong></p>
 <ol>
-<li><p>RPC的远程调用为了保证数据的可靠性，默认采用TCP传输</p>
+<li>
+<p>RPC的远程调用为了保证数据的可靠性，默认采用TCP传输</p>
 </li>
-<li><p>网络传输的数据必须是二进制数据，但调用方请求的出入参数都是对象，对象无法在网络中传输，所以需要序列化。</p>
+<li>
+<p>网络传输的数据必须是二进制数据，但调用方请求的出入参数都是对象，对象无法在网络中传输，所以需要序列化。</p>
 </li>
-<li><p>服务方根据协议格式就可以从二进制数据中分割出不同的请求来，同时根据请求类型和序列化类型，把二进制的消息体逆向还原成请求对象，称为反序列化</p>
+<li>
+<p>服务方根据协议格式就可以从二进制数据中分割出不同的请求来，同时根据请求类型和序列化类型，把二进制的消息体逆向还原成请求对象，称为反序列化</p>
 </li>
-<li><p>服务方根据反序列化出来的请求对象找到对应的实现类，完成真正的方法调用，再将结果传输序列化之后通过 TCP 传输给调用方</p>
+<li>
+<p>服务方根据反序列化出来的请求对象找到对应的实现类，完成真正的方法调用，再将结果传输序列化之后通过 TCP 传输给调用方</p>
 </li>
-<li><p>调用方再反序列化即可获得应答对象</p>
+<li>
+<p>调用方再反序列化即可获得应答对象</p>
 </li>
 </ol>
 <p><strong>序列化</strong></p>

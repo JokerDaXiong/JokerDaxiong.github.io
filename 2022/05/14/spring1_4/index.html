@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【Spring5】Spring5基础教程(4) | Hey,Joker</title><meta name="keywords" content="Java"><meta name="author" content="JokerDaxiong"><meta name="copyright" content="JokerDaxiong"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言： 本文内容：C命名和命名空间注入、Bean的作用域、自动装配Bean 推荐免费Spring5基础教程视频：【狂神说Java】Spring5最新完整教程IDEA版通俗易懂_哔哩哔哩_bilibili  C命名和命名空间注入 这两种注入方式需要导入约束才能使用  p-namespace 可以直接注入 123456789&lt;?xml version&#x3D;&quot;1.0&quot; encod">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【Spring5】Spring5基础教程(4) | Hey,Joker</title><meta name="keywords" content="Java"><meta name="author" content="JokerDaxiong"><meta name="copyright" content="JokerDaxiong"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言： 本文内容：C命名和命名空间注入、Bean的作用域、自动装配Bean 推荐免费Spring5基础教程视频：【狂神说Java】Spring5最新完整教程IDEA版通俗易懂_哔哩哔哩_bilibili  C命名和命名空间注入  这两种注入方式需要导入约束才能使用  p-namespace 可以直接注入 123456789&lt;?xml version&#x3D;&quot;1.0&quot; enco">
 <meta property="og:type" content="article">
 <meta property="og:title" content="【Spring5】Spring5基础教程(4)">
 <meta property="og:url" content="https://jokerdig.com/2022/05/14/spring1_4/index.html">
 <meta property="og:site_name" content="Hey,Joker">
-<meta property="og:description" content="前言： 本文内容：C命名和命名空间注入、Bean的作用域、自动装配Bean 推荐免费Spring5基础教程视频：【狂神说Java】Spring5最新完整教程IDEA版通俗易懂_哔哩哔哩_bilibili  C命名和命名空间注入 这两种注入方式需要导入约束才能使用  p-namespace 可以直接注入 123456789&lt;?xml version&#x3D;&quot;1.0&quot; encod">
+<meta property="og:description" content="前言： 本文内容：C命名和命名空间注入、Bean的作用域、自动装配Bean 推荐免费Spring5基础教程视频：【狂神说Java】Spring5最新完整教程IDEA版通俗易懂_哔哩哔哩_bilibili  C命名和命名空间注入  这两种注入方式需要导入约束才能使用  p-namespace 可以直接注入 123456789&lt;?xml version&#x3D;&quot;1.0&quot; enco">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://jokerdig.oss-cn-shanghai.aliyuncs.com/jokerdig/202209201718974.jpg">
 <meta property="article:published_time" content="2022-05-14T07:00:00.000Z">
@@ -183,60 +183,69 @@ gtag('config', 'UA-204417710-1');
 <p>本文内容：C命名和命名空间注入、Bean的作用域、自动装配Bean</p>
 <p>推荐免费Spring5基础教程视频：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.bilibili.com/video/BV1WE411d7Dv?p=10">【狂神说Java】Spring5最新完整教程IDEA版通俗易懂_哔哩哔哩_bilibili</a></p>
 </blockquote>
-<h3 id="C命名和命名空间注入"><a href="#C命名和命名空间注入" class="headerlink" title="C命名和命名空间注入"></a>C命名和命名空间注入</h3><blockquote>
+<h3 id="C命名和命名空间注入">C命名和命名空间注入</h3>
+<blockquote>
 <p>这两种注入方式需要导入约束才能使用</p>
 </blockquote>
 <p>p-namespace 可以直接注入</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">beans</span> <span class="attr">xmlns</span>=<span class="string">&quot;http://www.springframework.org/schema/beans&quot;</span></span></span><br><span class="line"><span class="tag">       <span class="attr">xmlns:xsi</span>=<span class="string">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span><br><span class="line"><span class="tag">       <span class="attr">xmlns:p</span>=<span class="string">&quot;http://www.springframework.org/schema/p&quot;</span></span></span><br><span class="line"><span class="tag">       <span class="attr">xsi:schemaLocation</span>=<span class="string">&quot;http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!--    p命名空间 注入--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">&quot;user&quot;</span> <span class="attr">class</span>=<span class="string">&quot;com.jokerdig.pojo.User&quot;</span> <span class="attr">p:name</span>=<span class="string">&quot;张三&quot;</span> <span class="attr">p:age</span>=<span class="string">&quot;20&quot;</span>/&gt;</span> </span><br><span class="line"><span class="tag">&lt;/<span class="name">beans</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
 <p>c-namespace 可以通过构造器注入</p>
 <blockquote>
 <p>c-namespace 需要在实体类加入有参构造器和无参构造器才能注入</p>
 </blockquote>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">beans</span> <span class="attr">xmlns</span>=<span class="string">&quot;http://www.springframework.org/schema/beans&quot;</span></span></span><br><span class="line"><span class="tag">       <span class="attr">xmlns:xsi</span>=<span class="string">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span><br><span class="line"><span class="tag">       <span class="attr">xmlns:c</span>=<span class="string">&quot;http://www.springframework.org/schema/c&quot;</span></span></span><br><span class="line"><span class="tag">       <span class="attr">xsi:schemaLocation</span>=<span class="string">&quot;http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!--    c命名空间 注入 需要在实体类加入构造器--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">&quot;user&quot;</span> <span class="attr">class</span>=<span class="string">&quot;com.jokerdig.pojo.User&quot;</span> <span class="attr">c:name</span>=<span class="string">&quot;李四&quot;</span> <span class="attr">c:age</span>=<span class="string">&quot;21&quot;</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">beans</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="Bean的作用域"><a href="#Bean的作用域" class="headerlink" title="Bean的作用域"></a>Bean的作用域</h3><table>
+<h3 id="Bean的作用域">Bean的作用域</h3>
+<table>
 <thead>
 <tr>
-<th align="center">Scope</th>
-<th align="center">Description</th>
+<th style="text-align:center">Scope</th>
+<th style="text-align:center">Description</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">singleton</td>
-<td align="center">（默认）将单个bean定义的范围限定为每个Spring IoC容器的单个对象实例。</td>
+<tbody>
+<tr>
+<td style="text-align:center">singleton</td>
+<td style="text-align:center">（默认）将单个bean定义的范围限定为每个Spring IoC容器的单个对象实例。</td>
 </tr>
 <tr>
-<td align="center">prototype</td>
-<td align="center">将单个bean定义的范围限定为任意数量的对象实例。</td>
+<td style="text-align:center">prototype</td>
+<td style="text-align:center">将单个bean定义的范围限定为任意数量的对象实例。</td>
 </tr>
 <tr>
-<td align="center">request</td>
-<td align="center">将单个bean定义限定为单个HTTP请求的生命周期。也就是说，每个HTTP请求都有自己的bean实例，该实例是在单个bean定义的后面创建的。仅在支持web的Spring环境下有效<code>ApplicationContext</code></td>
+<td style="text-align:center">request</td>
+<td style="text-align:center">将单个bean定义限定为单个HTTP请求的生命周期。也就是说，每个HTTP请求都有自己的bean实例，该实例是在单个bean定义的后面创建的。仅在支持web的Spring环境下有效<code>ApplicationContext</code></td>
 </tr>
 <tr>
-<td align="center">session</td>
-<td align="center">将单个bean定义限定为HTTP的生命周期。仅在支持web的Spring环境下有效 <code>Session ApplicationContext</code></td>
+<td style="text-align:center">session</td>
+<td style="text-align:center">将单个bean定义限定为HTTP的生命周期。仅在支持web的Spring环境下有效 <code>Session ApplicationContext</code></td>
 </tr>
 <tr>
-<td align="center">application</td>
-<td align="center">将单个bean定义的范围限定为。仅在支持web的Spring环境下有效 <code>ServletContext ApplicationContext</code></td>
+<td style="text-align:center">application</td>
+<td style="text-align:center">将单个bean定义的范围限定为。仅在支持web的Spring环境下有效 <code>ServletContext ApplicationContext</code></td>
 </tr>
 <tr>
-<td align="center">websocket</td>
-<td align="center">将单个bean定义的范围限定为。只有在支持web的SpringScope的上下文中，一个bean定义才有效。仅在支持web的Spring环境下有效 <code>WebSocket``ApplicationContext</code></td>
+<td style="text-align:center">websocket</td>
+<td style="text-align:center">将单个bean定义的范围限定为。只有在支持web的SpringScope的上下文中，一个bean定义才有效。仅在支持web的Spring环境下有效 <code>WebSocket``ApplicationContext</code></td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <ol>
-<li><p>单例(singleton)模式(Spring默认)</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--  默认也不可不写--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">&quot;accountService&quot;</span> <span class="attr">class</span>=<span class="string">&quot;com.something.DefaultAccountService&quot;</span> <span class="attr">scope</span>=<span class="string">&quot;singleton&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure></li>
-<li><p>原型(prototype)模式</p>
+<li>
+<p>单例(singleton)模式(Spring默认)</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--  默认也不可不写--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">&quot;accountService&quot;</span> <span class="attr">class</span>=<span class="string">&quot;com.something.DefaultAccountService&quot;</span> <span class="attr">scope</span>=<span class="string">&quot;singleton&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>原型(prototype)模式</p>
 <p>每次从容器中获取的时候，都会产生一个新对象。</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">&quot;accountService&quot;</span> <span class="attr">class</span>=<span class="string">&quot;com.something.DefaultAccountService&quot;</span> <span class="attr">scope</span>=<span class="string">&quot;prototype&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure></li>
-<li><p>request、session、application只有在web开发中使用</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">&quot;accountService&quot;</span> <span class="attr">class</span>=<span class="string">&quot;com.something.DefaultAccountService&quot;</span> <span class="attr">scope</span>=<span class="string">&quot;prototype&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>request、session、application只有在web开发中使用</p>
 </li>
 </ol>
-<h3 id="自动装配Bean"><a href="#自动装配Bean" class="headerlink" title="自动装配Bean"></a>自动装配Bean</h3><h4 id="自动装配"><a href="#自动装配" class="headerlink" title="自动装配"></a>自动装配</h4><ul>
+<h3 id="自动装配Bean">自动装配Bean</h3>
+<h4 id="自动装配">自动装配</h4>
+<ul>
 <li>自动装配是Spring满足bean依赖的一种方式</li>
 <li>Spring会在上下文中自动寻找，并自动给bean装配属性</li>
 </ul>
@@ -246,36 +255,29 @@ gtag('config', 'UA-204417710-1');
 <li>在java中显式的配置</li>
 <li>隐式自动装配bean(重点)</li>
 </ol>
-<h4 id="搭建测试环境"><a href="#搭建测试环境" class="headerlink" title="搭建测试环境"></a>搭建测试环境</h4><p>创建Cat，Dog，Person三个类</p>
+<h4 id="搭建测试环境">搭建测试环境</h4>
+<p>创建Cat，Dog，Person三个类</p>
 <p><code>Cat.java</code></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.jokerdig.pojo;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> Joker大雄</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@data</span> 2022/5/13 - 13:23</span></span><br><span class="line"><span class="comment"> **/</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Cat</span> </span>&#123;</span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">shout</span><span class="params">()</span></span>&#123;</span><br><span class="line">       System.out.println(<span class="string">&quot;喵喵&quot;</span>);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 <p><code>Dog.java</code></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.jokerdig.pojo;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> Joker大雄</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@data</span> 2022/5/13 - 13:23</span></span><br><span class="line"><span class="comment"> **/</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Dog</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">shout</span><span class="params">()</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;汪汪&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 <p><code>Person.java</code></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.jokerdig.pojo;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> Joker大雄</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@data</span> 2022/5/13 - 13:24</span></span><br><span class="line"><span class="comment"> **/</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Person</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> Cat cat;</span><br><span class="line">    <span class="keyword">private</span> Dog dog;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Cat <span class="title">getCat</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> cat;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setCat</span><span class="params">(Cat cat)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.cat = cat;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Dog <span class="title">getDog</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> dog;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setDog</span><span class="params">(Dog dog)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.dog = dog;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;Person&#123;&quot;</span> +</span><br><span class="line">                <span class="string">&quot;cat=&quot;</span> + cat +</span><br><span class="line">                <span class="string">&quot;, dog=&quot;</span> + dog +</span><br><span class="line">                <span class="string">&quot;, name=&#x27;&quot;</span> + name + <span class="string">&#x27;\&#x27;&#x27;</span> +</span><br><span class="line">                <span class="string">&#x27;&#125;&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 <p>创建<code>beans.xml</code>测试环境</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">beans</span> <span class="attr">xmlns</span>=<span class="string">&quot;http://www.springframework.org/schema/beans&quot;</span></span></span><br><span class="line"><span class="tag">       <span class="attr">xmlns:xsi</span>=<span class="string">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span><br><span class="line"><span class="tag">       <span class="attr">xsi:schemaLocation</span>=<span class="string">&quot;http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">&quot;cat&quot;</span> <span class="attr">class</span>=<span class="string">&quot;com.jokerdig.pojo.Cat&quot;</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">&quot;dog&quot;</span> <span class="attr">class</span>=<span class="string">&quot;com.jokerdig.pojo.Dog&quot;</span>/&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">&quot;person&quot;</span> <span class="attr">class</span>=<span class="string">&quot;com.jokerdig.pojo.Person&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">&quot;name&quot;</span> <span class="attr">value</span>=<span class="string">&quot;张三&quot;</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">&quot;cat&quot;</span> <span class="attr">ref</span>=<span class="string">&quot;cat&quot;</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">&quot;dog&quot;</span> <span class="attr">ref</span>=<span class="string">&quot;dog&quot;</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">bean</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">beans</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
 <p>测试运行</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">汪汪</span><br><span class="line">喵喵</span><br><span class="line"></span><br><span class="line">Process finished with exit code <span class="number">0</span></span><br></pre></td></tr></table></figure>
-
 <p><strong>自动装配测试</strong></p>
 <p><code>autowire=byName</code>自动装配</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--自动装配 autowired</span></span><br><span class="line"><span class="comment">    byName: 会自动在容器上下文中查找，和自己对象set方法后的值对应的bean id</span></span><br><span class="line"><span class="comment">--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">&quot;person&quot;</span> <span class="attr">class</span>=<span class="string">&quot;com.jokerdig.pojo.Person&quot;</span> <span class="attr">autowire</span>=<span class="string">&quot;byName&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">&quot;name&quot;</span> <span class="attr">value</span>=<span class="string">&quot;张三&quot;</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">bean</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
 <p>运行测试</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">汪汪</span><br><span class="line">喵喵</span><br><span class="line"></span><br><span class="line">Process finished with exit code <span class="number">0</span></span><br></pre></td></tr></table></figure>
-
 <p><code>autowire=byName</code>自动装配</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">    <span class="comment">&lt;!--自动装配 autowired</span></span><br><span class="line"><span class="comment">    byType: 会自动在容器上下文中查找，和自己对象属性类型相同的bean</span></span><br><span class="line"><span class="comment">--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">&quot;person1&quot;</span> <span class="attr">class</span>=<span class="string">&quot;com.jokerdig.pojo.Person&quot;</span> <span class="attr">autowire</span>=<span class="string">&quot;byType&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">&quot;name&quot;</span> <span class="attr">value</span>=<span class="string">&quot;张三&quot;</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">bean</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
 <p>运行测试</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">汪汪</span><br><span class="line">喵喵</span><br><span class="line"></span><br><span class="line">Process finished with exit code <span class="number">0</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><ul>
+<h4 id="小结">小结</h4>
+<ul>
 <li>byName 需要保证所有Bean的id唯一，并且Bean需要和自动注入属性的set方法的值一致</li>
 <li>byType 需要保证所有Bean的class唯一，并且Bean需要和自动注入属性的类型一致</li>
 </ul>

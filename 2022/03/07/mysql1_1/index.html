@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【MySQL】MySQL基础教程(1) | Hey,Joker</title><meta name="keywords" content="mysql"><meta name="author" content="JokerDaxiong"><meta name="copyright" content="JokerDaxiong"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言： 本文内容：什么是数据库、初识MySQL，关系型和非关系型数据库、安装MySQL说明 推荐免费MySQL基础讲解视频：【狂神说Java】MySQL最新教程通俗易懂_哔哩哔哩_bilibili  什么是数据库,为什么要学JavaEE：企业级Java开发 Web 前端（页面，展示，数据） 后台 连接数据库(JDBC..),连接前端(控制，控制视图跳转，和给前端传递数据) 数据库 (存数据，tx">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【MySQL】MySQL基础教程(1) | Hey,Joker</title><meta name="keywords" content="mysql"><meta name="author" content="JokerDaxiong"><meta name="copyright" content="JokerDaxiong"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言： 本文内容：什么是数据库、初识MySQL，关系型和非关系型数据库、安装MySQL说明 推荐免费MySQL基础讲解视频：【狂神说Java】MySQL最新教程通俗易懂_哔哩哔哩_bilibili  什么是数据库,为什么要学 JavaEE：企业级Java开发 Web 前端（页面，展示，数据） 后台 连接数据库(JDBC…),连接前端(控制，控制视图跳转，和给前端传递数据) 数据库 (存数据，tx">
 <meta property="og:type" content="article">
 <meta property="og:title" content="【MySQL】MySQL基础教程(1)">
 <meta property="og:url" content="https://jokerdig.com/2022/03/07/mysql1_1/index.html">
 <meta property="og:site_name" content="Hey,Joker">
-<meta property="og:description" content="前言： 本文内容：什么是数据库、初识MySQL，关系型和非关系型数据库、安装MySQL说明 推荐免费MySQL基础讲解视频：【狂神说Java】MySQL最新教程通俗易懂_哔哩哔哩_bilibili  什么是数据库,为什么要学JavaEE：企业级Java开发 Web 前端（页面，展示，数据） 后台 连接数据库(JDBC..),连接前端(控制，控制视图跳转，和给前端传递数据) 数据库 (存数据，tx">
+<meta property="og:description" content="前言： 本文内容：什么是数据库、初识MySQL，关系型和非关系型数据库、安装MySQL说明 推荐免费MySQL基础讲解视频：【狂神说Java】MySQL最新教程通俗易懂_哔哩哔哩_bilibili  什么是数据库,为什么要学 JavaEE：企业级Java开发 Web 前端（页面，展示，数据） 后台 连接数据库(JDBC…),连接前端(控制，控制视图跳转，和给前端传递数据) 数据库 (存数据，tx">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://jokerdig.oss-cn-shanghai.aliyuncs.com/jokerdig/202209201716283.jpg">
 <meta property="article:published_time" content="2022-03-07T07:00:00.000Z">
@@ -182,25 +182,30 @@ gtag('config', 'UA-204417710-1');
 <p>本文内容：什么是数据库、初识MySQL，关系型和非关系型数据库、安装MySQL说明</p>
 <p>推荐免费MySQL基础讲解视频：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.bilibili.com/video/BV1NJ411J79W?p=1">【狂神说Java】MySQL最新教程通俗易懂_哔哩哔哩_bilibili</a></p>
 </blockquote>
-<h3 id="什么是数据库-为什么要学"><a href="#什么是数据库-为什么要学" class="headerlink" title="什么是数据库,为什么要学"></a>什么是数据库,为什么要学</h3><p>JavaEE：企业级Java开发 Web</p>
+<h3 id="什么是数据库-为什么要学">什么是数据库,为什么要学</h3>
+<p>JavaEE：企业级Java开发 Web</p>
 <p>前端（页面，展示，数据）</p>
-<p>后台 连接数据库(JDBC..),连接前端(控制，控制视图跳转，和给前端传递数据)</p>
+<p>后台 连接数据库(JDBC…),连接前端(控制，控制视图跳转，和给前端传递数据)</p>
 <p><strong>数据库</strong> (存数据，txt，excel，word)</p>
 <blockquote>
 <p>只会写代码，学好数据库  初级</p>
 <p>操作系统，数据结构与算法！中级</p>
 <p>离散数学 数学电路 体系结构 编程原理 +实战经验 高级</p>
 </blockquote>
-<h4 id="为什么学习数据库"><a href="#为什么学习数据库" class="headerlink" title="为什么学习数据库"></a>为什么学习数据库</h4><ol>
+<h4 id="为什么学习数据库">为什么学习数据库</h4>
+<ol>
 <li>岗位需求</li>
 <li>数据的重要性</li>
 <li>存储数据 存数据(去IOE)</li>
 <li>数据库是所有软件体系中最核心的存在</li>
 </ol>
-<h4 id="什么是数据库"><a href="#什么是数据库" class="headerlink" title="什么是数据库"></a>什么是数据库</h4><p>数据库(DB DataBase)</p>
+<h4 id="什么是数据库">什么是数据库</h4>
+<p>数据库(DB DataBase)</p>
 <p>概念：按照数据结构来组织、 存储和管理数据的仓库</p>
 <p>作用：存储和管理数据</p>
-<h3 id="初识MySQL-关系型和非关系型数据库"><a href="#初识MySQL-关系型和非关系型数据库" class="headerlink" title="初识MySQL,关系型和非关系型数据库"></a>初识MySQL,关系型和非关系型数据库</h3><h4 id="数据库分类"><a href="#数据库分类" class="headerlink" title="数据库分类"></a>数据库分类</h4><p>关系型数据库(SQL)</p>
+<h3 id="初识MySQL-关系型和非关系型数据库">初识MySQL,关系型和非关系型数据库</h3>
+<h4 id="数据库分类">数据库分类</h4>
+<p>关系型数据库(SQL)</p>
 <ul>
 <li>MySQL,Oracle,SQLServer,DB2,SQLite…</li>
 <li>通过表和表之间，行和列之间的关系进行数据的存储。</li>
@@ -216,64 +221,65 @@ gtag('config', 'UA-204417710-1');
 <li>数据库管理软件，科学有效的管理、维护和获取数据。</li>
 <li>MySQL,数据库管理系统</li>
 </ul>
-<h4 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h4><blockquote>
-<p> MySQL 是一个关系型数据库管理系统，由瑞典 MySQL AB 公司开发，目前属于 Oracle 公司。MySQL 是一种关联数据库管理系统，关联数据库将数据保存在不同的表中，而不是将所有数据放在一个大仓库内，这样就增加了速度并提高了灵活性</p>
+<h4 id="MySQL">MySQL</h4>
+<blockquote>
+<p>MySQL 是一个关系型数据库管理系统，由瑞典 MySQL AB 公司开发，目前属于 Oracle 公司。MySQL 是一种关联数据库管理系统，关联数据库将数据保存在不同的表中，而不是将所有数据放在一个大仓库内，这样就增加了速度并提高了灵活性</p>
 </blockquote>
 <p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.mysql.com/">MySQL</a>是最好的 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://baike.baidu.com/item/RDBMS/1048260">RDBMS</a> (Relational Database Management System，关系数据库管理系统) 应用软件之一。</p>
 <p>开源的数据库软件。</p>
 <p>体积小，速度快，成本低。</p>
-<h3 id="安装MySQL详细说明"><a href="#安装MySQL详细说明" class="headerlink" title="安装MySQL详细说明"></a>安装MySQL详细说明</h3><h4 id="Windows安装"><a href="#Windows安装" class="headerlink" title="Windows安装"></a>Windows安装</h4><ol>
-<li><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://dev.mysql.com/downloads/mysql/">MySQL下载</a> 按下图步骤</p>
+<h3 id="安装MySQL详细说明">安装MySQL详细说明</h3>
+<h4 id="Windows安装">Windows安装</h4>
+<ol>
+<li>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://dev.mysql.com/downloads/mysql/">MySQL下载</a> 按下图步骤</p>
 <p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://jokerdig.oss-cn-shanghai.aliyuncs.com/jokerdig/202209072108826.png" alt="188"></p>
 </li>
-<li><p>下载完后，我们将 zip 包解压到相应的目录，这里我将解压后的文件夹放在 <strong>C:\mysql-8.0.28</strong> 下。</p>
+<li>
+<p>下载完后，我们将 zip 包解压到相应的目录，这里我将解压后的文件夹放在 <strong>C:\mysql-8.0.28</strong> 下。</p>
 </li>
-<li><p>接下来我们需要配置下 MySQL 的配置文件</p>
+<li>
+<p>接下来我们需要配置下 MySQL 的配置文件</p>
 <p>打开刚刚解压的文件夹 <strong>C:\mysql-8.0.28</strong> ，在该文件夹下创建 <strong>my.ini</strong> 配置文件，编辑 <strong>my.ini</strong> 配置以下基本信息：</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">client</span>]</span><br><span class="line"><span class="comment"># 设置mysql客户端默认字符集</span></span><br><span class="line"><span class="string">default-character-set=utf8</span></span><br><span class="line"> </span><br><span class="line">[<span class="string">mysqld</span>]</span><br><span class="line"><span class="comment"># 设置3306端口</span></span><br><span class="line"><span class="string">port</span> <span class="string">=</span> <span class="number">3306</span></span><br><span class="line"><span class="comment"># 设置mysql的安装目录</span></span><br><span class="line"><span class="string">basedir=C:\\mysql-8.0.28</span></span><br><span class="line"><span class="comment"># 设置 mysql数据库的数据的存放目录，MySQL 8+ 不需要以下配置，系统自己生成即可，否则有可能报错</span></span><br><span class="line"><span class="comment"># datadir=C:\\web\\sqldata</span></span><br><span class="line"><span class="comment"># 允许最大连接数</span></span><br><span class="line"><span class="string">max_connections=20</span></span><br><span class="line"><span class="comment"># 服务端使用的字符集默认为8比特编码的latin1字符集</span></span><br><span class="line"><span class="string">character-set-server=utf8</span></span><br><span class="line"><span class="comment"># 创建新表时将使用的默认存储引擎</span></span><br><span class="line"><span class="string">default-storage-engine=INNODB</span></span><br></pre></td></tr></table></figure></li>
-<li><p>接下来我们来启动下 MySQL 数据库：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">client</span>]</span><br><span class="line"><span class="comment"># 设置mysql客户端默认字符集</span></span><br><span class="line"><span class="string">default-character-set=utf8</span></span><br><span class="line"> </span><br><span class="line">[<span class="string">mysqld</span>]</span><br><span class="line"><span class="comment"># 设置3306端口</span></span><br><span class="line"><span class="string">port</span> <span class="string">=</span> <span class="number">3306</span></span><br><span class="line"><span class="comment"># 设置mysql的安装目录</span></span><br><span class="line"><span class="string">basedir=C:\\mysql-8.0.28</span></span><br><span class="line"><span class="comment"># 设置 mysql数据库的数据的存放目录，MySQL 8+ 不需要以下配置，系统自己生成即可，否则有可能报错</span></span><br><span class="line"><span class="comment"># datadir=C:\\web\\sqldata</span></span><br><span class="line"><span class="comment"># 允许最大连接数</span></span><br><span class="line"><span class="string">max_connections=20</span></span><br><span class="line"><span class="comment"># 服务端使用的字符集默认为8比特编码的latin1字符集</span></span><br><span class="line"><span class="string">character-set-server=utf8</span></span><br><span class="line"><span class="comment"># 创建新表时将使用的默认存储引擎</span></span><br><span class="line"><span class="string">default-storage-engine=INNODB</span></span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>接下来我们来启动下 MySQL 数据库：</p>
 <p>以管理员身份打开 cmd 命令行工具，切换目录：</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">cd</span> <span class="string">C:\mysql-8.0.28\bin</span></span><br></pre></td></tr></table></figure>
-
 <p>初始化数据库：</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">mysqld</span> <span class="string">--initialize</span> <span class="string">--console</span></span><br></pre></td></tr></table></figure>
-
 <p>执行完成后，会输出 root 用户的初始默认密码，如：</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"><span class="number">2022-03</span><span class="string">-7T03:35:00.464644Z</span> <span class="number">5</span> [<span class="string">Note</span>] [<span class="string">MY-010454</span>] [<span class="string">Server</span>] <span class="string">A</span> <span class="string">temporary</span> <span class="string">password</span> <span class="string">is</span> <span class="string">generated</span> <span class="string">for</span> <span class="string">root@localhost:</span> <span class="string">APWCY5ws&amp;hjQ</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>
-
 <p><strong>APWCY5ws&amp;hjQ</strong> 就是初始密码，后续登录需要用到，你也可以在登陆后修改密码。</p>
 <p>输入以下安装命令：</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">mysqld</span> <span class="string">install</span></span><br></pre></td></tr></table></figure>
-
 <p>启动输入以下命令即可：</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">net</span> <span class="string">start</span> <span class="string">mysql</span></span><br></pre></td></tr></table></figure>
-
 <blockquote>
 <p>注意: 在 5.7 需要初始化 data 目录：</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">cd</span> <span class="string">C:\mysql-8.0.28\bin</span> </span><br><span class="line"><span class="string">mysqld</span> <span class="string">--initialize-insecure</span> </span><br></pre></td></tr></table></figure>
-
 <p>初始化后再运行 net start mysql 即可启动 mysql。</p>
 </blockquote>
 </li>
-<li><p>登录 MySQL</p>
-<p>   当 MySQL 服务已经运行时, 我们可以通过 MySQL 自带的客户端工具登录到 MySQL 数据库中, 首先打开命令提示符, 输入以下格式的命名:</p>
+<li>
+<p>登录 MySQL</p>
+<p>当 MySQL 服务已经运行时, 我们可以通过 MySQL 自带的客户端工具登录到 MySQL 数据库中, 首先打开命令提示符, 输入以下格式的命名:</p>
    <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">mysql</span> <span class="string">-h</span> <span class="string">主机名</span> <span class="string">-u</span> <span class="string">用户名</span> <span class="string">-p</span></span><br></pre></td></tr></table></figure>
-
-<p>   参数说明：</p>
+<p>参数说明：</p>
 <ul>
 <li><strong>-h</strong> : 指定客户端所要登录的 MySQL 主机名, 登录本机(localhost 或 127.0.0.1)该参数可以省略;</li>
 <li><strong>-u</strong> : 登录的用户名;</li>
 <li><strong>-p</strong> : 告诉服务器将会使用一个密码来登录, 如果所要登录的用户名密码为空, 可以忽略此选项。</li>
 </ul>
-<p>   如果我们要登录本机的 MySQL 数据库，只需要输入以下命令即可：</p>
+<p>如果我们要登录本机的 MySQL 数据库，只需要输入以下命令即可：</p>
    <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">mysql</span> <span class="string">-u</span> <span class="string">root</span> <span class="string">-p</span></span><br></pre></td></tr></table></figure>
-
-<p>   按回车确认, 如果安装正确且 MySQL 正在运行, 会得到以下响应:</p>
+<p>按回车确认, 如果安装正确且 MySQL 正在运行, 会得到以下响应:</p>
    <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">Enter password:</span></span><br></pre></td></tr></table></figure>
-
-<p>   若密码存在, 输入密码登录, 不存在则直接按回车登录。登录成功后你将会看到 Welcome to the MySQL monitor… 的提示语。</p>
-<p>   然后命令提示符会一直以 <strong>mysql&gt;</strong> 加一个闪烁的光标等待命令的输入, 输入 <strong>exit</strong> 或 <strong>quit</strong> 退出登录。</p>
-<h4 id="Linux安装步骤："><a href="#Linux安装步骤：" class="headerlink" title="Linux安装步骤："></a>Linux安装步骤：</h4><blockquote>
+<p>若密码存在, 输入密码登录, 不存在则直接按回车登录。登录成功后你将会看到 Welcome to the MySQL monitor… 的提示语。</p>
+<p>然后命令提示符会一直以 <strong>mysql&gt;</strong> 加一个闪烁的光标等待命令的输入, 输入 <strong>exit</strong> 或 <strong>quit</strong> 退出登录。</p>
+<h4 id="Linux安装步骤：">Linux安装步骤：</h4>
+<blockquote>
 <p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.runoob.com/mysql/mysql-install.html">Linux安装MySQL| 菜鸟教程 (runoob.com)</a></p>
 </blockquote>
 </li>
