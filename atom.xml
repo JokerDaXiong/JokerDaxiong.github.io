@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2022-10-24T07:00:00.000Z</updated>
+  <updated>2022-10-26T07:00:00.000Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Java数据结构与算法】哈希表</title>
+    <link href="https://jokerdig.com/2022/10/25/javaDSAA2_2/"/>
+    <id>https://jokerdig.com/2022/10/25/javaDSAA2_2/</id>
+    <published>2022-10-25T07:00:00.000Z</published>
+    <updated>2022-10-26T07:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;哈希表的介绍和内存布局&quot;&gt;哈希表的介绍和内存布局&lt;/h3&gt;
+&lt;h4 id=&quot;哈希表基本介绍&quot;&gt;哈希表基本介绍&lt;/h4&gt;
+&lt;p&gt;散列表(Hash table，也叫哈希表)，是根据关键码值(Key</summary>
+        
+      
+    
+    
+    
+    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
+    
+    
+    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
+    
+    <category term="Java数据结构与算法" scheme="https://jokerdig.com/tags/Java%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>【Java数据结构与算法】查找算法</title>
@@ -542,33 +571,6 @@
     
     
     <category term="git" scheme="https://jokerdig.com/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【图片批量下载】Java图片批量下载</title>
-    <link href="https://jokerdig.com/2022/09/08/imageDownload/"/>
-    <id>https://jokerdig.com/2022/09/08/imageDownload/</id>
-    <published>2022-09-08T07:00:00.000Z</published>
-    <updated>2022-09-08T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;图片批量下载代码&quot;&gt;图片批量下载代码&lt;/h3&gt;
-&lt;p&gt;通过读取本地&lt;code&gt;txt&lt;/code&gt;文件中的图片地址，进行批量下载。&lt;/p&gt;
-&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="java" scheme="https://jokerdig.com/categories/java/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
     
   </entry>
   
