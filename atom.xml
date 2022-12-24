@@ -6,7 +6,7 @@
   <link href="https://jokerdig.com/atom.xml" rel="self"/>
   
   <link href="https://jokerdig.com/"/>
-  <updated>2022-12-23T09:00:00.000Z</updated>
+  <updated>2022-12-24T09:00:00.000Z</updated>
   <id>https://jokerdig.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【剑指offer】day12</title>
+    <link href="https://jokerdig.com/2022/12/24/sfoffer2_3/"/>
+    <id>https://jokerdig.com/2022/12/24/sfoffer2_3/</id>
+    <published>2022-12-24T07:00:00.000Z</published>
+    <updated>2022-12-24T09:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;二叉树的深度&quot;&gt;二叉树的深度&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://leetcode.cn/problems/er-cha-shu-de-shen-du-lcof/description/&quot;&gt;剑指 Offer 55 - I. 二叉树的深度 -</summary>
+        
+      
+    
+    
+    
+    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
+    
+    
+    <category term="剑指offer" scheme="https://jokerdig.com/tags/%E5%89%91%E6%8C%87offer/"/>
+    
+    <category term="算法题" scheme="https://jokerdig.com/tags/%E7%AE%97%E6%B3%95%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>【剑指offer】day11</title>
@@ -562,34 +591,6 @@
         
         
     <summary type="html">&lt;h3 id=&quot;二分查找算法-非递归&quot;&gt;二分查找算法(非递归)&lt;/h3&gt;
-&lt;h4</summary>
-        
-      
-    
-    
-    
-    <category term="note" scheme="https://jokerdig.com/categories/note/"/>
-    
-    
-    <category term="Java" scheme="https://jokerdig.com/tags/Java/"/>
-    
-    <category term="Java数据结构与算法" scheme="https://jokerdig.com/tags/Java%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Java数据结构与算法】图的基本介绍和算法</title>
-    <link href="https://jokerdig.com/2022/11/22/javaDSAA2_8/"/>
-    <id>https://jokerdig.com/2022/11/22/javaDSAA2_8/</id>
-    <published>2022-11-22T07:00:00.000Z</published>
-    <updated>2022-11-23T07:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;图的基本介绍和存储形式&quot;&gt;图的基本介绍和存储形式&lt;/h3&gt;
 &lt;h4</summary>
         
       
