@@ -1859,6 +1859,13 @@
   </url>
   
   <url>
+    <loc>https://jokerdig.top/tags/html/</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jokerdig.top/tags/hexo/</loc>
     <lastmod>2024-12-11</lastmod>
     <changefreq>daily</changefreq>
@@ -1874,13 +1881,6 @@
   
   <url>
     <loc>https://jokerdig.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2024-12-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.top/tags/html/</loc>
     <lastmod>2024-12-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2013,6 +2013,13 @@
   </url>
   
   <url>
+    <loc>https://jokerdig.top/tags/Python%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jokerdig.top/tags/POI/</loc>
     <lastmod>2024-12-11</lastmod>
     <changefreq>daily</changefreq>
@@ -2027,28 +2034,7 @@
   </url>
   
   <url>
-    <loc>https://jokerdig.top/tags/Python%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</loc>
-    <lastmod>2024-12-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jokerdig.top/tags/Redis/</loc>
-    <lastmod>2024-12-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.top/tags/Server/</loc>
-    <lastmod>2024-12-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jokerdig.top/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%B4%AD%E4%B9%B0/</loc>
     <lastmod>2024-12-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -2063,6 +2049,20 @@
   
   <url>
     <loc>https://jokerdig.top/tags/%E7%AE%97%E6%B3%95%E9%A2%98/</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.top/tags/Server/</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jokerdig.top/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%B4%AD%E4%B9%B0/</loc>
     <lastmod>2024-12-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
